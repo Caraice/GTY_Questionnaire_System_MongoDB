@@ -1,0 +1,10 @@
+{
+  "expected_version": 1,
+  "questions": [
+    {"id":"q1","type":"single","title":"是否在校","required":true,"options":[{"id":"yes","label":"是"},{"id":"no","label":"否"}]},
+    {"id":"q2","type":"multiple","title":"喜欢哪些水果","required":true,"options":[{"id":"apple","label":"苹果"},{"id":"banana","label":"香蕉"},{"id":"melon","label":"西瓜"},{"id":"grape","label":"葡萄"}],"validation":{"min_choices":2,"max_choices":3}},
+    {"id":"q3","type":"text","title":"给我们的建议","required":false,"validation":{"min_length":2,"max_length":100}},
+    {"id":"q4","type":"number","title":"年龄","required":true,"validation":{"minimum":0,"maximum":120,"integer_only":true}}
+  ]
+}
+

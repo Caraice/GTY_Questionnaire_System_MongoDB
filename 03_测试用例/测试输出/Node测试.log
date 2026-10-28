@@ -1,0 +1,26 @@
+﻿✔ edits, question/option ordering and deletion preserve surviving IDs through save and reload (8.8897ms)
+✔ type switches preserve the question ID and choice IDs, without saving editor cache (0.1631ms)
+✔ moving past either boundary leaves order and IDs intact (0.0876ms)
+✔ zero stays numeric, empty is omission, and invalid or unsafe numbers are rejected (1.2152ms)
+✔ required choices, duplicate choices, count limits and Unicode length match the server (0.552ms)
+✔ single/multiple/numeric routes use first match, inclusive bounds and default order (0.2104ms)
+✔ changing earlier answers removes skipped data and keeps stable IDs without mutating input (0.232ms)
+✔ visited optional omissions advance but unanswered questions stop the preview (0.1039ms)
+✔ source changes reset typed conditions and expose only forward targets (2.0192ms)
+✔ rule editor serializes stable IDs, selected options, trimmed text and numeric zero (0.5029ms)
+✔ empty, invalid type, duplicate option, impossible target and numeric overflow cannot save (0.2887ms)
+✔ text equals/contains respect normalized text and first matching priority (0.1681ms)
+✔ draft, published, expired and closed expose only their permitted actions (0.5689ms)
+✔ no deadline stays open and extending deadline restores availability (0.0955ms)
+✔ deadline editor round trips local time without losing the instant (1.2102ms)
+✔ deadline uses dd format and preserves local instant and empty value (6.3754ms)
+✔ deadline rejects invalid calendar days, ranges and ambiguous date formats (0.6837ms)
+✔ saved answers render labels and preserve zero and optional omissions (0.1679ms)
+ℹ tests 18
+ℹ suites 0
+ℹ pass 18
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 126.7886

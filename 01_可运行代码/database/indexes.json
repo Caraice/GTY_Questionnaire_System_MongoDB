@@ -1,0 +1,133 @@
+{
+  "users": [
+    {
+      "keys": [
+        [
+          "username",
+          1
+        ]
+      ],
+      "unique": true,
+      "name": "username_unique"
+    }
+  ],
+  "sessions": [
+    {
+      "keys": [
+        [
+          "token_hash",
+          1
+        ]
+      ],
+      "unique": true,
+      "name": "token_unique"
+    },
+    {
+      "keys": [
+        [
+          "expires_at",
+          1
+        ]
+      ],
+      "expireAfterSeconds": 0,
+      "name": "session_ttl"
+    }
+  ],
+  "surveys": [
+    {
+      "keys": [
+        [
+          "share_id",
+          1
+        ]
+      ],
+      "unique": true,
+      "name": "share_unique"
+    },
+    {
+      "keys": [
+        [
+          "owner_id",
+          1
+        ],
+        [
+          "created_at",
+          -1
+        ]
+      ],
+      "name": "owner_list"
+    }
+  ],
+  "responses": [
+    {
+      "keys": [
+        [
+          "survey_id",
+          1
+        ],
+        [
+          "submitted_at",
+          -1
+        ]
+      ],
+      "name": "response_stats"
+    },
+    {
+      "keys": [
+        [
+          "survey_id",
+          1
+        ],
+        [
+          "survey_version",
+          1
+        ],
+        [
+          "submitted_at",
+          1
+        ],
+        [
+          "_id",
+          1
+        ]
+      ],
+      "name": "versioned_statistics"
+    },
+    {
+      "keys": [
+        [
+          "survey_id",
+          1
+        ],
+        [
+          "respondent_key",
+          1
+        ],
+        [
+          "attempt_key",
+          1
+        ]
+      ],
+      "unique": true,
+      "name": "attempt_unique"
+    },
+    {
+      "keys": [
+        [
+          "survey_id",
+          1
+        ],
+        [
+          "respondent_key",
+          1
+        ],
+        [
+          "submission_key",
+          1
+        ]
+      ],
+      "unique": true,
+      "name": "submission_idempotency"
+    }
+  ]
+}
