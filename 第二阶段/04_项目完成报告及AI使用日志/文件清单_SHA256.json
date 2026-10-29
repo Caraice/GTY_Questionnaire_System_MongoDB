@@ -1,0 +1,1040 @@
+{
+  "application_version": "0.11.0",
+  "date": "2026-10-29",
+  "python_tests": 409,
+  "node_tests": 25,
+  "self_excluded": true,
+  "files": [
+    {
+      "path": "01_可运行代码/.env.example",
+      "bytes": 245,
+      "sha256": "3fb7d41691d807c99814fd0d7048808c851768884696ff0c4664f3c148256b28"
+    },
+    {
+      "path": "01_可运行代码/.gitignore",
+      "bytes": 69,
+      "sha256": "cac27a06e165d1c986c47c5b6de47964df623d83f6d43b632d5f8d26f6210c4c"
+    },
+    {
+      "path": "01_可运行代码/app/__init__.py",
+      "bytes": 52,
+      "sha256": "8a8c8a4d77dc5eacc3d5eec66aaee86efb39dd59c201379c237c93b25072eb48"
+    },
+    {
+      "path": "01_可运行代码/app/api/__init__.py",
+      "bytes": 1,
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+    },
+    {
+      "path": "01_可运行代码/app/api/auth.py",
+      "bytes": 989,
+      "sha256": "e2ec5e4bf70b2361bac94db673574afa001aa8975825c4841d6e11d0ca0b5770"
+    },
+    {
+      "path": "01_可运行代码/app/api/dependencies.py",
+      "bytes": 472,
+      "sha256": "2548f1f90185dca8bf63b0b83796c468feff9882b4228faf9e2c5eaa9dbe6464"
+    },
+    {
+      "path": "01_可运行代码/app/api/history.py",
+      "bytes": 678,
+      "sha256": "f16d63712f353e2cf8739cf02827ddfca0534978a065cfb943434e37a4997f3d"
+    },
+    {
+      "path": "01_可运行代码/app/api/library.py",
+      "bytes": 6472,
+      "sha256": "8ab8bbaf828edd1c8662f2ee4ea9ca0f0da8f3f065220c13896e6032a12a9a6f"
+    },
+    {
+      "path": "01_可运行代码/app/api/responses.py",
+      "bytes": 990,
+      "sha256": "fa34088db0b4357a774473cadb29ac2d5eedff50626076e82881451da421dd30"
+    },
+    {
+      "path": "01_可运行代码/app/api/surveys.py",
+      "bytes": 2143,
+      "sha256": "5c7af906e025adca589c5ab0db4620c6c3bea3d425e68b4f488060802204b9ba"
+    },
+    {
+      "path": "01_可运行代码/app/config.py",
+      "bytes": 371,
+      "sha256": "9208fdf635c4db39584a98792ce98b8feac2f8f512d19c3b4194008c5e0703fb"
+    },
+    {
+      "path": "01_可运行代码/app/db.py",
+      "bytes": 93,
+      "sha256": "7a86ec8a065658606c4523ffdd13b377a52059778f657191a6578d32d584ae01"
+    },
+    {
+      "path": "01_可运行代码/app/domain/__init__.py",
+      "bytes": 1,
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+    },
+    {
+      "path": "01_可运行代码/app/domain/availability.py",
+      "bytes": 535,
+      "sha256": "3b32652c05547614b9d73481a4f640209557c0b304f71728ef614247230c2780"
+    },
+    {
+      "path": "01_可运行代码/app/domain/question_content.py",
+      "bytes": 847,
+      "sha256": "1fa3d4f37373334c20fa63fb03711d72ad29b6808559ee5ff3ab3d8739eac42b"
+    },
+    {
+      "path": "01_可运行代码/app/domain/routing.py",
+      "bytes": 6182,
+      "sha256": "148cce15ea3552c7318bd2bfffc3034622f8d9d22bb777e32ceeb16dda09e04d"
+    },
+    {
+      "path": "01_可运行代码/app/domain/statistics_merge.py",
+      "bytes": 2458,
+      "sha256": "836c7ac492e0aa26241be445252216c2cd9fe962a904207e4deccc38bdb7581f"
+    },
+    {
+      "path": "01_可运行代码/app/domain/validation.py",
+      "bytes": 4129,
+      "sha256": "8794f35cbb94bf619fc6856c3a84fcdf9b20bd84c5c3f2f865544e7fb2e849e8"
+    },
+    {
+      "path": "01_可运行代码/app/domain/version_diff.py",
+      "bytes": 1226,
+      "sha256": "9cb822ee60bd9b22cbf75d4cbec6be610c66934bfdb109f12418ccbb0539ee96"
+    },
+    {
+      "path": "01_可运行代码/app/main.py",
+      "bytes": 4667,
+      "sha256": "36349aeff48b8d6b4ae00c8bbe012470bd93f3f8bfbe186f06e47d18b9975ef1"
+    },
+    {
+      "path": "01_可运行代码/app/models.py",
+      "bytes": 8751,
+      "sha256": "ffa3669ef0dd785bea21613912a0f3a11f4a0570d08dee2d4f105c6be8434037"
+    },
+    {
+      "path": "01_可运行代码/app/repositories/__init__.py",
+      "bytes": 1,
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+    },
+    {
+      "path": "01_可运行代码/app/repositories/library.py",
+      "bytes": 7136,
+      "sha256": "8c4a975c80f969ce3d221ec0e6b01266f700277ef4f3bbced5c796bff2827c2a"
+    },
+    {
+      "path": "01_可运行代码/app/repositories/library_statistics.py",
+      "bytes": 6005,
+      "sha256": "5ae126943c494e0ffdfe015c3e362622495b6b2e2e082203a41cb8df9c4db1e7"
+    },
+    {
+      "path": "01_可运行代码/app/repositories/mongo.py",
+      "bytes": 2722,
+      "sha256": "311cb61922107ae8ad0c9ba9583f53f1c8eae2e2d29725896c67a02d08d1d196"
+    },
+    {
+      "path": "01_可运行代码/app/repositories/responses.py",
+      "bytes": 2424,
+      "sha256": "4f7b3d937b33cb8f2ae4fd687042b1a09176ef26560624e7f8fe342077e25914"
+    },
+    {
+      "path": "01_可运行代码/app/repositories/statistics.py",
+      "bytes": 4950,
+      "sha256": "02996cda22b9286b741cbd5b6e12927dd43b998d93370379e179d5b97bef66cc"
+    },
+    {
+      "path": "01_可运行代码/app/services/__init__.py",
+      "bytes": 1,
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+    },
+    {
+      "path": "01_可运行代码/app/services/auth.py",
+      "bytes": 2693,
+      "sha256": "6afed4fdd90d543ba034f2b93d0c5b78ac670e167faf2b32854f380a96b16d0b"
+    },
+    {
+      "path": "01_可运行代码/app/services/history.py",
+      "bytes": 3097,
+      "sha256": "13a591927e3339e96ce59ef75a3b9cc9ff2ba2ca6e8bca791e822dd37ef63cc9"
+    },
+    {
+      "path": "01_可运行代码/app/services/library.py",
+      "bytes": 13549,
+      "sha256": "81f26750afe19351c7f92391bb323955654596a368282aa484af6a81658a5e43"
+    },
+    {
+      "path": "01_可运行代码/app/services/library_pages.py",
+      "bytes": 5512,
+      "sha256": "4db4ab4564520d8f02784b05c0bbe75f863293cc303bdda971eb2c91273e2b93"
+    },
+    {
+      "path": "01_可运行代码/app/services/library_statistics.py",
+      "bytes": 9948,
+      "sha256": "15f5ca4f2d5e87e58cf0fb92b9f70c53a0a7d647d04571569ad22c03ddd147c1"
+    },
+    {
+      "path": "01_可运行代码/app/services/responses.py",
+      "bytes": 5511,
+      "sha256": "40aaf127b48eec4323880dca2b11a4382aeb6f940c84514f44b98c7c48e047c6"
+    },
+    {
+      "path": "01_可运行代码/app/services/statistics.py",
+      "bytes": 2131,
+      "sha256": "313867fdd2105eaa4b0830f0f2e45f57b792c900fd1a1922c7e173a1406d3161"
+    },
+    {
+      "path": "01_可运行代码/app/services/surveys.py",
+      "bytes": 13849,
+      "sha256": "bfe6d06243e49ed8172ad2628e7b2fb3d3987bc19c1b31d96541dd19478cbe8c"
+    },
+    {
+      "path": "01_可运行代码/database/__init__.py",
+      "bytes": 1,
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+    },
+    {
+      "path": "01_可运行代码/database/bank_schema.py",
+      "bytes": 3511,
+      "sha256": "153a00293e1af5962918f870966261fc0551a0ec3aed1bc52b36d0be5b37232d"
+    },
+    {
+      "path": "01_可运行代码/database/indexes.json",
+      "bytes": 8811,
+      "sha256": "169cc6154a3aed6b6bd14bab9b8d224d75df65a94e8cc21f64ad480dc21ede8b"
+    },
+    {
+      "path": "01_可运行代码/database/library_schema.py",
+      "bytes": 5815,
+      "sha256": "8557a20e41e2bd14c10d4717e7dcf55d619b22ebf201d29b158c12f3046ea3d2"
+    },
+    {
+      "path": "01_可运行代码/database/migrations/002_question_library.py",
+      "bytes": 10496,
+      "sha256": "cbc7656972841ffe76300ee91f7071edb6aa8052e11d527218030dbe560de99e"
+    },
+    {
+      "path": "01_可运行代码/database/migrations/__init__.py",
+      "bytes": 76,
+      "sha256": "970a3b2a8de2a16c84158df8461dbbdc27d948546a3d6927daadf929b34d1a1a"
+    },
+    {
+      "path": "01_可运行代码/database/migrations/README.md",
+      "bytes": 3607,
+      "sha256": "70ba12711675b7330be8bbeb86b37079d6f23f067289f3017c0dd816328f2db8"
+    },
+    {
+      "path": "01_可运行代码/database/schema.json",
+      "bytes": 13276,
+      "sha256": "073fa2127f0a9d146ce2b3eec4ea0e5b39ee58553a17ff04c2d777a46c625c92"
+    },
+    {
+      "path": "01_可运行代码/database/schema.py",
+      "bytes": 4402,
+      "sha256": "f23a86baa621121ff21ced606e6ac0fbc40d8fc6138fb7f00c7248dc053ec010"
+    },
+    {
+      "path": "01_可运行代码/examples/openapi.json",
+      "bytes": 74601,
+      "sha256": "116bc9311887ad90c983468c9123fa26cd201619664511bbf41b0ede9b07cc10"
+    },
+    {
+      "path": "01_可运行代码/examples/questions.json",
+      "bytes": 706,
+      "sha256": "355fdaee1393472ad76bffbe32252dce14ad899c22416be9a798a91830b49fa6"
+    },
+    {
+      "path": "01_可运行代码/README.md",
+      "bytes": 3857,
+      "sha256": "fedbd782229f7fcf115df3af03cdd2fd3ee8ea00bd9ef9dbccac507ef8e64b8f"
+    },
+    {
+      "path": "01_可运行代码/requirements-dev.txt",
+      "bytes": 50,
+      "sha256": "16b169c7d1fde96a8c0af1675c179261b996edd642dfd6d54d4ff24ce0f0034f"
+    },
+    {
+      "path": "01_可运行代码/requirements-lock.txt",
+      "bytes": 519,
+      "sha256": "24b96adcb434c7f26e2c16caeeb583dc52935dd1e149ea7065d1e0809863d566"
+    },
+    {
+      "path": "01_可运行代码/requirements.txt",
+      "bytes": 70,
+      "sha256": "c9cf1f7e5a2e5608af5a84c1c4664d53e7e80d32762ceca1abb0cdd2ace04720"
+    },
+    {
+      "path": "01_可运行代码/scripts/__init__.py",
+      "bytes": 1,
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+    },
+    {
+      "path": "01_可运行代码/scripts/benchmark_library_queries.py",
+      "bytes": 5978,
+      "sha256": "215e2a59ce2b48300a676ef7ffb6ca2f786ac18e345656f7b89194f8022d4bf1"
+    },
+    {
+      "path": "01_可运行代码/scripts/check_db.py",
+      "bytes": 292,
+      "sha256": "68dcf71b7479591cbc721696d572b56c571b879e53e6beaa1a8ced19f597b26b"
+    },
+    {
+      "path": "01_可运行代码/scripts/init_db.py",
+      "bytes": 480,
+      "sha256": "122dd0a35ec7aedaccb50830e9c14010193ab9f37922d260ecfb97d3b2c18ad8"
+    },
+    {
+      "path": "01_可运行代码/scripts/migrate_question_library.py",
+      "bytes": 1814,
+      "sha256": "8aca872c3bb1de007d8fc37e2c35ee9e58cb1dc9b0ba1b4d0b6340f76072a6b6"
+    },
+    {
+      "path": "01_可运行代码/scripts/start.ps1",
+      "bytes": 3574,
+      "sha256": "66d79db9b46056fc4d32a0bbd9e776ebbb05826c1ef64ac1e4b5412088102f3c"
+    },
+    {
+      "path": "01_可运行代码/Start.cmd",
+      "bytes": 94,
+      "sha256": "afca9afaa0313161b44940cd4db872934fa7c0cae271fb8c2e6140a4d9b1e6af"
+    },
+    {
+      "path": "01_可运行代码/web/app.js",
+      "bytes": 11682,
+      "sha256": "e95bdab807fe19fae541456c247705e47ae8a49001f8037de96ac96380a5f4ba"
+    },
+    {
+      "path": "01_可运行代码/web/deadline-input.mjs",
+      "bytes": 2832,
+      "sha256": "cd480decbbc4e3b1a21d851f4fd95dfae7d28bd49cfcdbb92dc2430c7ad8a771"
+    },
+    {
+      "path": "01_可运行代码/web/editor-state.mjs",
+      "bytes": 2141,
+      "sha256": "1c5639ede5445cd0eedaa84c8c8e0508c1bc4c2cf3a7c5b066ca42416e50f111"
+    },
+    {
+      "path": "01_可运行代码/web/editor.html",
+      "bytes": 2780,
+      "sha256": "f33e749e29be5b31c3ab3f956b0b7202e32d66f9c6743db696b90c4b6e5b0a53"
+    },
+    {
+      "path": "01_可运行代码/web/editor.js",
+      "bytes": 21914,
+      "sha256": "998c53ff1d54a69d546caaad1e26c4a531b75ab303e1f5513b735d14d41a6a05"
+    },
+    {
+      "path": "01_可运行代码/web/fill-state.mjs",
+      "bytes": 5169,
+      "sha256": "439db04a6ab83cfd79ce6f1c0a3c16e1746e6524ba543f731eb7e7267453842d"
+    },
+    {
+      "path": "01_可运行代码/web/fill.html",
+      "bytes": 2246,
+      "sha256": "ce52c0b1161cb1c239585df9e61de62bae2794c5c844b4a96c9a4a138a889e65"
+    },
+    {
+      "path": "01_可运行代码/web/fill.js",
+      "bytes": 13114,
+      "sha256": "0d5c023a04d8a125f87c8dbf0cf665530a4f3472d483220103984fc1739d7d14"
+    },
+    {
+      "path": "01_可运行代码/web/index.html",
+      "bytes": 3731,
+      "sha256": "58a957dbd42e4606041ff4da9e37bfbe0b82d4be95e0f04ab0957d38378542ae"
+    },
+    {
+      "path": "01_可运行代码/web/library-state.mjs",
+      "bytes": 1697,
+      "sha256": "8ebfd80be3e935795f48e386b8ad0f87cdcdd5b919c0634272434ab831fb32f6"
+    },
+    {
+      "path": "01_可运行代码/web/library-statistics-state.mjs",
+      "bytes": 1017,
+      "sha256": "0cc61dba897bdf650556ad8350cd8864b52fd4495713bd2e75ce90d0fd8fbcc9"
+    },
+    {
+      "path": "01_可运行代码/web/library-statistics.html",
+      "bytes": 2063,
+      "sha256": "a1809f4bb7990de4c5bc999c1ae5f28a40f19f65a69336392f76210d91d179cd"
+    },
+    {
+      "path": "01_可运行代码/web/library-statistics.js",
+      "bytes": 10497,
+      "sha256": "130b7874e1405818db42f41ee8c70aa94109f16ac1a933f4c75663404e9a8732"
+    },
+    {
+      "path": "01_可运行代码/web/library.html",
+      "bytes": 1511,
+      "sha256": "45d5d9d80848b056571e90ebfb2b97ef3385d27f4fdb827fc666a8c8cfc76951"
+    },
+    {
+      "path": "01_可运行代码/web/library.js",
+      "bytes": 6435,
+      "sha256": "4bb4f4e2a6b1739cda2127a70f480eadc7a94ba545f3fa871746e3c080eccb9e"
+    },
+    {
+      "path": "01_可运行代码/web/question-history.html",
+      "bytes": 934,
+      "sha256": "10490ef9c6a0c90d3166342fdf71c9841b1b6650f3af0b548ef164e4a01a2583"
+    },
+    {
+      "path": "01_可运行代码/web/question-history.js",
+      "bytes": 8835,
+      "sha256": "44397d8113b87f1a03d86bf9cd79d4ca6faad88b64513ddce81dbfc4c90bc428"
+    },
+    {
+      "path": "01_可运行代码/web/response.html",
+      "bytes": 819,
+      "sha256": "048c3003ccb07e53cb7961a059839075f90bafdb5cef88349d481e1e24af6eda"
+    },
+    {
+      "path": "01_可运行代码/web/response.js",
+      "bytes": 772,
+      "sha256": "6819bf6b2363accba340c5505bf962dabaab2392e9efc1d827b94cc1e4111d71"
+    },
+    {
+      "path": "01_可运行代码/web/rules-state.mjs",
+      "bytes": 3191,
+      "sha256": "8c439a8cfe4a3068fa1dc7e347a5146632b1aa92497e72ad1a74b51144652210"
+    },
+    {
+      "path": "01_可运行代码/web/rules.html",
+      "bytes": 1875,
+      "sha256": "c84e0d051ab427a326c4f6065fb63890159a172bfad9b978188751a3aa82fee6"
+    },
+    {
+      "path": "01_可运行代码/web/rules.js",
+      "bytes": 7454,
+      "sha256": "d21f3d02266e773d257f563a7080a0de7116e9fa3f9ed6bad288397bbcd9a38c"
+    },
+    {
+      "path": "01_可运行代码/web/statistics.html",
+      "bytes": 1250,
+      "sha256": "f6de9aea07e078da50e2662ccd0a0505644e3ec675c57b1edd28d0b86df81d82"
+    },
+    {
+      "path": "01_可运行代码/web/statistics.js",
+      "bytes": 3589,
+      "sha256": "49c632d79010a2c17b7d012de4f30cb0287252fc54f7005308f6f47740143f37"
+    },
+    {
+      "path": "01_可运行代码/web/style.css",
+      "bytes": 7978,
+      "sha256": "0a01f81be41ca33e3315007ac10f501bfa600450c01e03c4b033eda59b79144e"
+    },
+    {
+      "path": "01_可运行代码/web/survey-state.mjs",
+      "bytes": 923,
+      "sha256": "2bca77020137efb94c85045f4a9bf2cf65136d2a294ae4e381baa8564e059a6e"
+    },
+    {
+      "path": "01_可运行代码/web/view-utils.mjs",
+      "bytes": 1383,
+      "sha256": "e39eaeeccd8e0d14f83f2077a039bb65a759d4b615fd6ffe7bb229b8c23f742f"
+    },
+    {
+      "path": "01_可运行代码/配置说明.md",
+      "bytes": 7095,
+      "sha256": "53ec83d37b72e22f4ce9871b16e95172db7ac6ec057beee1cb72266ef1a045d0"
+    },
+    {
+      "path": "02_文档/API说明.md",
+      "bytes": 22164,
+      "sha256": "90ec3c41bb70b22025658aacff720183e0a2e9c6e1e6e08c4192e8e4aca02c87"
+    },
+    {
+      "path": "02_文档/关键逻辑说明.md",
+      "bytes": 19173,
+      "sha256": "85b7929787681f5a63cd55985c21df0a64d5fb69a801d87ffc0c7ac3a61c5449"
+    },
+    {
+      "path": "02_文档/数据库设计.md",
+      "bytes": 19550,
+      "sha256": "ea651a33ac05b7156332bd8c3c216560b3434a621a66dfa5d0333dc26793bee5"
+    },
+    {
+      "path": "02_文档/系统说明.md",
+      "bytes": 10131,
+      "sha256": "8296240740e91f22ec106d1a58fba5d032fcedf9d47d55544da89847d45c7080"
+    },
+    {
+      "path": "03_测试用例/pytest.ini",
+      "bytes": 164,
+      "sha256": "08a742f6f8a725ec9705ffca42fb12b833ba4ef49e490fcd75c6d025bcc584b0"
+    },
+    {
+      "path": "03_测试用例/测试步骤.md",
+      "bytes": 4560,
+      "sha256": "cb3ee0a40110392c4ced7e04206ca0bc18abafd47b8bfcfe63296850f188be35"
+    },
+    {
+      "path": "03_测试用例/测试用例.md",
+      "bytes": 14150,
+      "sha256": "c60d4397a459a7bfcc8e676dfcd253a3e286b66c1fc9196344001e68bf4cc463"
+    },
+    {
+      "path": "03_测试用例/测试结果.md",
+      "bytes": 5823,
+      "sha256": "330d01fa9a34dfa90b483fcf8025a2c0ced72dbc01b2b1353bef099989c1f54a"
+    },
+    {
+      "path": "03_测试用例/测试输出/历史开发验证/phase2-library-20261029/baseline-integrity.json",
+      "bytes": 15704,
+      "sha256": "64de2215a21a86a66000cf161f9d2725c22bb9172b15e0b38100077a4cfda5ef"
+    },
+    {
+      "path": "03_测试用例/测试输出/历史开发验证/phase2-library-20261029/complete-node.log",
+      "bytes": 2050,
+      "sha256": "3b6dc002dedbfcd990abeaadd45c0635756d77da2528fcefdb5fd5640d1a8b36"
+    },
+    {
+      "path": "03_测试用例/测试输出/历史开发验证/phase2-library-20261029/complete-python.exit",
+      "bytes": 3,
+      "sha256": "13bf7b3039c63bf5a50491fa3cfd8eb4e699d1ba1436315aef9cbe5711530354"
+    },
+    {
+      "path": "03_测试用例/测试输出/历史开发验证/phase2-library-20261029/complete-python.log",
+      "bytes": 947,
+      "sha256": "2a579598a89cfdb763fe3b1693a39a868ae6a7e3d4fde15b78bf49585406dae6"
+    },
+    {
+      "path": "03_测试用例/测试输出/历史开发验证/phase2-library-20261029/complete-python.xml",
+      "bytes": 44637,
+      "sha256": "120308aec5588ef7bea0e2c07f46783666bba4cd886e67df414024b7f7325152"
+    },
+    {
+      "path": "03_测试用例/测试输出/历史开发验证/phase2-library-20261029/evidence-sha256.json",
+      "bytes": 2310,
+      "sha256": "9be089c5f7895530dd8bdee19988d16720135a637e15aaefa67b531b0ecf066d"
+    },
+    {
+      "path": "03_测试用例/测试输出/历史开发验证/phase2-library-20261029/first-library-attempt.log",
+      "bytes": 8208,
+      "sha256": "af6da0cd8a505ded547cecde8f841ae895d9edd39d11e703428ba7b9eb100300"
+    },
+    {
+      "path": "03_测试用例/测试输出/历史开发验证/phase2-library-20261029/first-version-sharing-attempt.log",
+      "bytes": 3378,
+      "sha256": "2fe882ab061badb8bd2bedba5ed9bfbc136e8a02a3d4f171bc561a283b89ee2a"
+    },
+    {
+      "path": "03_测试用例/测试输出/历史开发验证/phase2-library-20261029/implementation-files-sha256.json",
+      "bytes": 12577,
+      "sha256": "4e3bf3e42ae3a762edc26945f70940a76d68db83c1569f018ade1b67e2b298e5"
+    },
+    {
+      "path": "03_测试用例/测试输出/历史开发验证/phase2-library-20261029/incomplete-native-heap.log",
+      "bytes": 12057,
+      "sha256": "19e5bac5b1f6427437d21ba6528cdab6e8e0425fbb394680dbee94d8f1124e25"
+    },
+    {
+      "path": "03_测试用例/测试输出/历史开发验证/phase2-library-20261029/intermediate-334-python.log",
+      "bytes": 947,
+      "sha256": "7d1f3091c487d87f67ac6bff305e3010610e9b06117f7974e780393e2e58a25a"
+    },
+    {
+      "path": "03_测试用例/测试输出/历史开发验证/phase2-library-20261029/intermediate-70-compatibility.log",
+      "bytes": 612,
+      "sha256": "ecd197ec9a4072267996431a6a3e0c7c95a7ffdfc38990d7f2b27888430f4668"
+    },
+    {
+      "path": "03_测试用例/测试输出/历史开发验证/phase2-library-20261029/revoked-survey-statistics.png",
+      "bytes": 56241,
+      "sha256": "c923c02066424f845ac280413bc7bd53f7f6b50ea1617d93c0ba79bf811d87a2"
+    },
+    {
+      "path": "03_测试用例/测试输出/历史开发验证/phase2-library-20261029/share-revoked-existing-instances.png",
+      "bytes": 45774,
+      "sha256": "1df38839a594884cd150b57b70be75ce2e00b68f58daf831cad39b312795aa8e"
+    },
+    {
+      "path": "03_测试用例/测试输出/历史开发验证/phase2-library-20261029/ui-database-verification.json",
+      "bytes": 13759,
+      "sha256": "b5c8faf24e3a5e7ecec6ea8889717a07119b0c6e15ffb2dfd2eff851849291e7"
+    },
+    {
+      "path": "03_测试用例/测试输出/历史开发验证/phase2-library-20261029/ui-instance-update.json",
+      "bytes": 479,
+      "sha256": "fab1b3780eec674040d53b43b19b019d32f4aaecafce9e04790af79c20ee5928"
+    },
+    {
+      "path": "03_测试用例/测试输出/历史开发验证/phase2-library-20261029/verification-summary.json",
+      "bytes": 1323,
+      "sha256": "f2b1cb93928642e110a02a775dc8ccc90fa3b16b84aaac9b0dfa3f44195761b7"
+    },
+    {
+      "path": "03_测试用例/测试输出/历史开发验证/phase2-library-20261029/version-restore.png",
+      "bytes": 43380,
+      "sha256": "748eaf682fd9932cd6c79aaf9d8eee7ffd27d01bdfe4782ea2168b496debf50f"
+    },
+    {
+      "path": "03_测试用例/测试输出/历史开发验证/phase2-library-statistics-20261029/api-results.json",
+      "bytes": 34214,
+      "sha256": "5b8ba510c69f8c34fd5c21b2eb075bb4429636380fec2807daa8132def2227de"
+    },
+    {
+      "path": "03_测试用例/测试输出/历史开发验证/phase2-library-statistics-20261029/baseline-integrity.json",
+      "bytes": 415,
+      "sha256": "fec12103226debd0a2099c0a0bd945e8f3b3197ac73ca76168017195d45ddebe"
+    },
+    {
+      "path": "03_测试用例/测试输出/历史开发验证/phase2-library-statistics-20261029/choice-mapped-dom.txt",
+      "bytes": 4065,
+      "sha256": "028986cd29ca04f5d013082680c9f87df03ec87e6bc1877eabfdf90dae124945"
+    },
+    {
+      "path": "03_测试用例/测试输出/历史开发验证/phase2-library-statistics-20261029/choice-mapped.png",
+      "bytes": 33239,
+      "sha256": "cc3a8995e2031ebfb584b57e9b54eb5e015bbe01219b33903e6e5eea69ac3198"
+    },
+    {
+      "path": "03_测试用例/测试输出/历史开发验证/phase2-library-statistics-20261029/choice-unmapped.png",
+      "bytes": 38136,
+      "sha256": "f2be0bfd99a66e33b847ed6bf44fe48a43b59b05ed1c41fd71c603e27ed82a68"
+    },
+    {
+      "path": "03_测试用例/测试输出/历史开发验证/phase2-library-statistics-20261029/complete-python.exit",
+      "bytes": 3,
+      "sha256": "13bf7b3039c63bf5a50491fa3cfd8eb4e699d1ba1436315aef9cbe5711530354"
+    },
+    {
+      "path": "03_测试用例/测试输出/历史开发验证/phase2-library-statistics-20261029/complete-python.log",
+      "bytes": 1029,
+      "sha256": "836e398d7b8555ab5633cb8a85c484671111e29ba0c96dbbc6a0b30488bed819"
+    },
+    {
+      "path": "03_测试用例/测试输出/历史开发验证/phase2-library-statistics-20261029/complete-python.xml",
+      "bytes": 49847,
+      "sha256": "60506f530abfde22d109f16a50fdd86fac96aa63cf1ed60778c0ea121154600a"
+    },
+    {
+      "path": "03_测试用例/测试输出/历史开发验证/phase2-library-statistics-20261029/documentation-links.json",
+      "bytes": 4274,
+      "sha256": "a625d4f2f9f4abffd4718ba80008f20562834511a42451bada531bfe6944d7b5"
+    },
+    {
+      "path": "03_测试用例/测试输出/历史开发验证/phase2-library-statistics-20261029/evidence-sha256.json",
+      "bytes": 3007,
+      "sha256": "7f9649580bfe2282996a62a6bddad8b38870f213b8d2236763b43cfd3dff0493"
+    },
+    {
+      "path": "03_测试用例/测试输出/历史开发验证/phase2-library-statistics-20261029/first-evidence-attempt.log",
+      "bytes": 467,
+      "sha256": "6366814255250e3d4e21ebdc7cbd40abab3b23ae69a445c990b1a31d7dcea031"
+    },
+    {
+      "path": "03_测试用例/测试输出/历史开发验证/phase2-library-statistics-20261029/first-statistics.log",
+      "bytes": 612,
+      "sha256": "03b789d2685ccd289c4f07f6acea9726fd1c08c379dceaed5e0de03326c19765"
+    },
+    {
+      "path": "03_测试用例/测试输出/历史开发验证/phase2-library-statistics-20261029/first-statistics.xml",
+      "bytes": 6070,
+      "sha256": "fa36be74d72015012533a1b498adba16b765c950a1f1ba43801754efe49c01ad"
+    },
+    {
+      "path": "03_测试用例/测试输出/历史开发验证/phase2-library-statistics-20261029/implementation-files-sha256.json",
+      "bytes": 15906,
+      "sha256": "589398c86df15a2602b166e1c20f37f8d09b5613172530567dcea17c1d9d5541"
+    },
+    {
+      "path": "03_测试用例/测试输出/历史开发验证/phase2-library-statistics-20261029/javascript-syntax.json",
+      "bytes": 494,
+      "sha256": "d1d6a6849a53c025c8d28d1ca6e477ed0c2ca03da9d7611cc7ddec9e9ab7443b"
+    },
+    {
+      "path": "03_测试用例/测试输出/历史开发验证/phase2-library-statistics-20261029/legacy-unit-confirmation.png",
+      "bytes": 40024,
+      "sha256": "1ff29c5b0cc9e869621e024d8fda6f7483c6dafac89c12fbba43ba221d5446d6"
+    },
+    {
+      "path": "03_测试用例/测试输出/历史开发验证/phase2-library-statistics-20261029/node-tests.log",
+      "bytes": 2431,
+      "sha256": "2b75ae2d9d10f855c983fdb0de81498e19d66cfe81e75251fe4c1608a582af24"
+    },
+    {
+      "path": "03_测试用例/测试输出/历史开发验证/phase2-library-statistics-20261029/numeric-merge.png",
+      "bytes": 50548,
+      "sha256": "c11ef85f135d6e08b8c0917ff50a3af432ddee57e9c142f6734b25c792c4513a"
+    },
+    {
+      "path": "03_测试用例/测试输出/历史开发验证/phase2-library-statistics-20261029/numeric-owner-dom.txt",
+      "bytes": 4470,
+      "sha256": "7305a1ac1fa66c63983067e42026da4fcd66c6a21c36e74aba7564df5dd7a6b0"
+    },
+    {
+      "path": "03_测试用例/测试输出/历史开发验证/phase2-library-statistics-20261029/query-immutability.json",
+      "bytes": 1258,
+      "sha256": "8aaf893dbcf4109b42dfae6176ab38bbb97e7fdea510f31ecd1a95616993ee1e"
+    },
+    {
+      "path": "03_测试用例/测试输出/历史开发验证/phase2-library-statistics-20261029/reader-dom.txt",
+      "bytes": 1483,
+      "sha256": "d8d66ed72269090538dcf30ff0618b268deac3a91240b0ec5ab26e9a678f2a66"
+    },
+    {
+      "path": "03_测试用例/测试输出/历史开发验证/phase2-library-statistics-20261029/reader-permission.png",
+      "bytes": 52634,
+      "sha256": "c812b0d92b71adcfc25357e7644cd2c6b2b0c872c0f086c7bd6d3b299ccd2406"
+    },
+    {
+      "path": "03_测试用例/测试输出/历史开发验证/phase2-library-statistics-20261029/startup-check.log",
+      "bytes": 106,
+      "sha256": "df37e15e54ff69465c25f40f82b2c6e2ba0ab32db0ea3058229e78a3508a0dca"
+    },
+    {
+      "path": "03_测试用例/测试输出/历史开发验证/phase2-library-statistics-20261029/ui-fixture.json",
+      "bytes": 999,
+      "sha256": "63a73030baf8ffcc104c496d12a500ad62f764641645ba068902ddadfba74fa2"
+    },
+    {
+      "path": "03_测试用例/测试输出/历史开发验证/phase2-library-statistics-20261029/unit-editor-dom.txt",
+      "bytes": 2125,
+      "sha256": "d364028230e931a95e7160cb1e34e445c0b0715dc1ba09a599da1b2168d73624"
+    },
+    {
+      "path": "03_测试用例/测试输出/历史开发验证/phase2-library-statistics-20261029/verification-summary.json",
+      "bytes": 1892,
+      "sha256": "73dadffe3cbb03f8a38be6c70248542d19d011362c40c538602394189de2dcfa"
+    },
+    {
+      "path": "03_测试用例/测试输出/历史开发验证/phase2-pagination-20261029/baseline-integrity.json",
+      "bytes": 621,
+      "sha256": "70bfcfa4555e3c561fc73f6c5e189c78cc88b19fe30df1202b35b09e2fa141de"
+    },
+    {
+      "path": "03_测试用例/测试输出/历史开发验证/phase2-pagination-20261029/benchmark-final.log",
+      "bytes": 549,
+      "sha256": "30cb04002655062bb45fb062521fb43d95aab2fda6c2b845c734139441ea35b9"
+    },
+    {
+      "path": "03_测试用例/测试输出/历史开发验证/phase2-pagination-20261029/build-report-source.py",
+      "bytes": 11639,
+      "sha256": "12d3aaa06a70cbf023d1ee77cf363b84ad5e27d2e350b53e34976635b8596325"
+    },
+    {
+      "path": "03_测试用例/测试输出/历史开发验证/phase2-pagination-20261029/documentation-links.json",
+      "bytes": 1651,
+      "sha256": "fc51957faaba5e4a66bb092bd5c37497c9a096d0d4395e206c08b3e994cb1693"
+    },
+    {
+      "path": "03_测试用例/测试输出/历史开发验证/phase2-pagination-20261029/evidence-sha256.json",
+      "bytes": 3102,
+      "sha256": "940fbc34417a98febbae5c386ee9bc79cf1a2b2bb4e9acacefda386183ecf09a"
+    },
+    {
+      "path": "03_测试用例/测试输出/历史开发验证/phase2-pagination-20261029/final-python.exit",
+      "bytes": 3,
+      "sha256": "13bf7b3039c63bf5a50491fa3cfd8eb4e699d1ba1436315aef9cbe5711530354"
+    },
+    {
+      "path": "03_测试用例/测试输出/历史开发验证/phase2-pagination-20261029/final-python.log",
+      "bytes": 1029,
+      "sha256": "e3d921c2a86fdf84449a554bd0e5f7238a64858bfa0633380f765973bc0e608e"
+    },
+    {
+      "path": "03_测试用例/测试输出/历史开发验证/phase2-pagination-20261029/final-python.xml",
+      "bytes": 52187,
+      "sha256": "ba72b4ce5dae90482828d03678c8d0198695ec00be8acaf24332571772f6ed66"
+    },
+    {
+      "path": "03_测试用例/测试输出/历史开发验证/phase2-pagination-20261029/first-query-benchmark.json",
+      "bytes": 711028,
+      "sha256": "7290c027ddfa38f5e0b1ff7d42c448549c53449c3d9e50aa01efafb759af535a"
+    },
+    {
+      "path": "03_测试用例/测试输出/历史开发验证/phase2-pagination-20261029/implementation-sha256.json",
+      "bytes": 16959,
+      "sha256": "a8dbdaf1bfb2218cd0d42d04431cb7e52eaa7b71cb2fbd35ff0e12995370c6cc"
+    },
+    {
+      "path": "03_测试用例/测试输出/历史开发验证/phase2-pagination-20261029/intermediate-402.log",
+      "bytes": 1029,
+      "sha256": "ba068ad1c31bc820b0307afa72d7191ed54fa78a9be681f38cfabd0dddc8a830"
+    },
+    {
+      "path": "03_测试用例/测试输出/历史开发验证/phase2-pagination-20261029/intermediate-404.log",
+      "bytes": 1048,
+      "sha256": "a0d5d3c132841fc1489f8fd414ec8eec737ddb8295712689f4ddf1c6aef3a36d"
+    },
+    {
+      "path": "03_测试用例/测试输出/历史开发验证/phase2-pagination-20261029/journey.log",
+      "bytes": 610,
+      "sha256": "fe3a6341f7a8f1966ff6bc8be2d4e5647e948e1edec5357ac473593aa50e74de"
+    },
+    {
+      "path": "03_测试用例/测试输出/历史开发验证/phase2-pagination-20261029/journey.xml",
+      "bytes": 871,
+      "sha256": "e7181bf93e71ee3c0de782035b1cba672652bbef0f8cb1aaf9982a7782f2e687"
+    },
+    {
+      "path": "03_测试用例/测试输出/历史开发验证/phase2-pagination-20261029/mongo-unavailable-attempt.log",
+      "bytes": 241253,
+      "sha256": "6e8783abed203d3f167f7cfe3047c8ef3daa9fd602451a08649f5e807c01b2eb"
+    },
+    {
+      "path": "03_测试用例/测试输出/历史开发验证/phase2-pagination-20261029/node.log",
+      "bytes": 2426,
+      "sha256": "65b4f202defabe278320d52c48c66047293cdeb9da08996f1bde7d32b98cc158"
+    },
+    {
+      "path": "03_测试用例/测试输出/历史开发验证/phase2-pagination-20261029/query-benchmark.json",
+      "bytes": 722738,
+      "sha256": "2283f30594dbda6094f438cbef190e74cd38fda0d1f74ab9f230adfd3a157123"
+    },
+    {
+      "path": "03_测试用例/测试输出/历史开发验证/phase2-pagination-20261029/render.log",
+      "bytes": 5981,
+      "sha256": "22ec9581622bc910b47e1dd0f9df8b976edca19eb27a65042c8470f4d068a021"
+    },
+    {
+      "path": "03_测试用例/测试输出/历史开发验证/phase2-pagination-20261029/report-page-audit.json",
+      "bytes": 1754,
+      "sha256": "d137ff0188b7650284dba6ba00413445ac05128217e4b95f7df2a421e628cce3"
+    },
+    {
+      "path": "03_测试用例/测试输出/历史开发验证/phase2-pagination-20261029/startup-check.log",
+      "bytes": 106,
+      "sha256": "df37e15e54ff69465c25f40f82b2c6e2ba0ab32db0ea3058229e78a3508a0dca"
+    },
+    {
+      "path": "03_测试用例/测试输出/历史开发验证/phase2-pagination-20261029/teacher-document-sha256.json",
+      "bytes": 286,
+      "sha256": "bd9d06c47de8becb6f7c8d15427e048a001a022d1fdaf7cb54a2ea0ee4f6ee56"
+    },
+    {
+      "path": "03_测试用例/测试输出/历史开发验证/phase2-pagination-20261029/text-page2-dom.txt",
+      "bytes": 11342,
+      "sha256": "ad6b8c30abbb1f56e1dcf4fd45cb85f2e1b38c1044d5686420d8aa39f63c4d81"
+    },
+    {
+      "path": "03_测试用例/测试输出/历史开发验证/phase2-pagination-20261029/text-page2.png",
+      "bytes": 40499,
+      "sha256": "f5f6e6722d8459bd1cab80be2b14c9bea284087de191af079eff97711271777d"
+    },
+    {
+      "path": "03_测试用例/测试输出/历史开发验证/phase2-pagination-20261029/ui-fixture.json",
+      "bytes": 153,
+      "sha256": "7a8af98168e3e647a231f1414e9eb54119445c56e6b16066a7b5a975e861be25"
+    },
+    {
+      "path": "03_测试用例/测试输出/历史开发验证/phase2-pagination-20261029/verification-summary.json",
+      "bytes": 1768,
+      "sha256": "b0d0021c21811dc15b48d1d593a0aa6c341f7278f932e9344d34ae7088651f97"
+    },
+    {
+      "path": "03_测试用例/测试输出/历史第一阶段/Node测试.log",
+      "bytes": 1795,
+      "sha256": "a66ffaba3d5669be13f6f122f9f1b8755575c406c8688b20d989df2fcebe10bd"
+    },
+    {
+      "path": "03_测试用例/测试输出/历史第一阶段/Python测试.log",
+      "bytes": 9998,
+      "sha256": "f17d216c62fd314a54674b178701d85366008ea0f902e508ec6710f0edd16e49"
+    },
+    {
+      "path": "03_测试用例/测试输出/历史第一阶段/Python测试.xml",
+      "bytes": 37238,
+      "sha256": "01339db565ec332f14a729a1ff7f186c3526585ea427adfcf0dc2b2fa86c4092"
+    },
+    {
+      "path": "03_测试用例/测试输出/历史第一阶段/手算样本实际聚合.json",
+      "bytes": 1458,
+      "sha256": "ca48cb943f41c808d81bd49f66b0ceaea2f470648539e23aaf35570f30a7d1aa"
+    },
+    {
+      "path": "03_测试用例/测试输出/历史第一阶段/提交副本页面检查.json",
+      "bytes": 1787,
+      "sha256": "12c9783f05f3dc397f440069b8e4f7a65f7102d35b16513ad8fbe0455a0f4090"
+    },
+    {
+      "path": "03_测试用例/测试输出/历史第一阶段/逐项自动化结果.csv",
+      "bytes": 24824,
+      "sha256": "5057ded10384cc1a043b5b52d34844e0908a73ad57b57944ed15ad5d9b10b4ff"
+    },
+    {
+      "path": "03_测试用例/测试输出/提交副本本轮/Node测试.log",
+      "bytes": 2428,
+      "sha256": "a7b050c37ab801b65939bb3610e2872ed4f46285c5f8e0dfecadaa4fb867e9fc"
+    },
+    {
+      "path": "03_测试用例/测试输出/提交副本本轮/Python测试.log",
+      "bytes": 20469,
+      "sha256": "dbd1327f55ae5d973969be0beec425b507b2f1259651d1c7c7b46db4387f8982"
+    },
+    {
+      "path": "03_测试用例/测试输出/提交副本本轮/Python测试.xml",
+      "bytes": 56277,
+      "sha256": "550d257a36359059f68d50d6e2ba4c63bcd9bb491d34c4a368e3ef20da2356a0"
+    },
+    {
+      "path": "03_测试用例/测试输出/提交副本本轮/报告格式与内容核查.json",
+      "bytes": 2432,
+      "sha256": "390ed1c458a25839d5c3a0f811953ce0cc6d2b67e6a6569fcfdf8489045665c6"
+    },
+    {
+      "path": "03_测试用例/测试输出/提交副本本轮/提交副本页面与schema检查.json",
+      "bytes": 4164,
+      "sha256": "be876e74ede09bb9ca352ea7741184aae6bc90577fc57cee3092bb1607075aa5"
+    },
+    {
+      "path": "03_测试用例/测试输出/提交副本本轮/文件布局与完整性检查.json",
+      "bytes": 14802,
+      "sha256": "064f0d5fed7f2f3ab937446868d3e20d1d09808db5107269c3302f0b9f671518"
+    },
+    {
+      "path": "03_测试用例/测试输出/提交副本本轮/逐项自动化结果.csv",
+      "bytes": 44160,
+      "sha256": "1a444fbefef0ecd6f9a57d73813f6e748e9868c70221b1ba0a5bd067bf52dd23"
+    },
+    {
+      "path": "03_测试用例/自动化测试/test_api.py",
+      "bytes": 4497,
+      "sha256": "c17c1cf7ed5d8a219aa77f9f7c9360c091558fbc11bec4af64e5e2d27054be03"
+    },
+    {
+      "path": "03_测试用例/自动化测试/test_editor_state.mjs",
+      "bytes": 2093,
+      "sha256": "36b4b96988af76787098b96d2e83789490762da19bd5b34e24e2bf50de2b162f"
+    },
+    {
+      "path": "03_测试用例/自动化测试/test_fill_state.mjs",
+      "bytes": 3316,
+      "sha256": "a920776bc412caaa3878fdded1ad76d29f9c040ccefbce1b15a8211129b65129"
+    },
+    {
+      "path": "03_测试用例/自动化测试/test_history_api.py",
+      "bytes": 7967,
+      "sha256": "263b3c04dfbaa97829a144e38052f2052882bff3e8d7e45b4129023017e8c82c"
+    },
+    {
+      "path": "03_测试用例/自动化测试/test_library_api.py",
+      "bytes": 18495,
+      "sha256": "2a8553a79e3c231ac4032da01a732d7d5ee9ed80c1141c3cfd83845ce55d6c5b"
+    },
+    {
+      "path": "03_测试用例/自动化测试/test_library_pages.py",
+      "bytes": 6954,
+      "sha256": "d861d07a7c32b8bc98a7c7723ce1150ca8d648b4725a9d0cfdd110695f48b369"
+    },
+    {
+      "path": "03_测试用例/自动化测试/test_library_state.mjs",
+      "bytes": 1766,
+      "sha256": "3fde7186de2d330c5a556b539e9e542aeed9780e73a2be9a87e1512d472e2d01"
+    },
+    {
+      "path": "03_测试用例/自动化测试/test_library_statistics.py",
+      "bytes": 18584,
+      "sha256": "f0305d81c30456aa68429ab7c76e52571171cc52eb953c96b4f10c6126224656"
+    },
+    {
+      "path": "03_测试用例/自动化测试/test_library_statistics_state.mjs",
+      "bytes": 1811,
+      "sha256": "bb066ec2a7cc0f6eacad0c2347e39e6760b941cf2dfea7648de3d715f29bbd41"
+    },
+    {
+      "path": "03_测试用例/自动化测试/test_library_versions.py",
+      "bytes": 18530,
+      "sha256": "b936ef33f7d5abf82e341f03cb0e435cd448340c691e835e0acb6f6e231ebcda"
+    },
+    {
+      "path": "03_测试用例/自动化测试/test_lifecycle.py",
+      "bytes": 12318,
+      "sha256": "c763e19b00d7578efd7dc4c33556d5058808a8607310283b15bccb1dcce2e576"
+    },
+    {
+      "path": "03_测试用例/自动化测试/test_models.py",
+      "bytes": 2899,
+      "sha256": "4d26cbb2c59e5fbd8e261438c2a62064fe93480112d73cb306dfc1923a53494d"
+    },
+    {
+      "path": "03_测试用例/自动化测试/test_phase2_journey.py",
+      "bytes": 4080,
+      "sha256": "0512b6f2891d993a9fc30d2e465b91e5450ca45aa3d4c9e27c8cf681697676e2"
+    },
+    {
+      "path": "03_测试用例/自动化测试/test_question_api.py",
+      "bytes": 8724,
+      "sha256": "b33c0265f7a0cc780082640d03930ae523618d07049af13b1ea241e54f5d6e53"
+    },
+    {
+      "path": "03_测试用例/自动化测试/test_question_migration.py",
+      "bytes": 21568,
+      "sha256": "d1e29d4e76c57935afbae204034257604a8e4bebbc0bdb63c25c0750d4d0f21e"
+    },
+    {
+      "path": "03_测试用例/自动化测试/test_response_api.py",
+      "bytes": 15271,
+      "sha256": "33fd3bb1c9eea98f25518768b96cfb7ae80de8aa8bd54c30e4a50aa6bb9b760e"
+    },
+    {
+      "path": "03_测试用例/自动化测试/test_routing.py",
+      "bytes": 3622,
+      "sha256": "1a9ad5c9e9f7f0abd3008084652ded0961352f9b1310786c0ff99e753a141fa1"
+    },
+    {
+      "path": "03_测试用例/自动化测试/test_rule_validation.py",
+      "bytes": 2147,
+      "sha256": "2772ef4a39431d85a8d933017454434135b6184efe62c1f059b590d9b3482165"
+    },
+    {
+      "path": "03_测试用例/自动化测试/test_rules_state.mjs",
+      "bytes": 2527,
+      "sha256": "9d47e700cc26f9b36dcffda91fef97190faab6075809a1020fc2d291590e571f"
+    },
+    {
+      "path": "03_测试用例/自动化测试/test_rules_ui_api.py",
+      "bytes": 5674,
+      "sha256": "143cb713cfb85d58cb414408562edc8c796723764054353e3981fa6f1ffc938d"
+    },
+    {
+      "path": "03_测试用例/自动化测试/test_statistics.py",
+      "bytes": 13874,
+      "sha256": "c5ae6d488e220b3988d498083dbe09d7f1dd79c01004bf6826b8e3c0112537d7"
+    },
+    {
+      "path": "03_测试用例/自动化测试/test_survey_state.mjs",
+      "bytes": 1747,
+      "sha256": "1207038ec8bc92fa8c7efcc501f5d0d2b663fcd829b91738fb65e912a32cbacc"
+    },
+    {
+      "path": "03_测试用例/自动化测试/test_validation.py",
+      "bytes": 8212,
+      "sha256": "60d4f226d4416ff443230c32f57eb42cfe089b8c6aecd2e950f8d9e88043b9fd"
+    },
+    {
+      "path": "03_测试用例/自动化测试/test_version_diff.py",
+      "bytes": 1608,
+      "sha256": "9372482d32652b733f17b7bfcbd2cf7a0e37d53358bca3c35388ab6f9a212acb"
+    },
+    {
+      "path": "03_测试用例/自动化测试/test_view_state.mjs",
+      "bytes": 1579,
+      "sha256": "9247cdf443b6e7aee2ff2a37dae75e7a8dd86ea96409ddc0b53177f0bd4935dc"
+    },
+    {
+      "path": "03_测试用例/运行全部测试.ps1",
+      "bytes": 2041,
+      "sha256": "0e39baa334611202f39e56423cc6c1d061ac0daa05841b8a5691f4139eb3be56"
+    },
+    {
+      "path": "04_项目完成报告及AI使用日志/AI使用日志.md",
+      "bytes": 55565,
+      "sha256": "f1229ec90012c873d8f51dc20ce3c6e5f7965200bff984334b3d1dfe83dcff3a"
+    },
+    {
+      "path": "04_项目完成报告及AI使用日志/项目完成报告.docx",
+      "bytes": 39627,
+      "sha256": "e2a60ee4e7f8abaf784931a483f6ae4e4c39e943594e8de7b00a1e6ba5555bee"
+    },
+    {
+      "path": "04_项目完成报告及AI使用日志/项目完成报告.pdf",
+      "bytes": 273071,
+      "sha256": "c0495eb6d0f1c9f4b1ff4890b440e4e1a215dd95ac7be2ab71937729d9823980"
+    },
+    {
+      "path": "README.md",
+      "bytes": 1720,
+      "sha256": "4b0803907449289b33d190fe59c169f49d7e224e39d01226ce7727376112b6c4"
+    }
+  ],
+  "report_revision": "7-page report wording refined to reflect author decisions and improvement process; current user edits preserved; no business code or test result changes."
+}
