@@ -1,0 +1,582 @@
+{
+  "generated_from": [
+    "database/schema.py",
+    "database/library_schema.py",
+    "database/bank_schema.py"
+  ],
+  "schema_version": 1,
+  "collections": {
+    "app_settings": {
+      "$jsonSchema": {
+        "bsonType": "object",
+        "required": [
+          "_id",
+          "schema_version",
+          "secret"
+        ],
+        "properties": {
+          "_id": {
+            "bsonType": "string"
+          },
+          "schema_version": {
+            "enum": [
+              1
+            ]
+          },
+          "secret": {
+            "bsonType": "string",
+            "minLength": 64
+          }
+        }
+      }
+    },
+    "users": {
+      "$jsonSchema": {
+        "bsonType": "object",
+        "required": [
+          "_id",
+          "schema_version",
+          "username",
+          "password_hash",
+          "created_at"
+        ],
+        "properties": {
+          "_id": {
+            "bsonType": "string"
+          },
+          "schema_version": {
+            "enum": [
+              1
+            ]
+          },
+          "username": {
+            "bsonType": "string"
+          },
+          "password_hash": {
+            "bsonType": "string"
+          },
+          "created_at": {
+            "bsonType": "date"
+          }
+        }
+      }
+    },
+    "sessions": {
+      "$jsonSchema": {
+        "bsonType": "object",
+        "required": [
+          "_id",
+          "schema_version",
+          "user_id",
+          "token_hash",
+          "created_at",
+          "expires_at"
+        ],
+        "properties": {
+          "_id": {
+            "bsonType": "string"
+          },
+          "schema_version": {
+            "enum": [
+              1
+            ]
+          },
+          "user_id": {
+            "bsonType": "string"
+          },
+          "token_hash": {
+            "bsonType": "string"
+          },
+          "created_at": {
+            "bsonType": "date"
+          },
+          "expires_at": {
+            "bsonType": "date"
+          }
+        }
+      }
+    },
+    "surveys": {
+      "$jsonSchema": {
+        "bsonType": "object",
+        "required": [
+          "_id",
+          "schema_version",
+          "version",
+          "owner_id",
+          "share_id",
+          "title",
+          "description",
+          "allow_anonymous",
+          "allow_multiple",
+          "deadline",
+          "status",
+          "questions",
+          "rules",
+          "created_at",
+          "updated_at"
+        ],
+        "properties": {
+          "_id": {
+            "bsonType": "string"
+          },
+          "schema_version": {
+            "enum": [
+              1
+            ]
+          },
+          "version": {
+            "bsonType": "int",
+            "minimum": 1
+          },
+          "owner_id": {
+            "bsonType": "string"
+          },
+          "share_id": {
+            "bsonType": "string"
+          },
+          "title": {
+            "bsonType": "string",
+            "minLength": 1
+          },
+          "description": {
+            "bsonType": "string"
+          },
+          "allow_anonymous": {
+            "bsonType": "bool"
+          },
+          "allow_multiple": {
+            "bsonType": "bool"
+          },
+          "deadline": {
+            "bsonType": [
+              "date",
+              "null"
+            ]
+          },
+          "status": {
+            "enum": [
+              "draft",
+              "published",
+              "closed"
+            ]
+          },
+          "questions": {
+            "bsonType": "array",
+            "items": {
+              "bsonType": "object"
+            }
+          },
+          "rules": {
+            "bsonType": "array",
+            "items": {
+              "bsonType": "object"
+            }
+          },
+          "created_at": {
+            "bsonType": "date"
+          },
+          "updated_at": {
+            "bsonType": "date"
+          }
+        }
+      }
+    },
+    "responses": {
+      "$jsonSchema": {
+        "bsonType": "object",
+        "required": [
+          "_id",
+          "schema_version",
+          "survey_id",
+          "survey_version",
+          "respondent_key",
+          "attempt_key",
+          "submission_key",
+          "anonymous",
+          "answers",
+          "path",
+          "submitted_at"
+        ],
+        "properties": {
+          "_id": {
+            "bsonType": "string"
+          },
+          "schema_version": {
+            "enum": [
+              1
+            ]
+          },
+          "survey_id": {
+            "bsonType": "string"
+          },
+          "survey_version": {
+            "bsonType": "int"
+          },
+          "respondent_key": {
+            "bsonType": "string"
+          },
+          "respondent_id": {
+            "bsonType": [
+              "string",
+              "null"
+            ]
+          },
+          "attempt_key": {
+            "bsonType": "string"
+          },
+          "submission_key": {
+            "bsonType": "string"
+          },
+          "anonymous": {
+            "bsonType": "bool"
+          },
+          "answers": {
+            "bsonType": "object"
+          },
+          "path": {
+            "bsonType": "array",
+            "items": {
+              "bsonType": "string"
+            }
+          },
+          "submitted_at": {
+            "bsonType": "date"
+          }
+        }
+      }
+    },
+    "question_templates": {
+      "$jsonSchema": {
+        "bsonType": "object",
+        "required": [
+          "_id",
+          "schema_version",
+          "owner_id",
+          "latest_version_id",
+          "edit_version",
+          "visibility",
+          "origin",
+          "created_at",
+          "updated_at"
+        ],
+        "properties": {
+          "_id": {
+            "bsonType": "string"
+          },
+          "schema_version": {
+            "enum": [
+              1
+            ]
+          },
+          "owner_id": {
+            "bsonType": "string"
+          },
+          "latest_version_id": {
+            "bsonType": "string"
+          },
+          "edit_version": {
+            "bsonType": "int",
+            "minimum": 1
+          },
+          "visibility": {
+            "enum": [
+              "private",
+              "shared"
+            ]
+          },
+          "origin": {
+            "bsonType": "object"
+          },
+          "created_at": {
+            "bsonType": "date"
+          },
+          "updated_at": {
+            "bsonType": "date"
+          }
+        }
+      }
+    },
+    "question_versions": {
+      "$jsonSchema": {
+        "bsonType": "object",
+        "required": [
+          "_id",
+          "schema_version",
+          "template_id",
+          "number",
+          "parent_version_id",
+          "derived_from_version_id",
+          "restored_from_version_id",
+          "content",
+          "content_hash",
+          "created_by",
+          "created_at",
+          "origin"
+        ],
+        "properties": {
+          "_id": {
+            "bsonType": "string"
+          },
+          "schema_version": {
+            "enum": [
+              1
+            ]
+          },
+          "template_id": {
+            "bsonType": "string"
+          },
+          "number": {
+            "bsonType": "int",
+            "minimum": 1
+          },
+          "parent_version_id": {
+            "bsonType": [
+              "string",
+              "null"
+            ]
+          },
+          "derived_from_version_id": {
+            "bsonType": [
+              "string",
+              "null"
+            ]
+          },
+          "restored_from_version_id": {
+            "bsonType": [
+              "string",
+              "null"
+            ]
+          },
+          "content": {
+            "bsonType": "object"
+          },
+          "content_hash": {
+            "bsonType": "string",
+            "pattern": "^[0-9a-f]{64}$"
+          },
+          "created_by": {
+            "bsonType": [
+              "string",
+              "null"
+            ]
+          },
+          "created_at": {
+            "bsonType": "date"
+          },
+          "origin": {
+            "bsonType": "object"
+          }
+        }
+      }
+    },
+    "question_usages": {
+      "$jsonSchema": {
+        "bsonType": "object",
+        "required": [
+          "_id",
+          "schema_version",
+          "survey_id",
+          "instance_id",
+          "template_id",
+          "template_version_id",
+          "content_hash",
+          "source_survey_version",
+          "created_at",
+          "origin"
+        ],
+        "properties": {
+          "_id": {
+            "bsonType": "string"
+          },
+          "schema_version": {
+            "enum": [
+              1
+            ]
+          },
+          "survey_id": {
+            "bsonType": "string"
+          },
+          "instance_id": {
+            "bsonType": "string"
+          },
+          "template_id": {
+            "bsonType": "string"
+          },
+          "template_version_id": {
+            "bsonType": "string"
+          },
+          "content_hash": {
+            "bsonType": "string",
+            "pattern": "^[0-9a-f]{64}$"
+          },
+          "source_survey_version": {
+            "bsonType": "int",
+            "minimum": 1
+          },
+          "created_at": {
+            "bsonType": "date"
+          },
+          "origin": {
+            "bsonType": "object"
+          }
+        }
+      }
+    },
+    "schema_migrations": {
+      "$jsonSchema": {
+        "bsonType": "object",
+        "required": [
+          "_id",
+          "schema_version",
+          "number",
+          "completed_at",
+          "initial_surveys",
+          "initial_questions"
+        ],
+        "properties": {
+          "_id": {
+            "bsonType": "string"
+          },
+          "schema_version": {
+            "enum": [
+              1
+            ]
+          },
+          "number": {
+            "enum": [
+              2
+            ]
+          },
+          "completed_at": {
+            "bsonType": "date"
+          },
+          "initial_surveys": {
+            "bsonType": "int",
+            "minimum": 0
+          },
+          "initial_questions": {
+            "bsonType": "int",
+            "minimum": 0
+          }
+        }
+      }
+    },
+    "question_grants": {
+      "$jsonSchema": {
+        "bsonType": "object",
+        "required": [
+          "_id",
+          "schema_version",
+          "template_id",
+          "version_id",
+          "owner_id",
+          "grantee_id",
+          "active",
+          "revision",
+          "created_at",
+          "updated_at"
+        ],
+        "properties": {
+          "_id": {
+            "bsonType": "string"
+          },
+          "schema_version": {
+            "enum": [
+              1
+            ]
+          },
+          "template_id": {
+            "bsonType": "string"
+          },
+          "version_id": {
+            "bsonType": "string"
+          },
+          "owner_id": {
+            "bsonType": "string"
+          },
+          "grantee_id": {
+            "bsonType": "string"
+          },
+          "active": {
+            "bsonType": "bool"
+          },
+          "revision": {
+            "bsonType": "int",
+            "minimum": 1
+          },
+          "created_at": {
+            "bsonType": "date"
+          },
+          "updated_at": {
+            "bsonType": "date"
+          }
+        }
+      }
+    },
+    "question_banks": {
+      "$jsonSchema": {
+        "bsonType": "object",
+        "required": [
+          "_id",
+          "schema_version",
+          "owner_id",
+          "name",
+          "created_at"
+        ],
+        "properties": {
+          "_id": {
+            "bsonType": "string"
+          },
+          "schema_version": {
+            "enum": [
+              1
+            ]
+          },
+          "owner_id": {
+            "bsonType": "string"
+          },
+          "name": {
+            "bsonType": "string",
+            "minLength": 1
+          },
+          "created_at": {
+            "bsonType": "date"
+          }
+        }
+      }
+    },
+    "question_bank_memberships": {
+      "$jsonSchema": {
+        "bsonType": "object",
+        "required": [
+          "_id",
+          "schema_version",
+          "bank_id",
+          "template_id",
+          "created_at"
+        ],
+        "properties": {
+          "_id": {
+            "bsonType": "string"
+          },
+          "schema_version": {
+            "enum": [
+              1
+            ]
+          },
+          "bank_id": {
+            "bsonType": "string"
+          },
+          "template_id": {
+            "bsonType": "string"
+          },
+          "created_at": {
+            "bsonType": "date"
+          }
+        }
+      }
+    }
+  },
+  "note": "Base validators; nested business constraints also enforced by Pydantic/domain logic."
+}

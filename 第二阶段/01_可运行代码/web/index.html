@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="zh-CN">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>问卷工作台</title><link rel="stylesheet" href="/static/style.css?v=0.11.0"></head>
+<body>
+<header><span class="brand">问卷工作台</span><a href="/library">我的题库</a><a href="#instructions">操作说明</a></header>
+<main>
+<div id="intro">
+<h1>从一份问卷开始</h1>
+<p class="lead">创建问卷，分享给他人填写，随时查看统计和自己的填写记录。</p></div>
+<p id="message" role="status" aria-live="polite"></p>
+<section id="auth"><h2>登录你的账号</h2><form id="auth-form">
+<label>用户名<input id="username" autocomplete="username" required minlength="3" maxlength="40" pattern="[A-Za-z0-9_]+" placeholder="3–40 位字母、数字或下划线"></label>
+<label>密码<input id="password" autocomplete="current-password" type="password" required minlength="8" maxlength="128" placeholder="至少 8 位"></label>
+<div class="actions"><button type="submit">登录</button><button type="button" id="register" class="secondary">注册账号</button></div>
+</form></section>
+<div id="workspace" hidden><div class="section-head"><h2 id="welcome">我的问卷</h2><button class="secondary" id="logout">退出登录</button></div>
+<nav class="workspace-tabs" aria-label="工作台"><button id="tab-surveys" type="button" class="secondary">我发布的问卷</button><button id="tab-history" type="button" class="secondary">我填写的问卷</button><button id="tab-create" type="button" class="secondary">创建问卷</button></nav>
+<section id="create-panel" hidden><h2>创建问卷草稿</h2><form id="survey-form">
+<label>问卷标题<input id="title" required maxlength="200" placeholder="例如：校园生活体验调查"></label>
+<label>问卷说明<textarea id="description" maxlength="5000" rows="3"></textarea></label>
+<label>截止时间（可选，按本机时区输入）<input type="text" id="deadline" placeholder="yyyy/mm/dd hh:mm" autocomplete="off"></label>
+<div class="checks"><label><input type="checkbox" id="anonymous">允许匿名提交</label><label><input type="checkbox" id="multiple">允许同一账号多次填写</label></div>
+<button type="submit">保存草稿</button></form></section>
+<section id="surveys-panel"><div class="section-head"><h2>我发布的问卷</h2><button class="secondary" id="refresh">刷新</button></div><div id="surveys"></div></section>
+<section id="history-panel" hidden><div class="section-head"><h2>我填写的问卷</h2><button class="secondary" id="history-refresh">刷新记录</button></div><p class="muted">按提交时间显示，包括匿名提交；只有你能查看自己的答案。</p><div id="history-list"></div><button id="history-more" type="button" class="secondary" hidden>加载更多</button></section>
+</div>
+<section id="instructions"><h2>使用说明</h2><ol class="roadmap"><li>在“创建问卷”保存草稿，然后点击问卷卡片的“编辑题目”。</li><li>保存题目后点击“配置跳转规则”，选择来源题目、回答条件和目标题目，再点击“保存跳转规则”。不需要跳题可以不添加规则。</li><li>返回问卷列表点击“发布问卷”，把填写链接发给填写者。</li><li>发布者点击同一张问卷卡片的“查看实时统计”，可选择整份问卷或某一道题。自己的填写页右上角也能直接进入统计。</li><li>填写者登录后打开链接并提交，在“我填写的问卷”回看保存的内容。</li></ol></section>
+</main><footer>问卷工作台</footer><script type="module" src="/static/app.js?v=0.11.0"></script></body></html>
+

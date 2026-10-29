@@ -1,0 +1,12 @@
+<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>题库题目统计</title><link rel="stylesheet" href="/static/style.css?v=0.11.0"></head>
+<body><header><a class="brand" href="/library">我的题库</a><a id="stats-history" href="/library">版本历史</a><a href="/?view=surveys">问卷工作台</a></header>
+<main><h1 id="stats-title">题库题目统计</h1><p class="lead">先按版本分别汇总。只纳入你有权查看结果的问卷，题目共享不会开放他人的答卷。</p>
+<p id="stats-message" role="status" aria-live="polite"></p><a id="stats-login" href="/" hidden>登录后返回统计</a>
+<button id="stats-refresh" type="button" class="secondary">刷新统计</button><p id="stats-time" class="muted"></p>
+<details><summary>查看统计口径</summary><div id="stats-policy"></div></details>
+<h2>各版本分别统计</h2><p class="muted">勾选需要合并的版本。每组答卷数含跳题答卷；跳题不计入题目回答次数、选项次数或平均值。同卷重复题按实例计次，不按匿名身份跨问卷去重。</p>
+<fieldset id="stats-versions" disabled><legend class="sr-only">选择统计版本</legend><div id="version-statistics"></div></fieldset>
+<section id="merge-panel" hidden><h2>合并所选版本</h2><p>选择基准版本。选项ID不同时，逐项明确对应关系；未声明的数字单位需要本次确认，不改写旧版本。不会仅按选项文字合并，也不执行单位换算。</p>
+<form id="merge-form"><fieldset id="merge-fields"><legend class="sr-only">合并配置</legend><label>基准版本<select id="merge-base"></select></label><div id="merge-configuration"></div><button id="merge-run" type="submit">检查并合并统计</button></fieldset></form></section>
+<section id="merge-result" hidden aria-live="polite"></section><section id="unknown-exclusions" hidden></section>
+</main><script type="module" src="/static/library-statistics.js?v=0.11.0"></script></body></html>

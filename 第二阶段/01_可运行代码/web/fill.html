@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="zh-CN">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>填写问卷</title><link rel="stylesheet" href="/static/style.css?v=0.11.0"></head>
+<body><header><a class="brand" href="/?view=surveys">问卷工作台</a><a id="fill-manage" href="/">登录后填写</a></header>
+<main>
+  <p class="eyebrow">填写问卷</p><h1 id="fill-title">正在检查问卷状态</h1>
+  <p id="fill-description" class="lead"></p><p id="fill-deadline" class="muted"></p>
+  <p id="fill-message" role="status" aria-live="polite"></p>
+  <button id="fill-refresh" class="secondary" type="button">重新检查状态</button>
+  <form id="fill-form" hidden novalidate><fieldset id="fill-fields"><section aria-labelledby="question-title">
+    <p id="fill-progress" class="muted"></p><h2 id="question-title" tabindex="-1"></h2>
+    <p id="question-hint" class="muted"></p><div id="question-inputs"></div>
+    <p id="question-error" class="danger" role="alert"></p>
+    <div class="actions"><button id="fill-prev" class="secondary" type="button">上一题</button><button id="fill-next" type="submit">下一步</button></div>
+  </section></fieldset></form>
+  <section id="fill-review" hidden><h2>确认提交</h2><p class="muted">这里只列出实际经过的题目。提交后会收到数据库保存回执。</p>
+    <dl id="review-answers"></dl>
+    <label id="anonymous-label" class="fill-choice" hidden><input id="fill-anonymous" type="checkbox">匿名提交给问卷创建者</label>
+    <div class="actions"><button id="review-back" class="secondary" type="button">返回修改</button><button id="fill-submit" type="button">确认提交</button></div>
+  </section>
+  <section id="fill-success" hidden><h2>提交成功</h2><p id="receipt-message"></p><p id="receipt-time" class="muted"></p><button id="fill-again" type="button" hidden>再填写一份</button><p><a href="/">返回工作台</a></p></section>
+  <p class="muted">填写内容暂存在当前页面内存中，刷新不会恢复未提交内容。网络结果不明时，请先用同一提交重试确认回执。</p>
+</main><script type="module" src="/static/fill.js?v=0.11.0"></script></body></html>

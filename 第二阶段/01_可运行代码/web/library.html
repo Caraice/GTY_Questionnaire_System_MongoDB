@@ -1,0 +1,11 @@
+<!doctype html>
+<html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>我的题库</title><link rel="stylesheet" href="/static/style.css?v=0.11.0"></head>
+<body><header><a class="brand" href="/?view=surveys">问卷工作台</a><a href="/library/new">新建题目</a></header>
+<main><h1>我的题库</h1><p class="lead">题目可以归入多个题库。移出题库只取消归属，题目与历史版本仍保留。</p>
+<p id="library-message" role="status" aria-live="polite"></p><p id="login-link" hidden><a href="/?return=%2Flibrary">先登录，再管理题库</a></p>
+<fieldset id="library-fields" disabled><legend class="sr-only">题库管理</legend>
+<section><h2>创建题库</h2><form id="bank-form"><label>题库名称<input id="bank-name" required maxlength="200"></label><button>创建题库</button></form></section>
+<section><div class="section-head"><h2>题目与归属</h2><a href="/library/new">＋ 新建题目（四种题型）</a></div>
+<label>查看题库<select id="bank-filter" aria-label="查看题库"></select></label><button id="library-refresh" class="secondary" type="button">刷新</button>
+<p class="muted">“全部题目”包括未加入任何题库的题目。已有的迁移题目也可加入题库。问卷编辑页可从题库选择版本导入。</p>
+<div id="library-questions"></div></section></fieldset></main><script type="module" src="/static/library.js?v=0.11.0"></script></body></html>

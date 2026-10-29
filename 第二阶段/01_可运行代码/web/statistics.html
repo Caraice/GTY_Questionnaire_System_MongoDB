@@ -1,0 +1,9 @@
+<!doctype html>
+<html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>问卷实时统计</title><link rel="stylesheet" href="/static/style.css?v=0.11.0"></head>
+<body><header><a class="brand" href="/?view=surveys">问卷工作台</a><a href="/?view=history">我的填写记录</a></header>
+<main><p class="eyebrow">实时统计</p><h1 id="page-title">正在加载问卷</h1><p id="survey-description" class="lead"></p>
+<p id="page-message" role="status" aria-live="polite"></p><a id="page-login" href="/" hidden>登录后返回此页</a>
+<section id="statistics-controls" hidden><div class="section-head"><h2>答卷汇总</h2><button id="statistics-refresh" class="secondary" type="button">刷新统计</button></div>
+<p id="statistics-total" class="stat-total"></p><p id="statistics-time" class="muted"></p>
+<label>统计范围<select id="question-filter"><option value="">整份问卷</option></select></label><a id="survey-fill-link" href="/">打开填写链接</a></section>
+<div id="statistics-results"></div></main><footer>统计会每 10 秒更新，也可以手动刷新。</footer><script type="module" src="/static/statistics.js?v=0.11.0"></script></body></html>

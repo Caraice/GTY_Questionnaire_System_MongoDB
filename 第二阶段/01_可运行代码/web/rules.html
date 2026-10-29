@@ -1,0 +1,11 @@
+<!doctype html>
+<html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>配置跳转规则</title><link rel="stylesheet" href="/static/style.css?v=0.11.0"></head>
+<body><header><a class="brand" href="/?view=surveys">问卷工作台</a><a id="rules-edit-link" href="/">返回编辑题目</a></header>
+<main><p class="eyebrow">问卷设计</p><h1 id="rules-title">正在读取问卷</h1>
+<p class="lead">选择“哪道题、什么回答、跳到哪里”，保存后发布问卷。没有匹配规则时按题目顺序继续；同一题多条规则同时满足时，排在上面的先执行。</p>
+<p id="rules-message" role="status" aria-live="polite"></p><a id="rules-login" href="/" hidden>登录后返回此页</a>
+<p id="rules-conflict" class="conflict" hidden>问卷已被其他窗口修改或发布。本地规则仍保留，请复制需要保留的内容，再重新加载；不会自动覆盖。</p>
+<div class="editor-toolbar"><strong id="rules-state">加载中</strong><div class="actions"><button id="rules-reload" type="button" class="secondary">重新加载</button><button id="rules-save" type="button">保存跳转规则</button><a href="/?view=surveys">返回问卷列表</a></div></div>
+<form id="rules-form" novalidate><fieldset id="rules-fields" disabled><legend class="sr-only">跳转规则</legend><div id="rules-list"></div><button id="rules-add" type="button" class="secondary">添加跳转规则</button></fieldset></form>
+<p class="muted">只允许跳到后面的题目或结束填写。发布后规则只读；被跳过的必答题不需要回答。文本比较区分大小写，忽略答案及条件两端空白。</p>
+</main><footer>保存规则后，回到问卷列表点击发布。</footer><script type="module" src="/static/rules.js?v=0.11.0"></script></body></html>

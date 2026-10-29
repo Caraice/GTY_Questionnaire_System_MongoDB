@@ -1,0 +1,514 @@
+{
+  "generated_from": "Actual initialization in isolated database, no business documents exported",
+  "collections": {
+    "app_settings": {
+      "_id_": {
+        "v": 2,
+        "key": [
+          [
+            "_id",
+            1
+          ]
+        ]
+      }
+    },
+    "question_bank_memberships": {
+      "_id_": {
+        "v": 2,
+        "key": [
+          [
+            "_id",
+            1
+          ]
+        ]
+      },
+      "bank_template_unique": {
+        "v": 2,
+        "key": [
+          [
+            "bank_id",
+            1
+          ],
+          [
+            "template_id",
+            1
+          ]
+        ],
+        "unique": true
+      },
+      "template_banks": {
+        "v": 2,
+        "key": [
+          [
+            "template_id",
+            1
+          ],
+          [
+            "bank_id",
+            1
+          ]
+        ]
+      }
+    },
+    "question_banks": {
+      "_id_": {
+        "v": 2,
+        "key": [
+          [
+            "_id",
+            1
+          ]
+        ]
+      },
+      "bank_owner_list": {
+        "v": 2,
+        "key": [
+          [
+            "owner_id",
+            1
+          ],
+          [
+            "created_at",
+            -1
+          ]
+        ]
+      },
+      "bank_owner_page": {
+        "v": 2,
+        "key": [
+          [
+            "owner_id",
+            1
+          ],
+          [
+            "created_at",
+            -1
+          ],
+          [
+            "_id",
+            1
+          ]
+        ]
+      }
+    },
+    "question_grants": {
+      "_id_": {
+        "v": 2,
+        "key": [
+          [
+            "_id",
+            1
+          ]
+        ]
+      },
+      "version_grantee_unique": {
+        "v": 2,
+        "key": [
+          [
+            "version_id",
+            1
+          ],
+          [
+            "grantee_id",
+            1
+          ]
+        ],
+        "unique": true
+      },
+      "received_versions": {
+        "v": 2,
+        "key": [
+          [
+            "grantee_id",
+            1
+          ],
+          [
+            "active",
+            1
+          ],
+          [
+            "template_id",
+            1
+          ]
+        ]
+      }
+    },
+    "question_templates": {
+      "_id_": {
+        "v": 2,
+        "key": [
+          [
+            "_id",
+            1
+          ]
+        ]
+      },
+      "template_owner_list": {
+        "v": 2,
+        "key": [
+          [
+            "owner_id",
+            1
+          ],
+          [
+            "updated_at",
+            -1
+          ],
+          [
+            "_id",
+            -1
+          ]
+        ]
+      },
+      "legacy_template_origin": {
+        "v": 2,
+        "key": [
+          [
+            "origin.migration",
+            1
+          ],
+          [
+            "origin.survey_id",
+            1
+          ],
+          [
+            "origin.instance_id",
+            1
+          ]
+        ],
+        "unique": true,
+        "partialFilterExpression": {
+          "origin.migration": "002_question_library"
+        }
+      },
+      "owned_question_page": {
+        "v": 2,
+        "key": [
+          [
+            "owner_id",
+            1
+          ],
+          [
+            "updated_at",
+            -1
+          ],
+          [
+            "_id",
+            1
+          ]
+        ]
+      }
+    },
+    "question_usages": {
+      "_id_": {
+        "v": 2,
+        "key": [
+          [
+            "_id",
+            1
+          ]
+        ]
+      },
+      "survey_question_instance": {
+        "v": 2,
+        "key": [
+          [
+            "survey_id",
+            1
+          ],
+          [
+            "instance_id",
+            1
+          ]
+        ],
+        "unique": true
+      },
+      "version_usage": {
+        "v": 2,
+        "key": [
+          [
+            "template_version_id",
+            1
+          ],
+          [
+            "survey_id",
+            1
+          ]
+        ]
+      },
+      "template_usage": {
+        "v": 2,
+        "key": [
+          [
+            "template_id",
+            1
+          ],
+          [
+            "survey_id",
+            1
+          ]
+        ]
+      }
+    },
+    "question_versions": {
+      "_id_": {
+        "v": 2,
+        "key": [
+          [
+            "_id",
+            1
+          ]
+        ]
+      },
+      "template_version_number": {
+        "v": 2,
+        "key": [
+          [
+            "template_id",
+            1
+          ],
+          [
+            "number",
+            1
+          ]
+        ],
+        "unique": true
+      },
+      "version_parent": {
+        "v": 2,
+        "key": [
+          [
+            "parent_version_id",
+            1
+          ]
+        ]
+      },
+      "version_derivation": {
+        "v": 2,
+        "key": [
+          [
+            "derived_from_version_id",
+            1
+          ]
+        ]
+      }
+    },
+    "responses": {
+      "_id_": {
+        "v": 2,
+        "key": [
+          [
+            "_id",
+            1
+          ]
+        ]
+      },
+      "response_stats": {
+        "v": 2,
+        "key": [
+          [
+            "survey_id",
+            1
+          ],
+          [
+            "submitted_at",
+            -1
+          ]
+        ]
+      },
+      "versioned_statistics": {
+        "v": 2,
+        "key": [
+          [
+            "survey_id",
+            1
+          ],
+          [
+            "survey_version",
+            1
+          ],
+          [
+            "submitted_at",
+            1
+          ],
+          [
+            "_id",
+            1
+          ]
+        ]
+      },
+      "attempt_unique": {
+        "v": 2,
+        "key": [
+          [
+            "survey_id",
+            1
+          ],
+          [
+            "respondent_key",
+            1
+          ],
+          [
+            "attempt_key",
+            1
+          ]
+        ],
+        "unique": true
+      },
+      "submission_idempotency": {
+        "v": 2,
+        "key": [
+          [
+            "survey_id",
+            1
+          ],
+          [
+            "respondent_key",
+            1
+          ],
+          [
+            "submission_key",
+            1
+          ]
+        ],
+        "unique": true
+      }
+    },
+    "schema_migrations": {
+      "_id_": {
+        "v": 2,
+        "key": [
+          [
+            "_id",
+            1
+          ]
+        ]
+      }
+    },
+    "sessions": {
+      "_id_": {
+        "v": 2,
+        "key": [
+          [
+            "_id",
+            1
+          ]
+        ]
+      },
+      "token_unique": {
+        "v": 2,
+        "key": [
+          [
+            "token_hash",
+            1
+          ]
+        ],
+        "unique": true
+      },
+      "session_ttl": {
+        "v": 2,
+        "key": [
+          [
+            "expires_at",
+            1
+          ]
+        ],
+        "expireAfterSeconds": 0
+      }
+    },
+    "surveys": {
+      "_id_": {
+        "v": 2,
+        "key": [
+          [
+            "_id",
+            1
+          ]
+        ]
+      },
+      "share_unique": {
+        "v": 2,
+        "key": [
+          [
+            "share_id",
+            1
+          ]
+        ],
+        "unique": true
+      },
+      "owner_list": {
+        "v": 2,
+        "key": [
+          [
+            "owner_id",
+            1
+          ],
+          [
+            "created_at",
+            -1
+          ]
+        ]
+      },
+      "imported_version_usage": {
+        "v": 2,
+        "key": [
+          [
+            "question_sources.template_version_id",
+            1
+          ]
+        ]
+      },
+      "owned_version_usage": {
+        "v": 2,
+        "key": [
+          [
+            "owner_id",
+            1
+          ],
+          [
+            "question_sources.template_version_id",
+            1
+          ],
+          [
+            "_id",
+            1
+          ]
+        ]
+      },
+      "owned_template_usage": {
+        "v": 2,
+        "key": [
+          [
+            "owner_id",
+            1
+          ],
+          [
+            "question_sources.template_id",
+            1
+          ]
+        ]
+      }
+    },
+    "users": {
+      "_id_": {
+        "v": 2,
+        "key": [
+          [
+            "_id",
+            1
+          ]
+        ]
+      },
+      "username_unique": {
+        "v": 2,
+        "key": [
+          [
+            "username",
+            1
+          ]
+        ],
+        "unique": true
+      }
+    }
+  }
+}

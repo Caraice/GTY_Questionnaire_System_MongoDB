@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="zh-CN">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>编辑问卷题目</title><link rel="stylesheet" href="/static/style.css?v=0.11.0"></head>
+<body>
+<header><a class="brand" id="back" href="/?view=surveys">问卷工作台</a><a id="configure-rules" href="/">配置跳转规则</a></header>
+<main>
+<p class="eyebrow">问卷设计 · 题目编辑</p>
+<h1 id="survey-title">正在加载问卷</h1>
+<p class="lead">添加题目并设置选项和限制。使用上移、下移调整顺序，完成后点击保存。排序和改写内容会保留原有题目及选项 ID。</p>
+<p id="editor-message" role="status" aria-live="polite"></p>
+<div id="conflict" class="conflict" role="alert" hidden>其他窗口已修改这份问卷，本地编辑仍保留。请先复制需要保留的内容，再重新加载最新版本；不会自动覆盖。</div>
+<form id="editor-form">
+<fieldset id="editor-fields" disabled>
+<legend class="sr-only">问卷题目</legend>
+<div class="editor-toolbar"><div><strong id="editor-state">加载中</strong><p class="muted" id="editor-count"></p></div><div class="actions"><button type="button" id="reload" class="secondary">重新加载</button><button type="submit" id="save">保存题目</button></div></div>
+<div class="add-types" role="group" aria-label="添加题目"><button type="button" data-add="single" class="secondary">＋ 单选题</button><button type="button" data-add="multiple" class="secondary">＋ 多选题</button><button type="button" data-add="text" class="secondary">＋ 文本填空</button><button type="button" data-add="number" class="secondary">＋ 数字填空</button></div>
+<div id="question-list"></div>
+</fieldset>
+</form>
+<section id="bank-picker" hidden><h2>从题库添加</h2><p>先保存问卷中的修改，再选择具体版本。每次添加都会立即保存为一道独立题目。</p>
+<fieldset id="picker-fields"><legend class="sr-only">选择题库版本</legend>
+<label>题库<select id="picker-bank"></select></label><label>题目<select id="picker-question"></select></label>
+<label>内容版本<select id="picker-version"></select></label><pre id="picker-preview" class="library-preview"></pre>
+<button type="button" id="picker-import">添加所选版本到问卷</button><button type="button" id="picker-close" class="secondary">收起</button>
+<p><a href="/library" target="_blank" rel="noopener">打开题库管理</a></p></fieldset></section>
+<p class="muted">保存后返回工作台发布问卷。发布后题目定义将被冻结。</p>
+<p><a href="/" id="return-home">返回工作台</a></p>
+</main>
+<script type="module" src="/static/editor.js?v=0.11.0"></script>
+</body></html>
