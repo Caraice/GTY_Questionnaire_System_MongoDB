@@ -1,0 +1,52 @@
+{
+  "date": "2026-10-29",
+  "application_version": "0.11.0",
+  "python": {
+    "tests": 409,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0
+  },
+  "python_seconds": 131.31,
+  "test_class_counts": {
+    "tests.test_api": 4,
+    "tests.test_history_api": 14,
+    "tests.test_library_api": 23,
+    "tests.test_library_pages": 13,
+    "tests.test_library_statistics": 35,
+    "tests.test_library_versions": 16,
+    "tests.test_lifecycle": 22,
+    "tests.test_models": 17,
+    "tests.test_phase2_journey": 4,
+    "tests.test_question_api": 13,
+    "tests.test_question_migration": 33,
+    "tests.test_response_api": 30,
+    "tests.test_routing": 27,
+    "tests.test_rule_validation": 38,
+    "tests.test_rules_ui_api": 9,
+    "tests.test_statistics": 10,
+    "tests.test_validation": 99,
+    "tests.test_version_diff": 2
+  },
+  "node": {
+    "passed": 25,
+    "failed": 0,
+    "skipped": 0,
+    "duration_ms": 111.7971
+  },
+  "syntax_checked_files": 17,
+  "report_pages": 4,
+  "renderer": "Standard renderer unavailable (missing LibreOffice); Word16 read-only PDF export + PDFium PNGs inspected",
+  "browser": "Library/bank page2, history 25 versions, reference 22 instances, text101 page2 verified; no errors captured",
+  "journey": "4 question types through A share, B frozen submission, A v2, B explicit upgrade, A restore, revoke and denied new import; BSON unchanged",
+  "startup_check": "passed against isolated demonstration DB",
+  "business_databases_cleared": false,
+  "not_claimed": [
+    "teacher acceptance",
+    "personal independent code edits/review",
+    "new machine installation",
+    "large concurrent load",
+    "formal data restoration",
+    "second-stage four-folder submission package"
+  ]
+}

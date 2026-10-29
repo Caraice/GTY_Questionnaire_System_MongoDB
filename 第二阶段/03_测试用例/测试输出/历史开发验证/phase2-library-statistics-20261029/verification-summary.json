@@ -1,0 +1,63 @@
+{
+  "date": "2026-10-29",
+  "timezone": "Asia/Shanghai",
+  "application_version": "0.10.0",
+  "python": {
+    "tests": 392,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0
+  },
+  "python_console_seconds": 130.5,
+  "per_file": {
+    "tests.test_api": 4,
+    "tests.test_history_api": 14,
+    "tests.test_library_api": 23,
+    "tests.test_library_statistics": 35,
+    "tests.test_library_versions": 16,
+    "tests.test_lifecycle": 22,
+    "tests.test_models": 17,
+    "tests.test_question_api": 13,
+    "tests.test_question_migration": 33,
+    "tests.test_response_api": 30,
+    "tests.test_routing": 27,
+    "tests.test_rule_validation": 38,
+    "tests.test_rules_ui_api": 9,
+    "tests.test_statistics": 10,
+    "tests.test_validation": 99,
+    "tests.test_version_diff": 2
+  },
+  "new_python_tests": 35,
+  "node": {
+    "tests": 25,
+    "failures": 0,
+    "skipped": 0,
+    "duration_ms": 116.1747,
+    "new_tests": 4
+  },
+  "mongo": "8.0.17; isolated 27021; retained per-test databases",
+  "ui_database": "survey_library_statistics_ui_20261029",
+  "warning": "One existing Starlette/httpx deprecation warning",
+  "startup_check": "scripts/start.ps1 -CheckOnly passed against isolated demonstration database",
+  "browser": [
+    "login returns to statistics",
+    "library button",
+    "separate versions",
+    "numeric merge 3/3/5 mean5.4",
+    "unit mismatch excluded",
+    "draft and local change reasons",
+    "same labels different IDs blocked",
+    "explicit choice mapping 1/1/2 a1b1",
+    "legacy unit confirmations mean5",
+    "recipient only own survey mean9",
+    "numeric unit editor displays g"
+  ],
+  "browser_console_errors": 0,
+  "formal_database_migrated": false,
+  "first_stage_unchanged": true,
+  "not_verified": [
+    "fresh-computer installation",
+    "large load",
+    "formal database restore"
+  ]
+}

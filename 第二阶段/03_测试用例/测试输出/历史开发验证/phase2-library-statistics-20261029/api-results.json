@@ -1,0 +1,959 @@
+{
+  "numeric_separate": {
+    "template_id": "1c98d0dd-794d-4a3d-8337-c621eb513ffc",
+    "policy": {
+      "permission": "只统计当前账号拥有结果查看权限的问卷；题目共享不授予他人的答卷权限，不展示其问卷信息或数量。",
+      "survey_count": "已发布或关闭且含合规引用的问卷数，包括尚无答卷的问卷；草稿排除。",
+      "response_count": "参与问卷当前冻结定义下的答卷总数，含跳题答卷；每份答卷在本组统计中只计一次。",
+      "answer_count": "实际路径中符合来源版本限制的实例回答次数；重复题分别计数，跳题、空白和非法历史答案不计。",
+      "identity": "不按账号、匿名标识或跨问卷人员身份去重；统计回答次数，不声称独立人数。",
+      "local_changes": "与来源版本内容不一致的本地修改实例排除，不把它冒充该版本的回答。",
+      "limits": "回答按各自原版本的题型与限制校验，合并不套用基准版本的长度、数量或数值限制。"
+    },
+    "versions": [
+      {
+        "id": "93b01854-86ae-49fc-899e-43af4eb1e62f",
+        "number": 3,
+        "content": {
+          "title": "重量（克）",
+          "required": true,
+          "type": "number",
+          "validation": {
+            "minimum": 0.0,
+            "maximum": 10.0,
+            "integer_only": true
+          },
+          "unit": "g"
+        },
+        "definition_errors": [],
+        "metrics": {
+          "survey_count": 0,
+          "response_count": 0,
+          "answer_count": 0,
+          "type": "number",
+          "excluded_answer_counts": [],
+          "values": [],
+          "values_limit": 100,
+          "values_truncated": false,
+          "average": null
+        },
+        "included_instances": [],
+        "excluded_instances": []
+      },
+      {
+        "id": "64c4333c-0063-4406-a6ed-6dd4e208d54c",
+        "number": 2,
+        "content": {
+          "title": "重量（修订范围）",
+          "required": true,
+          "type": "number",
+          "validation": {
+            "minimum": 0.0,
+            "maximum": 20.0,
+            "integer_only": true
+          },
+          "unit": "kg"
+        },
+        "definition_errors": [],
+        "metrics": {
+          "survey_count": 1,
+          "response_count": 2,
+          "answer_count": 1,
+          "type": "number",
+          "excluded_answer_counts": [
+            {
+              "reason": "实际路径跳过",
+              "count": 1
+            }
+          ],
+          "values": [
+            15
+          ],
+          "values_limit": 100,
+          "values_truncated": false,
+          "average": 15.0
+        },
+        "included_instances": [
+          {
+            "survey_id": "f3c0072e-04ec-42b7-a733-1c7651947e1b",
+            "title": "重量调查 A",
+            "status": "published",
+            "availability": "open",
+            "instance_id": "ad48dc83-b75e-435f-b447-a1d47ebb3d3f",
+            "question_number": 3,
+            "version_id": "64c4333c-0063-4406-a6ed-6dd4e208d54c",
+            "version_number": 2,
+            "survey_version": 6
+          }
+        ],
+        "excluded_instances": []
+      },
+      {
+        "id": "07a745a6-c916-4447-a898-6f1c9e8482d8",
+        "number": 1,
+        "content": {
+          "title": "重量",
+          "required": true,
+          "type": "number",
+          "validation": {
+            "minimum": 0.0,
+            "maximum": 10.0,
+            "integer_only": true
+          },
+          "unit": "kg"
+        },
+        "definition_errors": [],
+        "metrics": {
+          "survey_count": 3,
+          "response_count": 3,
+          "answer_count": 4,
+          "type": "number",
+          "excluded_answer_counts": [
+            {
+              "reason": "实际路径跳过",
+              "count": 1
+            }
+          ],
+          "values": [
+            6,
+            0,
+            2,
+            4
+          ],
+          "values_limit": 100,
+          "values_truncated": false,
+          "average": 3.0
+        },
+        "included_instances": [
+          {
+            "survey_id": "f3c0072e-04ec-42b7-a733-1c7651947e1b",
+            "title": "重量调查 A",
+            "status": "published",
+            "availability": "open",
+            "instance_id": "c8e75cf0-ba69-454f-b78e-06e2c0c860f9",
+            "question_number": 1,
+            "version_id": "07a745a6-c916-4447-a898-6f1c9e8482d8",
+            "version_number": 1,
+            "survey_version": 6
+          },
+          {
+            "survey_id": "f3c0072e-04ec-42b7-a733-1c7651947e1b",
+            "title": "重量调查 A",
+            "status": "published",
+            "availability": "open",
+            "instance_id": "6eab88e0-efb5-47ca-b821-df159155205a",
+            "question_number": 2,
+            "version_id": "07a745a6-c916-4447-a898-6f1c9e8482d8",
+            "version_number": 1,
+            "survey_version": 6
+          },
+          {
+            "survey_id": "7cb0d786-792f-4070-ab99-bd7fa9337e72",
+            "title": "重量调查 B（已关闭）",
+            "status": "closed",
+            "availability": "closed",
+            "instance_id": "e88100c9-6cc6-40e0-afa0-be9b970bfbef",
+            "question_number": 1,
+            "version_id": "07a745a6-c916-4447-a898-6f1c9e8482d8",
+            "version_number": 1,
+            "survey_version": 3
+          },
+          {
+            "survey_id": "170efefe-2b17-4e89-a238-524de3a2e1b3",
+            "title": "重量调查 C（暂无答卷）",
+            "status": "published",
+            "availability": "open",
+            "instance_id": "2a56ba60-0b74-4904-b9c8-e5d9bab2a9ab",
+            "question_number": 1,
+            "version_id": "07a745a6-c916-4447-a898-6f1c9e8482d8",
+            "version_number": 1,
+            "survey_version": 3
+          }
+        ],
+        "excluded_instances": [
+          {
+            "survey_id": "c3a34359-a7a8-4911-819a-d92e410d16bf",
+            "title": "重量调查 D（草稿不统计）",
+            "status": "draft",
+            "availability": "draft",
+            "instance_id": "c49d5dcf-9a51-45e5-b8aa-10991f8added",
+            "question_number": 1,
+            "version_id": "07a745a6-c916-4447-a898-6f1c9e8482d8",
+            "version_number": 1,
+            "reasons": [
+              "草稿问卷尚未发布"
+            ]
+          },
+          {
+            "survey_id": "3e1fa953-0a1b-4cdc-b860-b464aad7906d",
+            "title": "重量调查 E（本地修改）",
+            "status": "published",
+            "availability": "open",
+            "instance_id": "e2cfd7fc-9bb6-487f-b640-7259242b9a72",
+            "question_number": 1,
+            "version_id": "07a745a6-c916-4447-a898-6f1c9e8482d8",
+            "version_number": 1,
+            "reasons": [
+              "问卷内题目已本地修改，与来源版本不一致"
+            ]
+          }
+        ]
+      }
+    ],
+    "source_history_available": true,
+    "excluded_instances": [
+      {
+        "survey_id": "c3a34359-a7a8-4911-819a-d92e410d16bf",
+        "title": "重量调查 D（草稿不统计）",
+        "status": "draft",
+        "availability": "draft",
+        "instance_id": "c49d5dcf-9a51-45e5-b8aa-10991f8added",
+        "question_number": 1,
+        "version_id": "07a745a6-c916-4447-a898-6f1c9e8482d8",
+        "version_number": 1,
+        "reasons": [
+          "草稿问卷尚未发布"
+        ]
+      },
+      {
+        "survey_id": "3e1fa953-0a1b-4cdc-b860-b464aad7906d",
+        "title": "重量调查 E（本地修改）",
+        "status": "published",
+        "availability": "open",
+        "instance_id": "e2cfd7fc-9bb6-487f-b640-7259242b9a72",
+        "question_number": 1,
+        "version_id": "07a745a6-c916-4447-a898-6f1c9e8482d8",
+        "version_number": 1,
+        "reasons": [
+          "问卷内题目已本地修改，与来源版本不一致"
+        ]
+      }
+    ],
+    "generated_at": "2026-10-29T04:55:33.264830+00:00"
+  },
+  "numeric_merged": {
+    "template_id": "1c98d0dd-794d-4a3d-8337-c621eb513ffc",
+    "policy": {
+      "permission": "只统计当前账号拥有结果查看权限的问卷；题目共享不授予他人的答卷权限，不展示其问卷信息或数量。",
+      "survey_count": "已发布或关闭且含合规引用的问卷数，包括尚无答卷的问卷；草稿排除。",
+      "response_count": "参与问卷当前冻结定义下的答卷总数，含跳题答卷；每份答卷在本组统计中只计一次。",
+      "answer_count": "实际路径中符合来源版本限制的实例回答次数；重复题分别计数，跳题、空白和非法历史答案不计。",
+      "identity": "不按账号、匿名标识或跨问卷人员身份去重；统计回答次数，不声称独立人数。",
+      "local_changes": "与来源版本内容不一致的本地修改实例排除，不把它冒充该版本的回答。",
+      "limits": "回答按各自原版本的题型与限制校验，合并不套用基准版本的长度、数量或数值限制。"
+    },
+    "base_version_id": "07a745a6-c916-4447-a898-6f1c9e8482d8",
+    "performed": true,
+    "message": "已按下列版本与明确配置合并",
+    "included_versions": [
+      {
+        "id": "07a745a6-c916-4447-a898-6f1c9e8482d8",
+        "number": 1,
+        "content": {
+          "title": "重量",
+          "required": true,
+          "type": "number",
+          "validation": {
+            "minimum": 0.0,
+            "maximum": 10.0,
+            "integer_only": true
+          },
+          "unit": "kg"
+        },
+        "reasons": [],
+        "warnings": [],
+        "mapping": null,
+        "unit": "kg",
+        "unit_source": "版本声明"
+      },
+      {
+        "id": "64c4333c-0063-4406-a6ed-6dd4e208d54c",
+        "number": 2,
+        "content": {
+          "title": "重量（修订范围）",
+          "required": true,
+          "type": "number",
+          "validation": {
+            "minimum": 0.0,
+            "maximum": 20.0,
+            "integer_only": true
+          },
+          "unit": "kg"
+        },
+        "reasons": [],
+        "warnings": [],
+        "mapping": null,
+        "unit": "kg",
+        "unit_source": "版本声明"
+      }
+    ],
+    "excluded_versions": [
+      {
+        "id": "93b01854-86ae-49fc-899e-43af4eb1e62f",
+        "number": 3,
+        "content": {
+          "title": "重量（克）",
+          "required": true,
+          "type": "number",
+          "validation": {
+            "minimum": 0.0,
+            "maximum": 10.0,
+            "integer_only": true
+          },
+          "unit": "g"
+        },
+        "reasons": [
+          "计量单位不一致：g 与 kg；本次不执行单位换算"
+        ],
+        "warnings": [],
+        "mapping": null,
+        "unit": "g",
+        "unit_source": "版本声明"
+      }
+    ],
+    "included_instances": [
+      {
+        "survey_id": "f3c0072e-04ec-42b7-a733-1c7651947e1b",
+        "title": "重量调查 A",
+        "status": "published",
+        "availability": "open",
+        "instance_id": "c8e75cf0-ba69-454f-b78e-06e2c0c860f9",
+        "question_number": 1,
+        "version_id": "07a745a6-c916-4447-a898-6f1c9e8482d8",
+        "version_number": 1,
+        "survey_version": 6
+      },
+      {
+        "survey_id": "f3c0072e-04ec-42b7-a733-1c7651947e1b",
+        "title": "重量调查 A",
+        "status": "published",
+        "availability": "open",
+        "instance_id": "6eab88e0-efb5-47ca-b821-df159155205a",
+        "question_number": 2,
+        "version_id": "07a745a6-c916-4447-a898-6f1c9e8482d8",
+        "version_number": 1,
+        "survey_version": 6
+      },
+      {
+        "survey_id": "f3c0072e-04ec-42b7-a733-1c7651947e1b",
+        "title": "重量调查 A",
+        "status": "published",
+        "availability": "open",
+        "instance_id": "ad48dc83-b75e-435f-b447-a1d47ebb3d3f",
+        "question_number": 3,
+        "version_id": "64c4333c-0063-4406-a6ed-6dd4e208d54c",
+        "version_number": 2,
+        "survey_version": 6
+      },
+      {
+        "survey_id": "7cb0d786-792f-4070-ab99-bd7fa9337e72",
+        "title": "重量调查 B（已关闭）",
+        "status": "closed",
+        "availability": "closed",
+        "instance_id": "e88100c9-6cc6-40e0-afa0-be9b970bfbef",
+        "question_number": 1,
+        "version_id": "07a745a6-c916-4447-a898-6f1c9e8482d8",
+        "version_number": 1,
+        "survey_version": 3
+      },
+      {
+        "survey_id": "170efefe-2b17-4e89-a238-524de3a2e1b3",
+        "title": "重量调查 C（暂无答卷）",
+        "status": "published",
+        "availability": "open",
+        "instance_id": "2a56ba60-0b74-4904-b9c8-e5d9bab2a9ab",
+        "question_number": 1,
+        "version_id": "07a745a6-c916-4447-a898-6f1c9e8482d8",
+        "version_number": 1,
+        "survey_version": 3
+      }
+    ],
+    "excluded_instances": [
+      {
+        "survey_id": "c3a34359-a7a8-4911-819a-d92e410d16bf",
+        "title": "重量调查 D（草稿不统计）",
+        "status": "draft",
+        "availability": "draft",
+        "instance_id": "c49d5dcf-9a51-45e5-b8aa-10991f8added",
+        "question_number": 1,
+        "version_id": "07a745a6-c916-4447-a898-6f1c9e8482d8",
+        "version_number": 1,
+        "reasons": [
+          "草稿问卷尚未发布"
+        ]
+      },
+      {
+        "survey_id": "3e1fa953-0a1b-4cdc-b860-b464aad7906d",
+        "title": "重量调查 E（本地修改）",
+        "status": "published",
+        "availability": "open",
+        "instance_id": "e2cfd7fc-9bb6-487f-b640-7259242b9a72",
+        "question_number": 1,
+        "version_id": "07a745a6-c916-4447-a898-6f1c9e8482d8",
+        "version_number": 1,
+        "reasons": [
+          "问卷内题目已本地修改，与来源版本不一致"
+        ]
+      }
+    ],
+    "metrics": {
+      "survey_count": 3,
+      "response_count": 3,
+      "answer_count": 5,
+      "type": "number",
+      "excluded_answer_counts": [
+        {
+          "reason": "实际路径跳过",
+          "count": 2
+        }
+      ],
+      "values": [
+        6,
+        0,
+        2,
+        15,
+        4
+      ],
+      "values_limit": 100,
+      "values_truncated": false,
+      "average": 5.4
+    },
+    "unit": "kg",
+    "configuration": {
+      "version_ids": [
+        "07a745a6-c916-4447-a898-6f1c9e8482d8",
+        "64c4333c-0063-4406-a6ed-6dd4e208d54c",
+        "93b01854-86ae-49fc-899e-43af4eb1e62f"
+      ],
+      "base_version_id": "07a745a6-c916-4447-a898-6f1c9e8482d8",
+      "option_mappings": {},
+      "unit_confirmations": {}
+    },
+    "generated_at": "2026-10-29T04:55:33.293201+00:00"
+  },
+  "recipient": {
+    "template_id": "1c98d0dd-794d-4a3d-8337-c621eb513ffc",
+    "policy": {
+      "permission": "只统计当前账号拥有结果查看权限的问卷；题目共享不授予他人的答卷权限，不展示其问卷信息或数量。",
+      "survey_count": "已发布或关闭且含合规引用的问卷数，包括尚无答卷的问卷；草稿排除。",
+      "response_count": "参与问卷当前冻结定义下的答卷总数，含跳题答卷；每份答卷在本组统计中只计一次。",
+      "answer_count": "实际路径中符合来源版本限制的实例回答次数；重复题分别计数，跳题、空白和非法历史答案不计。",
+      "identity": "不按账号、匿名标识或跨问卷人员身份去重；统计回答次数，不声称独立人数。",
+      "local_changes": "与来源版本内容不一致的本地修改实例排除，不把它冒充该版本的回答。",
+      "limits": "回答按各自原版本的题型与限制校验，合并不套用基准版本的长度、数量或数值限制。"
+    },
+    "versions": [
+      {
+        "id": "07a745a6-c916-4447-a898-6f1c9e8482d8",
+        "number": 1,
+        "content": {
+          "title": "重量",
+          "required": true,
+          "type": "number",
+          "validation": {
+            "minimum": 0.0,
+            "maximum": 10.0,
+            "integer_only": true
+          },
+          "unit": "kg"
+        },
+        "definition_errors": [],
+        "metrics": {
+          "survey_count": 1,
+          "response_count": 1,
+          "answer_count": 1,
+          "type": "number",
+          "excluded_answer_counts": [],
+          "values": [
+            9
+          ],
+          "values_limit": 100,
+          "values_truncated": false,
+          "average": 9.0
+        },
+        "included_instances": [
+          {
+            "survey_id": "8aa6f869-0ba0-4d90-ac01-025ed71a125b",
+            "title": "接收方私有调查，不向原作者开放",
+            "status": "published",
+            "availability": "open",
+            "instance_id": "18ea2972-c666-407e-a094-836637a74e44",
+            "question_number": 1,
+            "version_id": "07a745a6-c916-4447-a898-6f1c9e8482d8",
+            "version_number": 1,
+            "survey_version": 3
+          }
+        ],
+        "excluded_instances": []
+      }
+    ],
+    "source_history_available": true,
+    "excluded_instances": [],
+    "generated_at": "2026-10-29T04:55:33.323677+00:00"
+  },
+  "choice_unmapped": {
+    "template_id": "4fa6b042-ec5f-48ee-acb8-360e2fcc0c63",
+    "policy": {
+      "permission": "只统计当前账号拥有结果查看权限的问卷；题目共享不授予他人的答卷权限，不展示其问卷信息或数量。",
+      "survey_count": "已发布或关闭且含合规引用的问卷数，包括尚无答卷的问卷；草稿排除。",
+      "response_count": "参与问卷当前冻结定义下的答卷总数，含跳题答卷；每份答卷在本组统计中只计一次。",
+      "answer_count": "实际路径中符合来源版本限制的实例回答次数；重复题分别计数，跳题、空白和非法历史答案不计。",
+      "identity": "不按账号、匿名标识或跨问卷人员身份去重；统计回答次数，不声称独立人数。",
+      "local_changes": "与来源版本内容不一致的本地修改实例排除，不把它冒充该版本的回答。",
+      "limits": "回答按各自原版本的题型与限制校验，合并不套用基准版本的长度、数量或数值限制。"
+    },
+    "base_version_id": "0a306b0e-20dc-479a-9f21-36eb61dc094d",
+    "performed": false,
+    "message": "不足两个兼容版本，或基准版本未通过检查，未执行合并",
+    "included_versions": [
+      {
+        "id": "0a306b0e-20dc-479a-9f21-36eb61dc094d",
+        "number": 1,
+        "content": {
+          "title": "颜色偏好",
+          "required": true,
+          "type": "single",
+          "options": [
+            {
+              "id": "a",
+              "label": "黑色"
+            },
+            {
+              "id": "b",
+              "label": "白色"
+            }
+          ],
+          "validation": {
+            "min_choices": null,
+            "max_choices": null,
+            "exact_choices": null
+          }
+        },
+        "reasons": [],
+        "warnings": [],
+        "mapping": {
+          "a": "a",
+          "b": "b"
+        },
+        "unit": null,
+        "unit_source": null
+      }
+    ],
+    "excluded_versions": [
+      {
+        "id": "93ea928a-670b-45b6-9627-590840efac58",
+        "number": 2,
+        "content": {
+          "title": "颜色偏好",
+          "required": true,
+          "type": "single",
+          "options": [
+            {
+              "id": "x",
+              "label": "黑色"
+            },
+            {
+              "id": "y",
+              "label": "白色"
+            }
+          ],
+          "validation": {
+            "min_choices": null,
+            "max_choices": null,
+            "exact_choices": null
+          }
+        },
+        "reasons": [
+          "选项ID集合不同，尚未配置完整映射；相同选项文字不能作为对应依据"
+        ],
+        "warnings": [],
+        "mapping": null,
+        "unit": null,
+        "unit_source": null
+      }
+    ],
+    "included_instances": [],
+    "excluded_instances": [
+      {
+        "survey_id": "bb8c5639-9649-4e29-a604-030a6d6f1a37",
+        "title": "选项映射验收",
+        "status": "published",
+        "availability": "open",
+        "instance_id": "38c51281-a154-4bf3-b0c9-75dd42ea9530",
+        "question_number": 2,
+        "version_id": "93ea928a-670b-45b6-9627-590840efac58",
+        "version_number": 2,
+        "survey_version": 4,
+        "reasons": [
+          "选项ID集合不同，尚未配置完整映射；相同选项文字不能作为对应依据"
+        ]
+      }
+    ],
+    "metrics": null,
+    "unit": null,
+    "configuration": {
+      "version_ids": [
+        "0a306b0e-20dc-479a-9f21-36eb61dc094d",
+        "93ea928a-670b-45b6-9627-590840efac58"
+      ],
+      "base_version_id": "0a306b0e-20dc-479a-9f21-36eb61dc094d",
+      "option_mappings": {},
+      "unit_confirmations": {}
+    },
+    "generated_at": "2026-10-29T04:55:33.356668+00:00"
+  },
+  "choice_mapped": {
+    "template_id": "4fa6b042-ec5f-48ee-acb8-360e2fcc0c63",
+    "policy": {
+      "permission": "只统计当前账号拥有结果查看权限的问卷；题目共享不授予他人的答卷权限，不展示其问卷信息或数量。",
+      "survey_count": "已发布或关闭且含合规引用的问卷数，包括尚无答卷的问卷；草稿排除。",
+      "response_count": "参与问卷当前冻结定义下的答卷总数，含跳题答卷；每份答卷在本组统计中只计一次。",
+      "answer_count": "实际路径中符合来源版本限制的实例回答次数；重复题分别计数，跳题、空白和非法历史答案不计。",
+      "identity": "不按账号、匿名标识或跨问卷人员身份去重；统计回答次数，不声称独立人数。",
+      "local_changes": "与来源版本内容不一致的本地修改实例排除，不把它冒充该版本的回答。",
+      "limits": "回答按各自原版本的题型与限制校验，合并不套用基准版本的长度、数量或数值限制。"
+    },
+    "base_version_id": "0a306b0e-20dc-479a-9f21-36eb61dc094d",
+    "performed": true,
+    "message": "已按下列版本与明确配置合并",
+    "included_versions": [
+      {
+        "id": "0a306b0e-20dc-479a-9f21-36eb61dc094d",
+        "number": 1,
+        "content": {
+          "title": "颜色偏好",
+          "required": true,
+          "type": "single",
+          "options": [
+            {
+              "id": "a",
+              "label": "黑色"
+            },
+            {
+              "id": "b",
+              "label": "白色"
+            }
+          ],
+          "validation": {
+            "min_choices": null,
+            "max_choices": null,
+            "exact_choices": null
+          }
+        },
+        "reasons": [],
+        "warnings": [],
+        "mapping": {
+          "a": "a",
+          "b": "b"
+        },
+        "unit": null,
+        "unit_source": null
+      },
+      {
+        "id": "93ea928a-670b-45b6-9627-590840efac58",
+        "number": 2,
+        "content": {
+          "title": "颜色偏好",
+          "required": true,
+          "type": "single",
+          "options": [
+            {
+              "id": "x",
+              "label": "黑色"
+            },
+            {
+              "id": "y",
+              "label": "白色"
+            }
+          ],
+          "validation": {
+            "min_choices": null,
+            "max_choices": null,
+            "exact_choices": null
+          }
+        },
+        "reasons": [],
+        "warnings": [],
+        "mapping": {
+          "x": "a",
+          "y": "b"
+        },
+        "unit": null,
+        "unit_source": null
+      }
+    ],
+    "excluded_versions": [],
+    "included_instances": [
+      {
+        "survey_id": "bb8c5639-9649-4e29-a604-030a6d6f1a37",
+        "title": "选项映射验收",
+        "status": "published",
+        "availability": "open",
+        "instance_id": "e149f5f5-b0c9-461a-9562-9147c9e30f0b",
+        "question_number": 1,
+        "version_id": "0a306b0e-20dc-479a-9f21-36eb61dc094d",
+        "version_number": 1,
+        "survey_version": 4
+      },
+      {
+        "survey_id": "bb8c5639-9649-4e29-a604-030a6d6f1a37",
+        "title": "选项映射验收",
+        "status": "published",
+        "availability": "open",
+        "instance_id": "38c51281-a154-4bf3-b0c9-75dd42ea9530",
+        "question_number": 2,
+        "version_id": "93ea928a-670b-45b6-9627-590840efac58",
+        "version_number": 2,
+        "survey_version": 4
+      }
+    ],
+    "excluded_instances": [],
+    "metrics": {
+      "survey_count": 1,
+      "response_count": 1,
+      "answer_count": 2,
+      "type": "single",
+      "excluded_answer_counts": [],
+      "options": [
+        {
+          "id": "a",
+          "label": "黑色",
+          "count": 1
+        },
+        {
+          "id": "b",
+          "label": "白色",
+          "count": 1
+        }
+      ]
+    },
+    "unit": null,
+    "configuration": {
+      "version_ids": [
+        "0a306b0e-20dc-479a-9f21-36eb61dc094d",
+        "93ea928a-670b-45b6-9627-590840efac58"
+      ],
+      "base_version_id": "0a306b0e-20dc-479a-9f21-36eb61dc094d",
+      "option_mappings": {
+        "93ea928a-670b-45b6-9627-590840efac58": {
+          "x": "a",
+          "y": "b"
+        }
+      },
+      "unit_confirmations": {}
+    },
+    "generated_at": "2026-10-29T04:55:33.365413+00:00"
+  },
+  "legacy_unconfirmed": {
+    "template_id": "d537d8aa-539d-44b8-b6b0-2d6418b3160a",
+    "policy": {
+      "permission": "只统计当前账号拥有结果查看权限的问卷；题目共享不授予他人的答卷权限，不展示其问卷信息或数量。",
+      "survey_count": "已发布或关闭且含合规引用的问卷数，包括尚无答卷的问卷；草稿排除。",
+      "response_count": "参与问卷当前冻结定义下的答卷总数，含跳题答卷；每份答卷在本组统计中只计一次。",
+      "answer_count": "实际路径中符合来源版本限制的实例回答次数；重复题分别计数，跳题、空白和非法历史答案不计。",
+      "identity": "不按账号、匿名标识或跨问卷人员身份去重；统计回答次数，不声称独立人数。",
+      "local_changes": "与来源版本内容不一致的本地修改实例排除，不把它冒充该版本的回答。",
+      "limits": "回答按各自原版本的题型与限制校验，合并不套用基准版本的长度、数量或数值限制。"
+    },
+    "base_version_id": "5e89e924-858d-45e0-9e6c-e5dedda51a6a",
+    "performed": false,
+    "message": "不足两个兼容版本，或基准版本未通过检查，未执行合并",
+    "included_versions": [],
+    "excluded_versions": [
+      {
+        "id": "5e89e924-858d-45e0-9e6c-e5dedda51a6a",
+        "number": 1,
+        "content": {
+          "title": "旧版数字（未声明单位）",
+          "required": true,
+          "type": "number",
+          "validation": {
+            "minimum": 0.0,
+            "maximum": 10.0,
+            "integer_only": true
+          }
+        },
+        "reasons": [
+          "计量单位未声明，请明确确认本次统计单位后再合并"
+        ],
+        "warnings": [],
+        "mapping": null,
+        "unit": null,
+        "unit_source": null
+      },
+      {
+        "id": "2c5b0fb4-d5a5-47e5-9907-36de08fa3803",
+        "number": 2,
+        "content": {
+          "title": "旧版数字第二版",
+          "required": true,
+          "type": "number",
+          "validation": {
+            "minimum": 0.0,
+            "maximum": 10.0,
+            "integer_only": true
+          }
+        },
+        "reasons": [
+          "计量单位未声明，请明确确认本次统计单位后再合并"
+        ],
+        "warnings": [],
+        "mapping": null,
+        "unit": null,
+        "unit_source": null
+      }
+    ],
+    "included_instances": [],
+    "excluded_instances": [
+      {
+        "survey_id": "b46664a0-ac3c-456d-93f8-bb1177c7f41b",
+        "title": "旧版本本次确认单位",
+        "status": "published",
+        "availability": "open",
+        "instance_id": "b3a37bdb-9861-4f7e-bdb5-6567c6e2c2e7",
+        "question_number": 1,
+        "version_id": "5e89e924-858d-45e0-9e6c-e5dedda51a6a",
+        "version_number": 1,
+        "survey_version": 4,
+        "reasons": [
+          "计量单位未声明，请明确确认本次统计单位后再合并"
+        ]
+      },
+      {
+        "survey_id": "b46664a0-ac3c-456d-93f8-bb1177c7f41b",
+        "title": "旧版本本次确认单位",
+        "status": "published",
+        "availability": "open",
+        "instance_id": "8b56cbba-771e-40bd-982b-b49a694536f6",
+        "question_number": 2,
+        "version_id": "2c5b0fb4-d5a5-47e5-9907-36de08fa3803",
+        "version_number": 2,
+        "survey_version": 4,
+        "reasons": [
+          "计量单位未声明，请明确确认本次统计单位后再合并"
+        ]
+      }
+    ],
+    "metrics": null,
+    "unit": null,
+    "configuration": {
+      "version_ids": [
+        "5e89e924-858d-45e0-9e6c-e5dedda51a6a",
+        "2c5b0fb4-d5a5-47e5-9907-36de08fa3803"
+      ],
+      "base_version_id": "5e89e924-858d-45e0-9e6c-e5dedda51a6a",
+      "option_mappings": {},
+      "unit_confirmations": {}
+    },
+    "generated_at": "2026-10-29T04:55:33.382880+00:00"
+  },
+  "legacy_confirmed": {
+    "template_id": "d537d8aa-539d-44b8-b6b0-2d6418b3160a",
+    "policy": {
+      "permission": "只统计当前账号拥有结果查看权限的问卷；题目共享不授予他人的答卷权限，不展示其问卷信息或数量。",
+      "survey_count": "已发布或关闭且含合规引用的问卷数，包括尚无答卷的问卷；草稿排除。",
+      "response_count": "参与问卷当前冻结定义下的答卷总数，含跳题答卷；每份答卷在本组统计中只计一次。",
+      "answer_count": "实际路径中符合来源版本限制的实例回答次数；重复题分别计数，跳题、空白和非法历史答案不计。",
+      "identity": "不按账号、匿名标识或跨问卷人员身份去重；统计回答次数，不声称独立人数。",
+      "local_changes": "与来源版本内容不一致的本地修改实例排除，不把它冒充该版本的回答。",
+      "limits": "回答按各自原版本的题型与限制校验，合并不套用基准版本的长度、数量或数值限制。"
+    },
+    "base_version_id": "5e89e924-858d-45e0-9e6c-e5dedda51a6a",
+    "performed": true,
+    "message": "已按下列版本与明确配置合并",
+    "included_versions": [
+      {
+        "id": "5e89e924-858d-45e0-9e6c-e5dedda51a6a",
+        "number": 1,
+        "content": {
+          "title": "旧版数字（未声明单位）",
+          "required": true,
+          "type": "number",
+          "validation": {
+            "minimum": 0.0,
+            "maximum": 10.0,
+            "integer_only": true
+          }
+        },
+        "reasons": [],
+        "warnings": [],
+        "mapping": null,
+        "unit": "kg",
+        "unit_source": "本次明确确认"
+      },
+      {
+        "id": "2c5b0fb4-d5a5-47e5-9907-36de08fa3803",
+        "number": 2,
+        "content": {
+          "title": "旧版数字第二版",
+          "required": true,
+          "type": "number",
+          "validation": {
+            "minimum": 0.0,
+            "maximum": 10.0,
+            "integer_only": true
+          }
+        },
+        "reasons": [],
+        "warnings": [],
+        "mapping": null,
+        "unit": "kg",
+        "unit_source": "本次明确确认"
+      }
+    ],
+    "excluded_versions": [],
+    "included_instances": [
+      {
+        "survey_id": "b46664a0-ac3c-456d-93f8-bb1177c7f41b",
+        "title": "旧版本本次确认单位",
+        "status": "published",
+        "availability": "open",
+        "instance_id": "b3a37bdb-9861-4f7e-bdb5-6567c6e2c2e7",
+        "question_number": 1,
+        "version_id": "5e89e924-858d-45e0-9e6c-e5dedda51a6a",
+        "version_number": 1,
+        "survey_version": 4
+      },
+      {
+        "survey_id": "b46664a0-ac3c-456d-93f8-bb1177c7f41b",
+        "title": "旧版本本次确认单位",
+        "status": "published",
+        "availability": "open",
+        "instance_id": "8b56cbba-771e-40bd-982b-b49a694536f6",
+        "question_number": 2,
+        "version_id": "2c5b0fb4-d5a5-47e5-9907-36de08fa3803",
+        "version_number": 2,
+        "survey_version": 4
+      }
+    ],
+    "excluded_instances": [],
+    "metrics": {
+      "survey_count": 1,
+      "response_count": 1,
+      "answer_count": 2,
+      "type": "number",
+      "excluded_answer_counts": [],
+      "values": [
+        0,
+        10
+      ],
+      "values_limit": 100,
+      "values_truncated": false,
+      "average": 5.0
+    },
+    "unit": "kg",
+    "configuration": {
+      "version_ids": [
+        "5e89e924-858d-45e0-9e6c-e5dedda51a6a",
+        "2c5b0fb4-d5a5-47e5-9907-36de08fa3803"
+      ],
+      "base_version_id": "5e89e924-858d-45e0-9e6c-e5dedda51a6a",
+      "option_mappings": {},
+      "unit_confirmations": {
+        "5e89e924-858d-45e0-9e6c-e5dedda51a6a": "kg",
+        "2c5b0fb4-d5a5-47e5-9907-36de08fa3803": "kg"
+      }
+    },
+    "generated_at": "2026-10-29T04:55:33.390085+00:00"
+  }
+}

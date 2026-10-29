@@ -1,0 +1,54 @@
+- banner:
+  - link "问卷工作台":
+    - /url: /?view=surveys
+  - link "版本历史与引用":
+    - /url: /library/1c98d0dd-794d-4a3d-8337-c621eb513ffc
+- main:
+  - paragraph: 题库管理 · 编辑题目
+  - heading "编辑题目 · 以 v3 为基础" [level=1]
+  - paragraph: 保存为新版本会追加到当前题目；另存为新题会建立独立题目。已有问卷继续使用原版本。
+  - status
+  - group "问卷题目":
+    - generic: 问卷题目
+    - strong: 新建内容版本 · 尚未保存
+    - paragraph: 1 / 1 道题
+    - button "重新加载"
+    - button "保存为新版本"
+    - button "另存为新题"
+    - group "添加题目":
+      - button "＋ 单选题" [disabled]
+      - button "＋ 多选题" [disabled]
+      - button "＋ 文本填空" [disabled]
+      - button "＋ 数字填空" [disabled]
+    - article:
+      - heading "第 1 题 · 数字填空" [level=2]
+      - button "第 1 题上移" [disabled]: 上移
+      - button "第 1 题下移" [disabled]: 下移
+      - button "删除第 1 题": 删除题目
+      - text: 题型
+      - combobox "题型":
+        - option "单选题"
+        - option "多选题"
+        - option "文本填空"
+        - option "数字填空" [selected]
+      - text: 题干
+      - textbox "题干":
+        - /placeholder: 输入题干，不能全部为空白
+        - text: 重量（克）
+      - paragraph: 切换题型会重置校验限制。改为填空并保存后不再保留原选项。
+      - text: 必答题
+      - checkbox "必答题" [checked]
+      - text: 计量单位（可选）
+      - textbox "计量单位（可选）":
+        - /placeholder: 例如 kg、次/周；无单位请填“无单位”
+        - text: g
+      - text: 最小值（可选）
+      - spinbutton "最小值（可选）": "0"
+      - text: 最大值（可选）
+      - spinbutton "最大值（可选）": "10"
+      - text: 必须为整数
+      - checkbox "必须为整数" [checked]
+  - paragraph: 新题目保存在“全部题目”中，可在题库管理中设置归属。
+  - paragraph:
+    - link "返回工作台":
+      - /url: /

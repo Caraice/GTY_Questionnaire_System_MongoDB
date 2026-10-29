@@ -1,0 +1,102 @@
+FFFF..............                                                       [100%]
+================================== FAILURES ===================================
+__________ test_four_types_reuse_models_and_version_content[single] ___________
+
+ctx = (<starlette.testclient.TestClient object at 0x00000295F1085160>, {'Authorization': 'Bearer K8fZZ1vrs54HAYrvEAW156tE89X1pcJCVyJfZRCiklo'}, {'Authorization': 'Bearer k3DDPiyYD3GeW8pW3m-ZZNJf6F28HgsuWZGVWLOQ-38'})
+kind = 'single'
+
+    @pytest.mark.parametrize('kind', ['single', 'multiple', 'text', 'number'])
+    def test_four_types_reuse_models_and_version_content(ctx, kind):
+        c, h, _ = ctx
+        item = create_question(ctx, kind)
+        assert item['latest']['number'] == 1 and 'id' not in item['latest']['content']
+        versions = c.get(f'/api/library/questions/{item["id"]}/versions', headers=h).json()
+>       assert versions == [item['latest']]
+E       AssertionError: assert [{'schema_ver...': None, ...}] == [{'schema_ver...': None, ...}]
+E         
+E         At index 0 diff: {'schema_version': 1, 'template_id': '61faf9b4-4448-4b87-83c0-61173c4b6d1a', 'number': 1, 'parent_version_id': None, 'derived_from_version_id': None, 'restored_from_version_id': None, 'content': {'title': '复用single', 'required': True, 'type': 'single', 'options': [{'id': 'a', 'label': '甲'}, {'id': 'b', 'label': '乙'}], 'validation': {'min_choices': None, 'max_choices': None, 'exact_choices': None}}, 'content_hash': '789fea406e500965cccdf12a539b0c17032ab4a6838409b4a9fa32a5470f2131', 'created_by': '3ad03e5d-7182-48a1-9287-b7d4d9babe54', 'created_at': '2026...
+E         
+E         ...Full output truncated (2 lines hidden), use '-vv' to show
+
+tests\test_library_api.py:73: AssertionError
+-------------------------- Captured stdout teardown ---------------------------
+
+Retained library test database: survey_library_8cd0c9bcfbef4207b6113e1737410527
+_________ test_four_types_reuse_models_and_version_content[multiple] __________
+
+ctx = (<starlette.testclient.TestClient object at 0x00000295F112C2D0>, {'Authorization': 'Bearer T6UbH6o9mBrxKFz3NUes0SoMV4_iXP3BIcAHW4ll1kw'}, {'Authorization': 'Bearer VPfMPPeT-zWuwYWFnv3SIsYgG8r1huKxSyHDDnIJ26s'})
+kind = 'multiple'
+
+    @pytest.mark.parametrize('kind', ['single', 'multiple', 'text', 'number'])
+    def test_four_types_reuse_models_and_version_content(ctx, kind):
+        c, h, _ = ctx
+        item = create_question(ctx, kind)
+        assert item['latest']['number'] == 1 and 'id' not in item['latest']['content']
+        versions = c.get(f'/api/library/questions/{item["id"]}/versions', headers=h).json()
+>       assert versions == [item['latest']]
+E       AssertionError: assert [{'schema_ver...': None, ...}] == [{'schema_ver...': None, ...}]
+E         
+E         At index 0 diff: {'schema_version': 1, 'template_id': '8ef5bb7b-7569-4571-b874-1d17c4c1b9ea', 'number': 1, 'parent_version_id': None, 'derived_from_version_id': None, 'restored_from_version_id': None, 'content': {'title': '复用multiple', 'required': True, 'type': 'multiple', 'options': [{'id': 'a', 'label': '甲'}, {'id': 'b', 'label': '乙'}], 'validation': {'min_choices': None, 'max_choices': None, 'exact_choices': 1}}, 'content_hash': '79b4bb50907458c89e869ce802264a6b9dfa00e9efe109df2b80315812b34cde', 'created_by': '95d5f802-06bc-4f51-8852-7fd29b2be9b8', 'created_at': '202...
+E         
+E         ...Full output truncated (2 lines hidden), use '-vv' to show
+
+tests\test_library_api.py:73: AssertionError
+-------------------------- Captured stdout teardown ---------------------------
+
+Retained library test database: survey_library_f4cbd796b5e0491c83d98ea61419d45c
+___________ test_four_types_reuse_models_and_version_content[text] ____________
+
+ctx = (<starlette.testclient.TestClient object at 0x00000295F138E490>, {'Authorization': 'Bearer MpBODJPlZC2gNaZOu2gQ0zd4SV6GZT_tW_yJvhN_txo'}, {'Authorization': 'Bearer q5LuYihUkl4O1EEB6ozw_8USoHJLi2lU9aE8NvA1WSM'})
+kind = 'text'
+
+    @pytest.mark.parametrize('kind', ['single', 'multiple', 'text', 'number'])
+    def test_four_types_reuse_models_and_version_content(ctx, kind):
+        c, h, _ = ctx
+        item = create_question(ctx, kind)
+        assert item['latest']['number'] == 1 and 'id' not in item['latest']['content']
+        versions = c.get(f'/api/library/questions/{item["id"]}/versions', headers=h).json()
+>       assert versions == [item['latest']]
+E       AssertionError: assert [{'schema_ver...': None, ...}] == [{'schema_ver...': None, ...}]
+E         
+E         At index 0 diff: {'schema_version': 1, 'template_id': 'b9309709-7e38-4988-80e4-b1868059a98e', 'number': 1, 'parent_version_id': None, 'derived_from_version_id': None, 'restored_from_version_id': None, 'content': {'title': '复用text', 'required': True, 'type': 'text', 'validation': {'min_length': 1, 'max_length': 10}}, 'content_hash': '698bf39ae8422aca33dfa9351c222af912106d17117ca0acf74012609487a97b', 'created_by': '940992c4-3910-4a62-939b-3ca23d399537', 'created_at': '2026-10-28T17:12:03.501000+00:00', 'origin': {'kind': 'library'}, 'id': '94e28f22-2c2d-4bd0-abc7-4d4b826b...
+E         
+E         ...Full output truncated (2 lines hidden), use '-vv' to show
+
+tests\test_library_api.py:73: AssertionError
+-------------------------- Captured stdout teardown ---------------------------
+
+Retained library test database: survey_library_0eb0d77f979642beb25787eafc5a52ce
+__________ test_four_types_reuse_models_and_version_content[number] ___________
+
+ctx = (<starlette.testclient.TestClient object at 0x00000295F1111A70>, {'Authorization': 'Bearer lp9IsN3PWxClj8vlh13alKjzdJ3m5SrF5Rh8WXNPZwc'}, {'Authorization': 'Bearer bWM_hEgkE_grwIYx5gZkp7OlCUOA6A23MetEalzCN6g'})
+kind = 'number'
+
+    @pytest.mark.parametrize('kind', ['single', 'multiple', 'text', 'number'])
+    def test_four_types_reuse_models_and_version_content(ctx, kind):
+        c, h, _ = ctx
+        item = create_question(ctx, kind)
+        assert item['latest']['number'] == 1 and 'id' not in item['latest']['content']
+        versions = c.get(f'/api/library/questions/{item["id"]}/versions', headers=h).json()
+>       assert versions == [item['latest']]
+E       AssertionError: assert [{'schema_ver...': None, ...}] == [{'schema_ver...': None, ...}]
+E         
+E         At index 0 diff: {'schema_version': 1, 'template_id': '25156e22-aff0-4932-b713-3fcbbec4e941', 'number': 1, 'parent_version_id': None, 'derived_from_version_id': None, 'restored_from_version_id': None, 'content': {'title': '复用number', 'required': True, 'type': 'number', 'validation': {'minimum': 0.0, 'maximum': 10.0, 'integer_only': True}}, 'content_hash': 'cece7124110c165c970351442174bd7f2a88c41f72517e4d018bcf2b4d57a9d3', 'created_by': '74c2855f-ef44-4b1e-868c-c108540a0c09', 'created_at': '2026-10-28T17:12:04.025000+00:00', 'origin': {'kind': 'library'}, 'id': 'a6868f9c...
+E         
+E         ...Full output truncated (2 lines hidden), use '-vv' to show
+
+tests\test_library_api.py:73: AssertionError
+-------------------------- Captured stdout teardown ---------------------------
+
+Retained library test database: survey_library_7932a1f2fc664a88894c505a644a5857
+============================== warnings summary ===============================
+.venv\Lib\site-packages\fastapi\testclient.py:1
+  E:\作业\当代数据管理系统\大作业\survey-system\.venv\Lib\site-packages\fastapi\testclient.py:1: StarletteDeprecationWarning: Using `httpx` with `starlette.testclient` is deprecated; install `httpx2` instead.
+    from starlette.testclient import TestClient as TestClient  # noqa
+
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+=========================== short test summary info ===========================
+FAILED tests/test_library_api.py::test_four_types_reuse_models_and_version_content[single]
+FAILED tests/test_library_api.py::test_four_types_reuse_models_and_version_content[multiple]
+FAILED tests/test_library_api.py::test_four_types_reuse_models_and_version_content[text]
+FAILED tests/test_library_api.py::test_four_types_reuse_models_and_version_content[number]
+4 failed, 14 passed, 1 warning in 11.40s

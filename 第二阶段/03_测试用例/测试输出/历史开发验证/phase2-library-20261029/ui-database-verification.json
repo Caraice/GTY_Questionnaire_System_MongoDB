@@ -1,0 +1,495 @@
+{
+  "surveys": [
+    {
+      "id": "0d188482-fe14-4cba-9718-17bc1bae0010",
+      "title": "题库复用验收问卷",
+      "status": "published",
+      "questions": [
+        {
+          "id": "31da4eb6-0c9f-4161-989d-4172800bc451",
+          "title": "每周运动次数",
+          "required": true,
+          "type": "number",
+          "validation": {
+            "minimum": 0.0,
+            "maximum": 20.0,
+            "integer_only": true
+          }
+        },
+        {
+          "id": "5d0a3adc-1a92-472c-b585-b8f25ff2ae63",
+          "title": "每周运动次数",
+          "required": true,
+          "type": "number",
+          "validation": {
+            "minimum": 0.0,
+            "maximum": 20.0,
+            "integer_only": true
+          }
+        }
+      ],
+      "sources": [
+        {
+          "instance_id": "5d0a3adc-1a92-472c-b585-b8f25ff2ae63",
+          "template_id": "19149c79-ec69-4cbd-92a9-2ad1cd418dc0",
+          "template_version_id": "74bf2a07-4503-48ec-a33d-e9abbd2692ff",
+          "version_number": 1,
+          "content_hash": "f6b3b015ab115bb0f3ba162b430eab2b7aa1243925b465db14452fd587793dc3",
+          "normalized_hash": "f6b3b015ab115bb0f3ba162b430eab2b7aa1243925b465db14452fd587793dc3",
+          "modified": false
+        },
+        {
+          "instance_id": "31da4eb6-0c9f-4161-989d-4172800bc451",
+          "template_id": "19149c79-ec69-4cbd-92a9-2ad1cd418dc0",
+          "template_version_id": "74bf2a07-4503-48ec-a33d-e9abbd2692ff",
+          "version_number": 1,
+          "content_hash": "f6b3b015ab115bb0f3ba162b430eab2b7aa1243925b465db14452fd587793dc3",
+          "normalized_hash": "f6b3b015ab115bb0f3ba162b430eab2b7aa1243925b465db14452fd587793dc3",
+          "modified": false
+        }
+      ],
+      "rules": [
+        {
+          "source_question_id": "31da4eb6-0c9f-4161-989d-4172800bc451",
+          "operator": "eq",
+          "value": 0,
+          "target_question_id": "END"
+        }
+      ],
+      "responses": [
+        {
+          "id": "f1828a1c-d83a-407b-bae4-27877352afa7",
+          "answers": {
+            "31da4eb6-0c9f-4161-989d-4172800bc451": 2,
+            "5d0a3adc-1a92-472c-b585-b8f25ff2ae63": 8
+          },
+          "path": [
+            "31da4eb6-0c9f-4161-989d-4172800bc451",
+            "5d0a3adc-1a92-472c-b585-b8f25ff2ae63"
+          ]
+        },
+        {
+          "id": "77d4a6c9-a6e3-4126-a782-7bd89492afc2",
+          "answers": {
+            "31da4eb6-0c9f-4161-989d-4172800bc451": 0
+          },
+          "path": [
+            "31da4eb6-0c9f-4161-989d-4172800bc451"
+          ]
+        }
+      ],
+      "statistics": {
+        "survey_id": "0d188482-fe14-4cba-9718-17bc1bae0010",
+        "survey_version": 6,
+        "total_submissions": 2,
+        "questions": [
+          {
+            "id": "31da4eb6-0c9f-4161-989d-4172800bc451",
+            "title": "每周运动次数",
+            "type": "number",
+            "answered_count": 2,
+            "values": [
+              0,
+              2
+            ],
+            "average": 1.0
+          },
+          {
+            "id": "5d0a3adc-1a92-472c-b585-b8f25ff2ae63",
+            "title": "每周运动次数",
+            "type": "number",
+            "answered_count": 1,
+            "values": [
+              8
+            ],
+            "average": 8.0
+          }
+        ]
+      }
+    },
+    {
+      "id": "c317e1eb-e70f-408b-95c5-92d3fb6aab77",
+      "title": "共享版本引用验收",
+      "status": "published",
+      "questions": [
+        {
+          "id": "c49de08c-cdb8-4c5e-85a6-d213ba327912",
+          "title": "每周运动次数（正式修订）",
+          "required": true,
+          "type": "number",
+          "validation": {
+            "minimum": 0.0,
+            "maximum": 30.0,
+            "integer_only": true
+          }
+        },
+        {
+          "id": "79c1d127-e740-45f2-b690-f01d2c814ddd",
+          "title": "每周运动次数",
+          "required": true,
+          "type": "number",
+          "validation": {
+            "minimum": 0.0,
+            "maximum": 20.0,
+            "integer_only": true
+          }
+        }
+      ],
+      "sources": [
+        {
+          "instance_id": "c49de08c-cdb8-4c5e-85a6-d213ba327912",
+          "template_id": "19149c79-ec69-4cbd-92a9-2ad1cd418dc0",
+          "template_version_id": "5536535f-600b-4199-a972-c85d07fee7ed",
+          "version_number": 3,
+          "title": "每周运动次数（正式修订）",
+          "content_hash": "48772cce2b8b1c28b40d92f1e039b9ef9bec51e416e58143040723d963b7f23d",
+          "normalized_hash": "48772cce2b8b1c28b40d92f1e039b9ef9bec51e416e58143040723d963b7f23d",
+          "modified": false,
+          "access_grant_id": "fc6b99ff-bd59-49b3-82b4-cb4727c168ab"
+        },
+        {
+          "instance_id": "79c1d127-e740-45f2-b690-f01d2c814ddd",
+          "template_id": "19149c79-ec69-4cbd-92a9-2ad1cd418dc0",
+          "template_version_id": "74bf2a07-4503-48ec-a33d-e9abbd2692ff",
+          "version_number": 1,
+          "title": "每周运动次数",
+          "content_hash": "f6b3b015ab115bb0f3ba162b430eab2b7aa1243925b465db14452fd587793dc3",
+          "normalized_hash": "f6b3b015ab115bb0f3ba162b430eab2b7aa1243925b465db14452fd587793dc3",
+          "modified": false,
+          "access_grant_id": "005b4f0f-7101-48b6-8484-85346ea31013"
+        }
+      ],
+      "rules": [],
+      "responses": [
+        {
+          "id": "7f3bcc9f-0654-4b70-94a0-032065c59428",
+          "answers": {
+            "c49de08c-cdb8-4c5e-85a6-d213ba327912": 0,
+            "79c1d127-e740-45f2-b690-f01d2c814ddd": 8
+          },
+          "path": [
+            "c49de08c-cdb8-4c5e-85a6-d213ba327912",
+            "79c1d127-e740-45f2-b690-f01d2c814ddd"
+          ]
+        }
+      ],
+      "statistics": {
+        "survey_id": "c317e1eb-e70f-408b-95c5-92d3fb6aab77",
+        "survey_version": 5,
+        "total_submissions": 1,
+        "questions": [
+          {
+            "id": "c49de08c-cdb8-4c5e-85a6-d213ba327912",
+            "title": "每周运动次数（正式修订）",
+            "type": "number",
+            "answered_count": 1,
+            "values": [
+              0
+            ],
+            "average": 0.0
+          },
+          {
+            "id": "79c1d127-e740-45f2-b690-f01d2c814ddd",
+            "title": "每周运动次数",
+            "type": "number",
+            "answered_count": 1,
+            "values": [
+              8
+            ],
+            "average": 8.0
+          }
+        ]
+      }
+    }
+  ],
+  "version_history": [
+    {
+      "_id": "74bf2a07-4503-48ec-a33d-e9abbd2692ff",
+      "schema_version": 1,
+      "template_id": "19149c79-ec69-4cbd-92a9-2ad1cd418dc0",
+      "number": 1,
+      "parent_version_id": null,
+      "derived_from_version_id": null,
+      "restored_from_version_id": null,
+      "content": {
+        "title": "每周运动次数",
+        "required": true,
+        "type": "number",
+        "validation": {
+          "minimum": 0.0,
+          "maximum": 20.0,
+          "integer_only": true
+        }
+      },
+      "content_hash": "f6b3b015ab115bb0f3ba162b430eab2b7aa1243925b465db14452fd587793dc3",
+      "created_by": "41407d07-99a5-46e6-9047-8cd3dacae19a",
+      "created_at": "2026-10-28 17:14:59.331000+00:00",
+      "origin": {
+        "kind": "library"
+      }
+    },
+    {
+      "_id": "61abf89c-37df-4d15-9432-e00ff2c7f6b8",
+      "schema_version": 1,
+      "template_id": "19149c79-ec69-4cbd-92a9-2ad1cd418dc0",
+      "number": 2,
+      "parent_version_id": "74bf2a07-4503-48ec-a33d-e9abbd2692ff",
+      "derived_from_version_id": null,
+      "restored_from_version_id": null,
+      "content": {
+        "title": "每周运动次数（版本2样例）",
+        "required": true,
+        "type": "number",
+        "validation": {
+          "minimum": 0.0,
+          "maximum": 20.0,
+          "integer_only": true
+        }
+      },
+      "content_hash": "38e7cef049a30509d23edcac5878df7019966088760d08c76e869bf0442bd184",
+      "created_by": "41407d07-99a5-46e6-9047-8cd3dacae19a",
+      "created_at": "2026-10-28 17:14:59.331000+00:00",
+      "origin": {
+        "kind": "ui_test_fixture"
+      }
+    },
+    {
+      "_id": "5536535f-600b-4199-a972-c85d07fee7ed",
+      "content": {
+        "title": "每周运动次数（正式修订）",
+        "required": true,
+        "type": "number",
+        "validation": {
+          "minimum": 0.0,
+          "maximum": 30.0,
+          "integer_only": true
+        }
+      },
+      "content_hash": "48772cce2b8b1c28b40d92f1e039b9ef9bec51e416e58143040723d963b7f23d",
+      "created_at": "2026-10-29 02:05:00.183000+00:00",
+      "created_by": "41407d07-99a5-46e6-9047-8cd3dacae19a",
+      "derived_from_version_id": null,
+      "number": 3,
+      "origin": {
+        "kind": "edit",
+        "base_version_id": "61abf89c-37df-4d15-9432-e00ff2c7f6b8"
+      },
+      "parent_version_id": "61abf89c-37df-4d15-9432-e00ff2c7f6b8",
+      "restored_from_version_id": null,
+      "schema_version": 1,
+      "template_id": "19149c79-ec69-4cbd-92a9-2ad1cd418dc0"
+    },
+    {
+      "_id": "92c1997e-3a12-4f84-927e-02ce0bc3bc56",
+      "content": {
+        "title": "每周运动次数",
+        "required": true,
+        "type": "number",
+        "validation": {
+          "minimum": 0.0,
+          "maximum": 20.0,
+          "integer_only": true
+        }
+      },
+      "content_hash": "f6b3b015ab115bb0f3ba162b430eab2b7aa1243925b465db14452fd587793dc3",
+      "created_at": "2026-10-29 02:06:21.863000+00:00",
+      "created_by": "41407d07-99a5-46e6-9047-8cd3dacae19a",
+      "derived_from_version_id": null,
+      "number": 4,
+      "origin": {
+        "kind": "restore",
+        "base_version_id": "74bf2a07-4503-48ec-a33d-e9abbd2692ff"
+      },
+      "parent_version_id": "5536535f-600b-4199-a972-c85d07fee7ed",
+      "restored_from_version_id": "74bf2a07-4503-48ec-a33d-e9abbd2692ff",
+      "schema_version": 1,
+      "template_id": "19149c79-ec69-4cbd-92a9-2ad1cd418dc0"
+    }
+  ],
+  "v2_is_explicit_seeded_fixture": true,
+  "v3_and_v4_created_via_page": true,
+  "active_grants": 0,
+  "owner_visible_usages": [
+    {
+      "survey_id": "0d188482-fe14-4cba-9718-17bc1bae0010",
+      "title": "题库复用验收问卷",
+      "status": "published",
+      "availability": "open",
+      "instance_id": "31da4eb6-0c9f-4161-989d-4172800bc451",
+      "question_number": 1,
+      "modified": false
+    },
+    {
+      "survey_id": "0d188482-fe14-4cba-9718-17bc1bae0010",
+      "title": "题库复用验收问卷",
+      "status": "published",
+      "availability": "open",
+      "instance_id": "5d0a3adc-1a92-472c-b585-b8f25ff2ae63",
+      "question_number": 2,
+      "modified": false
+    }
+  ],
+  "pending_versions": 0,
+  "indexes": {
+    "question_banks": {
+      "_id_": {
+        "v": 2,
+        "key": [
+          [
+            "_id",
+            1
+          ]
+        ]
+      },
+      "bank_owner_list": {
+        "v": 2,
+        "key": [
+          [
+            "owner_id",
+            1
+          ],
+          [
+            "created_at",
+            -1
+          ]
+        ]
+      }
+    },
+    "question_bank_memberships": {
+      "_id_": {
+        "v": 2,
+        "key": [
+          [
+            "_id",
+            1
+          ]
+        ]
+      },
+      "bank_template_unique": {
+        "v": 2,
+        "key": [
+          [
+            "bank_id",
+            1
+          ],
+          [
+            "template_id",
+            1
+          ]
+        ],
+        "unique": true
+      },
+      "template_banks": {
+        "v": 2,
+        "key": [
+          [
+            "template_id",
+            1
+          ],
+          [
+            "bank_id",
+            1
+          ]
+        ]
+      }
+    },
+    "question_grants": {
+      "_id_": {
+        "v": 2,
+        "key": [
+          [
+            "_id",
+            1
+          ]
+        ]
+      },
+      "version_grantee_unique": {
+        "v": 2,
+        "key": [
+          [
+            "version_id",
+            1
+          ],
+          [
+            "grantee_id",
+            1
+          ]
+        ],
+        "unique": true
+      },
+      "received_versions": {
+        "v": 2,
+        "key": [
+          [
+            "grantee_id",
+            1
+          ],
+          [
+            "active",
+            1
+          ],
+          [
+            "template_id",
+            1
+          ]
+        ]
+      }
+    },
+    "surveys": {
+      "_id_": {
+        "v": 2,
+        "key": [
+          [
+            "_id",
+            1
+          ]
+        ]
+      },
+      "share_unique": {
+        "v": 2,
+        "key": [
+          [
+            "share_id",
+            1
+          ]
+        ],
+        "unique": true
+      },
+      "owner_list": {
+        "v": 2,
+        "key": [
+          [
+            "owner_id",
+            1
+          ],
+          [
+            "created_at",
+            -1
+          ]
+        ]
+      },
+      "imported_version_usage": {
+        "v": 2,
+        "key": [
+          [
+            "question_sources.template_version_id",
+            1
+          ]
+        ]
+      },
+      "owned_template_usage": {
+        "v": 2,
+        "key": [
+          [
+            "owner_id",
+            1
+          ],
+          [
+            "question_sources.template_id",
+            1
+          ]
+        ]
+      }
+    }
+  }
+}

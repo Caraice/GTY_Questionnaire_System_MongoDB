@@ -1,0 +1,21 @@
+{
+  "passed_files": [
+    "web/app.js",
+    "web/deadline-input.mjs",
+    "web/editor-state.mjs",
+    "web/editor.js",
+    "web/fill-state.mjs",
+    "web/fill.js",
+    "web/library-state.mjs",
+    "web/library-statistics-state.mjs",
+    "web/library-statistics.js",
+    "web/library.js",
+    "web/question-history.js",
+    "web/response.js",
+    "web/rules-state.mjs",
+    "web/rules.js",
+    "web/statistics.js",
+    "web/survey-state.mjs",
+    "web/view-utils.mjs"
+  ]
+}

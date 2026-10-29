@@ -1,0 +1,20 @@
+{
+  "before": {
+    "question_templates": "35ff850d1b09698189acd0980a697e3f6af24aee9f8e247b64ffff4f3ec6387e",
+    "question_versions": "3ae0d9aa54d5624ca6fe30aee82bbb9cde2820335c6ecf340373ed304c90b231",
+    "question_usages": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "question_grants": "b07f19a52763e7a8324a829f56542d1b83941e287dd12444618e703a828ad803",
+    "surveys": "8dd73b73b727e3cef0a2ac3067fe39dc260bb1146c99bee810b8fe113adbae60",
+    "responses": "d024429ac24f34e178870b4db012bffc19616e2fd53f2b3ffbdc14a2ab71bdef"
+  },
+  "after": {
+    "question_templates": "35ff850d1b09698189acd0980a697e3f6af24aee9f8e247b64ffff4f3ec6387e",
+    "question_versions": "3ae0d9aa54d5624ca6fe30aee82bbb9cde2820335c6ecf340373ed304c90b231",
+    "question_usages": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "question_grants": "b07f19a52763e7a8324a829f56542d1b83941e287dd12444618e703a828ad803",
+    "surveys": "8dd73b73b727e3cef0a2ac3067fe39dc260bb1146c99bee810b8fe113adbae60",
+    "responses": "d024429ac24f34e178870b4db012bffc19616e2fd53f2b3ffbdc14a2ab71bdef"
+  },
+  "unchanged": true,
+  "note": "Business documents unchanged by statistics GET/POST; login sessions intentionally excluded."
+}

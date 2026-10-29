@@ -1,0 +1,52 @@
+{
+  "date": "2026-10-29",
+  "report_pages": 7,
+  "reference": "E:\\作业\\当代数据管理系统\\大作业\\项目完成报告.docx",
+  "reference_sha256": "664484effb1ba0a41ec50d9c3981ac21a70295677e3491a01e6d1e2659d3fbb8",
+  "reference_unchanged": true,
+  "preserved_package_parts": [
+    "[Content_Types].xml",
+    "_rels/.rels",
+    "word/_rels/document.xml.rels",
+    "word/footnotes.xml",
+    "word/endnotes.xml",
+    "word/footer1.xml",
+    "word/theme/theme1.xml",
+    "word/settings.xml",
+    "customXml/item1.xml",
+    "customXml/itemProps1.xml",
+    "word/numbering.xml",
+    "word/styles.xml",
+    "word/webSettings.xml",
+    "word/fontTable.xml",
+    "docProps/app.xml",
+    "customXml/_rels/item1.xml.rels"
+  ],
+  "changed_package_parts": [
+    "word/document.xml",
+    "docProps/core.xml"
+  ],
+  "screenshot_requirements": {
+    "第一阶段的设计是什么": "1.1 第一阶段的设计是什么",
+    "新需求带来了哪些问题": "1.2 新需求带来了哪些问题",
+    "为什么需要修改原设计": "1.3 为什么需要修改原设计",
+    "修改了哪些部分": "3.1 修改了哪些部分 程序如何调整",
+    "数据结构如何变化": "2.1 数据结构如何变化",
+    "程序如何调整": "3.1 修改了哪些部分 程序如何调整",
+    "是否遇到兼容性问题": "2.2 兼容性问题与迁移办法",
+    "如何保证旧功能仍然可用": "5.2 如何保证旧功能仍然可用"
+  },
+  "all_eight_change_directions_included": true,
+  "visual_review": "All 7 final pages inspected after wording revision; no clipped text, overflow or split tables.",
+  "renderer": "Packaged renderer failed due missing LibreOffice; read-only Microsoft Word16 export and PDFium review used.",
+  "business_code_changed": false,
+  "tests_rerun_this_revision": false,
+  "test_evidence_reused": "Submission copy 409 Python and 25 Node; dated2026-10-29, no new test claim.",
+  "docx_sha256": "e2a60ee4e7f8abaf784931a483f6ae4e4c39e943594e8de7b00a1e6ba5555bee",
+  "pdf_sha256": "c0495eb6d0f1c9f4b1ff4890b440e4e1a215dd95ac7be2ab71937729d9823980",
+  "language_revision": "Preserved current user-edited structure, tables and deletions; added restrained first-person motivation, decisions and improvements; AI execution attribution retained.",
+  "language_edited_paragraphs": 31,
+  "language_revision_parts_changed": [
+    "word/document.xml"
+  ]
+}

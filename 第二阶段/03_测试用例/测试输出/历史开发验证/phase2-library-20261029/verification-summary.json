@@ -1,0 +1,41 @@
+{
+  "date": "2026-10-29",
+  "timezone": "Asia/Shanghai",
+  "application_version": "0.9.0",
+  "python": {
+    "tests": 357,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0
+  },
+  "python_console_seconds": 88.82,
+  "per_file": {
+    "tests.test_api": 4,
+    "tests.test_history_api": 14,
+    "tests.test_library_api": 23,
+    "tests.test_library_versions": 16,
+    "tests.test_lifecycle": 22,
+    "tests.test_models": 17,
+    "tests.test_question_api": 13,
+    "tests.test_question_migration": 33,
+    "tests.test_response_api": 30,
+    "tests.test_routing": 27,
+    "tests.test_rule_validation": 38,
+    "tests.test_rules_ui_api": 9,
+    "tests.test_statistics": 10,
+    "tests.test_validation": 99,
+    "tests.test_version_diff": 2
+  },
+  "node": {
+    "tests": 21,
+    "failures": 0,
+    "skipped": 0,
+    "console_duration_ms": 109.2833
+  },
+  "warning": "One existing Starlette/httpx deprecation warning",
+  "earlier_incomplete_run": "Windows native heap exception 0xc0000374; no JUnit; excluded from passed results",
+  "mongo": "8.0.17; isolated port 27021; unique per-test retained databases",
+  "startup_check": "scripts/start.ps1 -CheckOnly succeeded against isolated UI database",
+  "ui_database": "survey_library_ui_20261029_m2",
+  "formal_database_migrated": false
+}

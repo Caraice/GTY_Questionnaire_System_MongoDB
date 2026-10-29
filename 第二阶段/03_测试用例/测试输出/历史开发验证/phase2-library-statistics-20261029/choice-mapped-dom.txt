@@ -1,0 +1,104 @@
+- banner:
+  - link "我的题库":
+    - /url: /library
+  - link "版本历史":
+    - /url: /library/4fa6b042-ec5f-48ee-acb8-360e2fcc0c63
+  - link "问卷工作台":
+    - /url: /?view=surveys
+- main:
+  - heading "颜色偏好 · 跨问卷统计" [level=1]
+  - paragraph: 先按版本分别汇总。只纳入你有权查看结果的问卷，题目共享不会开放他人的答卷。
+  - status
+  - button "刷新统计"
+  - paragraph: 本次统计时间：2026/10/29 12:57:11
+  - generic "查看统计口径"
+  - heading "各版本分别统计" [level=2]
+  - paragraph: 勾选需要合并的版本。每组答卷数含跳题答卷；跳题不计入题目回答次数、选项次数或平均值。同卷重复题按实例计次，不按匿名身份跨问卷去重。
+  - group "选择统计版本":
+    - generic: 选择统计版本
+    - article:
+      - heading "v2 · 单选题 · 颜色偏好" [level=3]
+      - checkbox "选择版本 2" [checked]
+      - text: 选择 v2 参与合并
+      - strong: 涉及问卷数：1
+      - strong: 答卷数：1
+      - strong: 题目回答次数：1
+      - table:
+        - row "选项（基准标签） 稳定选项ID 回答次数":
+          - columnheader "选项（基准标签）"
+          - columnheader "稳定选项ID"
+          - columnheader "回答次数"
+        - row "黑色 x 0":
+          - cell "黑色"
+          - cell "x"
+          - cell "0"
+        - row "白色 y 1":
+          - cell "白色"
+          - cell "y"
+          - cell "1"
+      - generic "参与的题目实例（1）"
+      - generic "排除的题目实例（0）"
+    - article:
+      - heading "v1 · 单选题 · 颜色偏好" [level=3]
+      - checkbox "选择版本 1" [checked]
+      - text: 选择 v1 参与合并
+      - strong: 涉及问卷数：1
+      - strong: 答卷数：1
+      - strong: 题目回答次数：1
+      - table:
+        - row "选项（基准标签） 稳定选项ID 回答次数":
+          - columnheader "选项（基准标签）"
+          - columnheader "稳定选项ID"
+          - columnheader "回答次数"
+        - row "黑色 a 1":
+          - cell "黑色"
+          - cell "a"
+          - cell "1"
+        - row "白色 b 0":
+          - cell "白色"
+          - cell "b"
+          - cell "0"
+      - generic "参与的题目实例（1）"
+      - generic "排除的题目实例（0）"
+  - heading "合并所选版本" [level=2]
+  - paragraph: 选择基准版本。选项ID不同时，逐项明确对应关系；未声明的数字单位需要本次确认，不改写旧版本。不会仅按选项文字合并，也不执行单位换算。
+  - group "合并配置":
+    - generic: 合并配置
+    - text: 基准版本
+    - combobox "基准版本":
+      - option "v2 · 单选题 · 颜色偏好"
+      - option "v1 · 单选题 · 颜色偏好" [selected]
+    - heading "v2 合并配置" [level=3]
+    - text: v2：黑色 [x] 对应基准选项
+    - combobox "v2：黑色 [x] 对应基准选项":
+      - option "请选择对应关系"
+      - option "黑色 [a]" [selected]
+      - option "白色 [b]"
+    - text: v2：白色 [y] 对应基准选项
+    - combobox "v2：白色 [y] 对应基准选项":
+      - option "请选择对应关系"
+      - option "黑色 [a]"
+      - option "白色 [b]" [selected]
+    - heading "v1 合并配置" [level=3]
+    - button "检查并合并统计"
+  - heading "本次合并检查结果" [level=2]
+  - paragraph: 已按下列版本与明确配置合并
+  - paragraph: 通过兼容检查的版本：v2、v1
+  - strong: 涉及问卷数：1
+  - strong: 答卷数：1
+  - strong: 题目回答次数：2
+  - table:
+    - row "选项（基准标签） 稳定选项ID 回答次数":
+      - columnheader "选项（基准标签）"
+      - columnheader "稳定选项ID"
+      - columnheader "回答次数"
+    - row "黑色 a 1":
+      - cell "黑色"
+      - cell "a"
+      - cell "1"
+    - row "白色 b 1":
+      - cell "白色"
+      - cell "b"
+      - cell "1"
+  - generic "参与的题目实例（2）"
+  - generic "排除的题目实例（0）"

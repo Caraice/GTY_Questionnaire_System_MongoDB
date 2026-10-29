@@ -1,0 +1,272 @@
+- banner:
+  - link "我的题库":
+    - /url: /library
+  - link "版本历史":
+    - /url: /library/92d3071c-3e2a-4f63-9f65-31959892b4b7
+  - link "问卷工作台":
+    - /url: /?view=surveys
+- main:
+  - heading "分页历史 v25 · 跨问卷统计" [level=1]
+  - paragraph: 先按版本分别汇总。只纳入你有权查看结果的问卷，题目共享不会开放他人的答卷。
+  - status
+  - button "刷新统计"
+  - paragraph: 本次统计时间：2026/10/29 15:24:17
+  - generic "查看统计口径"
+  - heading "各版本分别统计" [level=2]
+  - paragraph: 勾选需要合并的版本。每组答卷数含跳题答卷；跳题不计入题目回答次数、选项次数或平均值。同卷重复题按实例计次，不按匿名身份跨问卷去重。
+  - group "选择统计版本":
+    - generic: 选择统计版本
+    - article:
+      - heading "v25 · 文本填空 · 分页历史 v25" [level=3]
+      - checkbox "选择版本 25"
+      - text: 选择 v25 参与合并
+      - strong: 涉及问卷数：0
+      - strong: 答卷数：0
+      - strong: 题目回答次数：0
+      - generic "查看填写内容（显示 0 / 0 次）"
+      - generic "参与的题目实例（0）"
+      - generic "排除的题目实例（0）"
+    - article:
+      - heading "v24 · 文本填空 · 分页历史 v24" [level=3]
+      - checkbox "选择版本 24"
+      - text: 选择 v24 参与合并
+      - strong: 涉及问卷数：0
+      - strong: 答卷数：0
+      - strong: 题目回答次数：0
+      - generic "查看填写内容（显示 0 / 0 次）"
+      - generic "参与的题目实例（0）"
+      - generic "排除的题目实例（0）"
+    - article:
+      - heading "v23 · 文本填空 · 分页历史 v23" [level=3]
+      - checkbox "选择版本 23"
+      - text: 选择 v23 参与合并
+      - strong: 涉及问卷数：0
+      - strong: 答卷数：0
+      - strong: 题目回答次数：0
+      - generic "查看填写内容（显示 0 / 0 次）"
+      - generic "参与的题目实例（0）"
+      - generic "排除的题目实例（0）"
+    - article:
+      - heading "v22 · 文本填空 · 分页历史 v22" [level=3]
+      - checkbox "选择版本 22"
+      - text: 选择 v22 参与合并
+      - strong: 涉及问卷数：0
+      - strong: 答卷数：0
+      - strong: 题目回答次数：0
+      - generic "查看填写内容（显示 0 / 0 次）"
+      - generic "参与的题目实例（0）"
+      - generic "排除的题目实例（0）"
+    - article:
+      - heading "v21 · 文本填空 · 分页历史 v21" [level=3]
+      - checkbox "选择版本 21"
+      - text: 选择 v21 参与合并
+      - strong: 涉及问卷数：0
+      - strong: 答卷数：0
+      - strong: 题目回答次数：0
+      - generic "查看填写内容（显示 0 / 0 次）"
+      - generic "参与的题目实例（0）"
+      - generic "排除的题目实例（0）"
+    - article:
+      - heading "v20 · 文本填空 · 分页历史 v20" [level=3]
+      - checkbox "选择版本 20"
+      - text: 选择 v20 参与合并
+      - strong: 涉及问卷数：0
+      - strong: 答卷数：0
+      - strong: 题目回答次数：0
+      - generic "查看填写内容（显示 0 / 0 次）"
+      - generic "参与的题目实例（0）"
+      - generic "排除的题目实例（0）"
+    - article:
+      - heading "v19 · 文本填空 · 分页历史 v19" [level=3]
+      - checkbox "选择版本 19"
+      - text: 选择 v19 参与合并
+      - strong: 涉及问卷数：0
+      - strong: 答卷数：0
+      - strong: 题目回答次数：0
+      - generic "查看填写内容（显示 0 / 0 次）"
+      - generic "参与的题目实例（0）"
+      - generic "排除的题目实例（0）"
+    - article:
+      - heading "v18 · 文本填空 · 分页历史 v18" [level=3]
+      - checkbox "选择版本 18"
+      - text: 选择 v18 参与合并
+      - strong: 涉及问卷数：0
+      - strong: 答卷数：0
+      - strong: 题目回答次数：0
+      - generic "查看填写内容（显示 0 / 0 次）"
+      - generic "参与的题目实例（0）"
+      - generic "排除的题目实例（0）"
+    - article:
+      - heading "v17 · 文本填空 · 分页历史 v17" [level=3]
+      - checkbox "选择版本 17"
+      - text: 选择 v17 参与合并
+      - strong: 涉及问卷数：0
+      - strong: 答卷数：0
+      - strong: 题目回答次数：0
+      - generic "查看填写内容（显示 0 / 0 次）"
+      - generic "参与的题目实例（0）"
+      - generic "排除的题目实例（0）"
+    - article:
+      - heading "v16 · 文本填空 · 分页历史 v16" [level=3]
+      - checkbox "选择版本 16"
+      - text: 选择 v16 参与合并
+      - strong: 涉及问卷数：0
+      - strong: 答卷数：0
+      - strong: 题目回答次数：0
+      - generic "查看填写内容（显示 0 / 0 次）"
+      - generic "参与的题目实例（0）"
+      - generic "排除的题目实例（0）"
+    - article:
+      - heading "v15 · 文本填空 · 分页历史 v15" [level=3]
+      - checkbox "选择版本 15"
+      - text: 选择 v15 参与合并
+      - strong: 涉及问卷数：0
+      - strong: 答卷数：0
+      - strong: 题目回答次数：0
+      - generic "查看填写内容（显示 0 / 0 次）"
+      - generic "参与的题目实例（0）"
+      - generic "排除的题目实例（0）"
+    - article:
+      - heading "v14 · 文本填空 · 分页历史 v14" [level=3]
+      - checkbox "选择版本 14"
+      - text: 选择 v14 参与合并
+      - strong: 涉及问卷数：0
+      - strong: 答卷数：0
+      - strong: 题目回答次数：0
+      - generic "查看填写内容（显示 0 / 0 次）"
+      - generic "参与的题目实例（0）"
+      - generic "排除的题目实例（0）"
+    - article:
+      - heading "v13 · 文本填空 · 分页历史 v13" [level=3]
+      - checkbox "选择版本 13"
+      - text: 选择 v13 参与合并
+      - strong: 涉及问卷数：0
+      - strong: 答卷数：0
+      - strong: 题目回答次数：0
+      - generic "查看填写内容（显示 0 / 0 次）"
+      - generic "参与的题目实例（0）"
+      - generic "排除的题目实例（0）"
+    - article:
+      - heading "v12 · 文本填空 · 分页历史 v12" [level=3]
+      - checkbox "选择版本 12"
+      - text: 选择 v12 参与合并
+      - strong: 涉及问卷数：0
+      - strong: 答卷数：0
+      - strong: 题目回答次数：0
+      - generic "查看填写内容（显示 0 / 0 次）"
+      - generic "参与的题目实例（0）"
+      - generic "排除的题目实例（0）"
+    - article:
+      - heading "v11 · 文本填空 · 分页历史 v11" [level=3]
+      - checkbox "选择版本 11"
+      - text: 选择 v11 参与合并
+      - strong: 涉及问卷数：0
+      - strong: 答卷数：0
+      - strong: 题目回答次数：0
+      - generic "查看填写内容（显示 0 / 0 次）"
+      - generic "参与的题目实例（0）"
+      - generic "排除的题目实例（0）"
+    - article:
+      - heading "v10 · 文本填空 · 分页历史 v10" [level=3]
+      - checkbox "选择版本 10"
+      - text: 选择 v10 参与合并
+      - strong: 涉及问卷数：0
+      - strong: 答卷数：0
+      - strong: 题目回答次数：0
+      - generic "查看填写内容（显示 0 / 0 次）"
+      - generic "参与的题目实例（0）"
+      - generic "排除的题目实例（0）"
+    - article:
+      - heading "v9 · 文本填空 · 分页历史 v9" [level=3]
+      - checkbox "选择版本 9"
+      - text: 选择 v9 参与合并
+      - strong: 涉及问卷数：0
+      - strong: 答卷数：0
+      - strong: 题目回答次数：0
+      - generic "查看填写内容（显示 0 / 0 次）"
+      - generic "参与的题目实例（0）"
+      - generic "排除的题目实例（0）"
+    - article:
+      - heading "v8 · 文本填空 · 分页历史 v8" [level=3]
+      - checkbox "选择版本 8"
+      - text: 选择 v8 参与合并
+      - strong: 涉及问卷数：0
+      - strong: 答卷数：0
+      - strong: 题目回答次数：0
+      - generic "查看填写内容（显示 0 / 0 次）"
+      - generic "参与的题目实例（0）"
+      - generic "排除的题目实例（0）"
+    - article:
+      - heading "v7 · 文本填空 · 分页历史 v7" [level=3]
+      - checkbox "选择版本 7"
+      - text: 选择 v7 参与合并
+      - strong: 涉及问卷数：0
+      - strong: 答卷数：0
+      - strong: 题目回答次数：0
+      - generic "查看填写内容（显示 0 / 0 次）"
+      - generic "参与的题目实例（0）"
+      - generic "排除的题目实例（0）"
+    - article:
+      - heading "v6 · 文本填空 · 分页历史 v6" [level=3]
+      - checkbox "选择版本 6"
+      - text: 选择 v6 参与合并
+      - strong: 涉及问卷数：0
+      - strong: 答卷数：0
+      - strong: 题目回答次数：0
+      - generic "查看填写内容（显示 0 / 0 次）"
+      - generic "参与的题目实例（0）"
+      - generic "排除的题目实例（0）"
+    - article:
+      - heading "v5 · 文本填空 · 分页历史 v5" [level=3]
+      - checkbox "选择版本 5"
+      - text: 选择 v5 参与合并
+      - strong: 涉及问卷数：0
+      - strong: 答卷数：0
+      - strong: 题目回答次数：0
+      - generic "查看填写内容（显示 0 / 0 次）"
+      - generic "参与的题目实例（0）"
+      - generic "排除的题目实例（0）"
+    - article:
+      - heading "v4 · 文本填空 · 分页历史 v4" [level=3]
+      - checkbox "选择版本 4"
+      - text: 选择 v4 参与合并
+      - strong: 涉及问卷数：0
+      - strong: 答卷数：0
+      - strong: 题目回答次数：0
+      - generic "查看填写内容（显示 0 / 0 次）"
+      - generic "参与的题目实例（0）"
+      - generic "排除的题目实例（0）"
+    - article:
+      - heading "v3 · 文本填空 · 分页历史 v3" [level=3]
+      - checkbox "选择版本 3"
+      - text: 选择 v3 参与合并
+      - strong: 涉及问卷数：0
+      - strong: 答卷数：0
+      - strong: 题目回答次数：0
+      - generic "查看填写内容（显示 0 / 0 次）"
+      - generic "参与的题目实例（0）"
+      - generic "排除的题目实例（0）"
+    - article:
+      - heading "v2 · 文本填空 · 分页历史 v2" [level=3]
+      - checkbox "选择版本 2"
+      - text: 选择 v2 参与合并
+      - strong: 涉及问卷数：0
+      - strong: 答卷数：0
+      - strong: 题目回答次数：0
+      - generic "查看填写内容（显示 0 / 0 次）"
+      - generic "参与的题目实例（0）"
+      - generic "排除的题目实例（0）"
+    - article:
+      - heading "v1 · 文本填空 · 分页和恢复演示" [level=3]
+      - checkbox "选择版本 1"
+      - text: 选择 v1 参与合并
+      - strong: 涉及问卷数：1
+      - strong: 答卷数：101
+      - strong: 题目回答次数：101
+      - generic "查看填写内容（显示 1 / 101 次）"
+      - list:
+        - listitem: 文本样本 101
+      - paragraph: 第 2 页，每页 100 条；计数和平均值使用全部有效回答。
+      - button "上一页内容"
+      - generic "参与的题目实例（1）"
+      - generic "排除的题目实例（21）"

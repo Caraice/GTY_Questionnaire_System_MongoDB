@@ -1,0 +1,402 @@
+{
+  "version": "0.11.0",
+  "directories": [
+    "01_可运行代码",
+    "02_文档",
+    "03_测试用例",
+    "04_项目完成报告及AI使用日志"
+  ],
+  "technology_documents": 4,
+  "business_source_files_identical": 74,
+  "test_files_checked": 25,
+  "local_links_checked": 21,
+  "first_stage_files_unchanged": 103,
+  "report_pages": 7,
+  "excluded_runtime_artifacts": [],
+  "source_comparison": [
+    {
+      "path": "01_可运行代码/app/config.py",
+      "sha256": "9208fdf635c4db39584a98792ce98b8feac2f8f512d19c3b4194008c5e0703fb"
+    },
+    {
+      "path": "01_可运行代码/app/db.py",
+      "sha256": "7a86ec8a065658606c4523ffdd13b377a52059778f657191a6578d32d584ae01"
+    },
+    {
+      "path": "01_可运行代码/app/main.py",
+      "sha256": "36349aeff48b8d6b4ae00c8bbe012470bd93f3f8bfbe186f06e47d18b9975ef1"
+    },
+    {
+      "path": "01_可运行代码/app/models.py",
+      "sha256": "ffa3669ef0dd785bea21613912a0f3a11f4a0570d08dee2d4f105c6be8434037"
+    },
+    {
+      "path": "01_可运行代码/app/__init__.py",
+      "sha256": "8a8c8a4d77dc5eacc3d5eec66aaee86efb39dd59c201379c237c93b25072eb48"
+    },
+    {
+      "path": "01_可运行代码/app/api/auth.py",
+      "sha256": "e2ec5e4bf70b2361bac94db673574afa001aa8975825c4841d6e11d0ca0b5770"
+    },
+    {
+      "path": "01_可运行代码/app/api/dependencies.py",
+      "sha256": "2548f1f90185dca8bf63b0b83796c468feff9882b4228faf9e2c5eaa9dbe6464"
+    },
+    {
+      "path": "01_可运行代码/app/api/history.py",
+      "sha256": "f16d63712f353e2cf8739cf02827ddfca0534978a065cfb943434e37a4997f3d"
+    },
+    {
+      "path": "01_可运行代码/app/api/library.py",
+      "sha256": "8ab8bbaf828edd1c8662f2ee4ea9ca0f0da8f3f065220c13896e6032a12a9a6f"
+    },
+    {
+      "path": "01_可运行代码/app/api/responses.py",
+      "sha256": "fa34088db0b4357a774473cadb29ac2d5eedff50626076e82881451da421dd30"
+    },
+    {
+      "path": "01_可运行代码/app/api/surveys.py",
+      "sha256": "5c7af906e025adca589c5ab0db4620c6c3bea3d425e68b4f488060802204b9ba"
+    },
+    {
+      "path": "01_可运行代码/app/api/__init__.py",
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+    },
+    {
+      "path": "01_可运行代码/app/domain/availability.py",
+      "sha256": "3b32652c05547614b9d73481a4f640209557c0b304f71728ef614247230c2780"
+    },
+    {
+      "path": "01_可运行代码/app/domain/question_content.py",
+      "sha256": "1fa3d4f37373334c20fa63fb03711d72ad29b6808559ee5ff3ab3d8739eac42b"
+    },
+    {
+      "path": "01_可运行代码/app/domain/routing.py",
+      "sha256": "148cce15ea3552c7318bd2bfffc3034622f8d9d22bb777e32ceeb16dda09e04d"
+    },
+    {
+      "path": "01_可运行代码/app/domain/statistics_merge.py",
+      "sha256": "836c7ac492e0aa26241be445252216c2cd9fe962a904207e4deccc38bdb7581f"
+    },
+    {
+      "path": "01_可运行代码/app/domain/validation.py",
+      "sha256": "8794f35cbb94bf619fc6856c3a84fcdf9b20bd84c5c3f2f865544e7fb2e849e8"
+    },
+    {
+      "path": "01_可运行代码/app/domain/version_diff.py",
+      "sha256": "9cb822ee60bd9b22cbf75d4cbec6be610c66934bfdb109f12418ccbb0539ee96"
+    },
+    {
+      "path": "01_可运行代码/app/domain/__init__.py",
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+    },
+    {
+      "path": "01_可运行代码/app/repositories/library.py",
+      "sha256": "8c4a975c80f969ce3d221ec0e6b01266f700277ef4f3bbced5c796bff2827c2a"
+    },
+    {
+      "path": "01_可运行代码/app/repositories/library_statistics.py",
+      "sha256": "5ae126943c494e0ffdfe015c3e362622495b6b2e2e082203a41cb8df9c4db1e7"
+    },
+    {
+      "path": "01_可运行代码/app/repositories/mongo.py",
+      "sha256": "311cb61922107ae8ad0c9ba9583f53f1c8eae2e2d29725896c67a02d08d1d196"
+    },
+    {
+      "path": "01_可运行代码/app/repositories/responses.py",
+      "sha256": "4f7b3d937b33cb8f2ae4fd687042b1a09176ef26560624e7f8fe342077e25914"
+    },
+    {
+      "path": "01_可运行代码/app/repositories/statistics.py",
+      "sha256": "02996cda22b9286b741cbd5b6e12927dd43b998d93370379e179d5b97bef66cc"
+    },
+    {
+      "path": "01_可运行代码/app/repositories/__init__.py",
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+    },
+    {
+      "path": "01_可运行代码/app/services/auth.py",
+      "sha256": "6afed4fdd90d543ba034f2b93d0c5b78ac670e167faf2b32854f380a96b16d0b"
+    },
+    {
+      "path": "01_可运行代码/app/services/history.py",
+      "sha256": "13a591927e3339e96ce59ef75a3b9cc9ff2ba2ca6e8bca791e822dd37ef63cc9"
+    },
+    {
+      "path": "01_可运行代码/app/services/library.py",
+      "sha256": "81f26750afe19351c7f92391bb323955654596a368282aa484af6a81658a5e43"
+    },
+    {
+      "path": "01_可运行代码/app/services/library_pages.py",
+      "sha256": "4db4ab4564520d8f02784b05c0bbe75f863293cc303bdda971eb2c91273e2b93"
+    },
+    {
+      "path": "01_可运行代码/app/services/library_statistics.py",
+      "sha256": "15f5ca4f2d5e87e58cf0fb92b9f70c53a0a7d647d04571569ad22c03ddd147c1"
+    },
+    {
+      "path": "01_可运行代码/app/services/responses.py",
+      "sha256": "40aaf127b48eec4323880dca2b11a4382aeb6f940c84514f44b98c7c48e047c6"
+    },
+    {
+      "path": "01_可运行代码/app/services/statistics.py",
+      "sha256": "313867fdd2105eaa4b0830f0f2e45f57b792c900fd1a1922c7e173a1406d3161"
+    },
+    {
+      "path": "01_可运行代码/app/services/surveys.py",
+      "sha256": "bfe6d06243e49ed8172ad2628e7b2fb3d3987bc19c1b31d96541dd19478cbe8c"
+    },
+    {
+      "path": "01_可运行代码/app/services/__init__.py",
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+    },
+    {
+      "path": "01_可运行代码/web/app.js",
+      "sha256": "e95bdab807fe19fae541456c247705e47ae8a49001f8037de96ac96380a5f4ba"
+    },
+    {
+      "path": "01_可运行代码/web/deadline-input.mjs",
+      "sha256": "cd480decbbc4e3b1a21d851f4fd95dfae7d28bd49cfcdbb92dc2430c7ad8a771"
+    },
+    {
+      "path": "01_可运行代码/web/editor-state.mjs",
+      "sha256": "1c5639ede5445cd0eedaa84c8c8e0508c1bc4c2cf3a7c5b066ca42416e50f111"
+    },
+    {
+      "path": "01_可运行代码/web/editor.html",
+      "sha256": "f33e749e29be5b31c3ab3f956b0b7202e32d66f9c6743db696b90c4b6e5b0a53"
+    },
+    {
+      "path": "01_可运行代码/web/editor.js",
+      "sha256": "998c53ff1d54a69d546caaad1e26c4a531b75ab303e1f5513b735d14d41a6a05"
+    },
+    {
+      "path": "01_可运行代码/web/fill-state.mjs",
+      "sha256": "439db04a6ab83cfd79ce6f1c0a3c16e1746e6524ba543f731eb7e7267453842d"
+    },
+    {
+      "path": "01_可运行代码/web/fill.html",
+      "sha256": "ce52c0b1161cb1c239585df9e61de62bae2794c5c844b4a96c9a4a138a889e65"
+    },
+    {
+      "path": "01_可运行代码/web/fill.js",
+      "sha256": "0d5c023a04d8a125f87c8dbf0cf665530a4f3472d483220103984fc1739d7d14"
+    },
+    {
+      "path": "01_可运行代码/web/index.html",
+      "sha256": "58a957dbd42e4606041ff4da9e37bfbe0b82d4be95e0f04ab0957d38378542ae"
+    },
+    {
+      "path": "01_可运行代码/web/library-state.mjs",
+      "sha256": "8ebfd80be3e935795f48e386b8ad0f87cdcdd5b919c0634272434ab831fb32f6"
+    },
+    {
+      "path": "01_可运行代码/web/library-statistics-state.mjs",
+      "sha256": "0cc61dba897bdf650556ad8350cd8864b52fd4495713bd2e75ce90d0fd8fbcc9"
+    },
+    {
+      "path": "01_可运行代码/web/library-statistics.html",
+      "sha256": "a1809f4bb7990de4c5bc999c1ae5f28a40f19f65a69336392f76210d91d179cd"
+    },
+    {
+      "path": "01_可运行代码/web/library-statistics.js",
+      "sha256": "130b7874e1405818db42f41ee8c70aa94109f16ac1a933f4c75663404e9a8732"
+    },
+    {
+      "path": "01_可运行代码/web/library.html",
+      "sha256": "45d5d9d80848b056571e90ebfb2b97ef3385d27f4fdb827fc666a8c8cfc76951"
+    },
+    {
+      "path": "01_可运行代码/web/library.js",
+      "sha256": "4bb4f4e2a6b1739cda2127a70f480eadc7a94ba545f3fa871746e3c080eccb9e"
+    },
+    {
+      "path": "01_可运行代码/web/question-history.html",
+      "sha256": "10490ef9c6a0c90d3166342fdf71c9841b1b6650f3af0b548ef164e4a01a2583"
+    },
+    {
+      "path": "01_可运行代码/web/question-history.js",
+      "sha256": "44397d8113b87f1a03d86bf9cd79d4ca6faad88b64513ddce81dbfc4c90bc428"
+    },
+    {
+      "path": "01_可运行代码/web/response.html",
+      "sha256": "048c3003ccb07e53cb7961a059839075f90bafdb5cef88349d481e1e24af6eda"
+    },
+    {
+      "path": "01_可运行代码/web/response.js",
+      "sha256": "6819bf6b2363accba340c5505bf962dabaab2392e9efc1d827b94cc1e4111d71"
+    },
+    {
+      "path": "01_可运行代码/web/rules-state.mjs",
+      "sha256": "8c439a8cfe4a3068fa1dc7e347a5146632b1aa92497e72ad1a74b51144652210"
+    },
+    {
+      "path": "01_可运行代码/web/rules.html",
+      "sha256": "c84e0d051ab427a326c4f6065fb63890159a172bfad9b978188751a3aa82fee6"
+    },
+    {
+      "path": "01_可运行代码/web/rules.js",
+      "sha256": "d21f3d02266e773d257f563a7080a0de7116e9fa3f9ed6bad288397bbcd9a38c"
+    },
+    {
+      "path": "01_可运行代码/web/statistics.html",
+      "sha256": "f6de9aea07e078da50e2662ccd0a0505644e3ec675c57b1edd28d0b86df81d82"
+    },
+    {
+      "path": "01_可运行代码/web/statistics.js",
+      "sha256": "49c632d79010a2c17b7d012de4f30cb0287252fc54f7005308f6f47740143f37"
+    },
+    {
+      "path": "01_可运行代码/web/style.css",
+      "sha256": "0a01f81be41ca33e3315007ac10f501bfa600450c01e03c4b033eda59b79144e"
+    },
+    {
+      "path": "01_可运行代码/web/survey-state.mjs",
+      "sha256": "2bca77020137efb94c85045f4a9bf2cf65136d2a294ae4e381baa8564e059a6e"
+    },
+    {
+      "path": "01_可运行代码/web/view-utils.mjs",
+      "sha256": "e39eaeeccd8e0d14f83f2077a039bb65a759d4b615fd6ffe7bb229b8c23f742f"
+    },
+    {
+      "path": "01_可运行代码/database/bank_schema.py",
+      "sha256": "153a00293e1af5962918f870966261fc0551a0ec3aed1bc52b36d0be5b37232d"
+    },
+    {
+      "path": "01_可运行代码/database/library_schema.py",
+      "sha256": "8557a20e41e2bd14c10d4717e7dcf55d619b22ebf201d29b158c12f3046ea3d2"
+    },
+    {
+      "path": "01_可运行代码/database/schema.py",
+      "sha256": "f23a86baa621121ff21ced606e6ac0fbc40d8fc6138fb7f00c7248dc053ec010"
+    },
+    {
+      "path": "01_可运行代码/database/__init__.py",
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+    },
+    {
+      "path": "01_可运行代码/database/migrations/002_question_library.py",
+      "sha256": "cbc7656972841ffe76300ee91f7071edb6aa8052e11d527218030dbe560de99e"
+    },
+    {
+      "path": "01_可运行代码/database/migrations/__init__.py",
+      "sha256": "970a3b2a8de2a16c84158df8461dbbdc27d948546a3d6927daadf929b34d1a1a"
+    },
+    {
+      "path": "01_可运行代码/scripts/benchmark_library_queries.py",
+      "sha256": "215e2a59ce2b48300a676ef7ffb6ca2f786ac18e345656f7b89194f8022d4bf1"
+    },
+    {
+      "path": "01_可运行代码/scripts/check_db.py",
+      "sha256": "68dcf71b7479591cbc721696d572b56c571b879e53e6beaa1a8ced19f597b26b"
+    },
+    {
+      "path": "01_可运行代码/scripts/init_db.py",
+      "sha256": "122dd0a35ec7aedaccb50830e9c14010193ab9f37922d260ecfb97d3b2c18ad8"
+    },
+    {
+      "path": "01_可运行代码/scripts/migrate_question_library.py",
+      "sha256": "8aca872c3bb1de007d8fc37e2c35ee9e58cb1dc9b0ba1b4d0b6340f76072a6b6"
+    },
+    {
+      "path": "01_可运行代码/scripts/start.ps1",
+      "sha256": "66d79db9b46056fc4d32a0bbd9e776ebbb05826c1ef64ac1e4b5412088102f3c"
+    },
+    {
+      "path": "01_可运行代码/scripts/__init__.py",
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+    },
+    {
+      "path": "01_可运行代码/examples/questions.json",
+      "sha256": "355fdaee1393472ad76bffbe32252dce14ad899c22416be9a798a91830b49fa6"
+    }
+  ],
+  "documentation_links": [
+    {
+      "file": "README.md",
+      "target": "01_可运行代码/README.md"
+    },
+    {
+      "file": "README.md",
+      "target": "02_文档/系统说明.md"
+    },
+    {
+      "file": "README.md",
+      "target": "03_测试用例/测试步骤.md"
+    },
+    {
+      "file": "README.md",
+      "target": "04_项目完成报告及AI使用日志/材料索引与阶段延续.md"
+    },
+    {
+      "file": "01_可运行代码/README.md",
+      "target": "配置说明.md"
+    },
+    {
+      "file": "01_可运行代码/README.md",
+      "target": "../03_测试用例/测试步骤.md"
+    },
+    {
+      "file": "01_可运行代码/README.md",
+      "target": "../03_测试用例/测试结果.md"
+    },
+    {
+      "file": "01_可运行代码/README.md",
+      "target": "../02_文档/系统说明.md"
+    },
+    {
+      "file": "01_可运行代码/配置说明.md",
+      "target": "../02_文档/数据库设计.md"
+    },
+    {
+      "file": "02_文档/API说明.md",
+      "target": "关键逻辑说明.md"
+    },
+    {
+      "file": "02_文档/API说明.md",
+      "target": "关键逻辑说明.md"
+    },
+    {
+      "file": "02_文档/API说明.md",
+      "target": "关键逻辑说明.md"
+    },
+    {
+      "file": "02_文档/API说明.md",
+      "target": "../03_测试用例/测试用例.md"
+    },
+    {
+      "file": "02_文档/API说明.md",
+      "target": "系统说明.md"
+    },
+    {
+      "file": "02_文档/关键逻辑说明.md",
+      "target": "../03_测试用例/测试结果.md"
+    },
+    {
+      "file": "02_文档/数据库设计.md",
+      "target": "../01_可运行代码/database/library_schema.py"
+    },
+    {
+      "file": "02_文档/系统说明.md",
+      "target": "../01_可运行代码/配置说明.md"
+    },
+    {
+      "file": "01_可运行代码/database/migrations/README.md",
+      "target": "../../../02_文档/关键逻辑说明.md"
+    },
+    {
+      "file": "01_可运行代码/database/migrations/README.md",
+      "target": "002_question_library.py"
+    },
+    {
+      "file": "01_可运行代码/database/migrations/README.md",
+      "target": "../library_schema.py"
+    },
+    {
+      "file": "01_可运行代码/database/migrations/README.md",
+      "target": "../../../02_文档/数据库设计.md"
+    }
+  ],
+  "note": "Source/Node tests compared to current development files; original stage-one compared before/after, including user edits.",
+  "report_revision": "Restyled and rewritten to actual stage-one format; requirements checked separately; source code unchanged."
+}

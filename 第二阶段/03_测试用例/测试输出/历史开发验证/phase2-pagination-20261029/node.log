@@ -1,0 +1,33 @@
+✔ edits, question/option ordering and deletion preserve surviving IDs through save and reload (5.9925ms)
+✔ type switches preserve the question ID and choice IDs, without saving editor cache (0.1734ms)
+✔ moving past either boundary leaves order and IDs intact (0.0935ms)
+✔ zero stays numeric, empty is omission, and invalid or unsafe numbers are rejected (0.834ms)
+✔ required choices, duplicate choices, count limits and Unicode length match the server (0.585ms)
+✔ single/multiple/numeric routes use first match, inclusive bounds and default order (0.2083ms)
+✔ changing earlier answers removes skipped data and keeps stable IDs without mutating input (0.2295ms)
+✔ visited optional omissions advance but unanswered questions stop the preview (0.3812ms)
+✔ preview displays the chosen version content, including zero limits (0.5881ms)
+✔ duplicate imports retain independent instance and option IDs on reorder/save (1.045ms)
+✔ provenance distinguishes origin version from local modifications (0.1229ms)
+✔ explicit mapping uses stable IDs and never derives mappings from labels (0.9013ms)
+✔ only selected versions and nonblank unit confirmations enter merge request (0.1315ms)
+✔ metrics preserve numeric zero and distinguish questionnaire response and answer counts (0.1802ms)
+✔ unit round-trips without adding an undefined field to historical question payloads (0.125ms)
+✔ source changes reset typed conditions and expose only forward targets (1.4263ms)
+✔ rule editor serializes stable IDs, selected options, trimmed text and numeric zero (0.5171ms)
+✔ empty, invalid type, duplicate option, impossible target and numeric overflow cannot save (0.3019ms)
+✔ text equals/contains respect normalized text and first matching priority (0.1786ms)
+✔ draft, published, expired and closed expose only their permitted actions (0.5272ms)
+✔ no deadline stays open and extending deadline restores availability (0.1061ms)
+✔ deadline editor round trips local time without losing the instant (3.28ms)
+✔ deadline uses dd format and preserves local instant and empty value (1.6532ms)
+✔ deadline rejects invalid calendar days, ranges and ambiguous date formats (0.7191ms)
+✔ saved answers render labels and preserve zero and optional omissions (0.1639ms)
+ℹ tests 25
+ℹ suites 0
+ℹ pass 25
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 111.7971

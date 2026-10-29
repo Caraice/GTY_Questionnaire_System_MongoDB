@@ -1,0 +1,92 @@
+- banner:
+  - link "我的题库":
+    - /url: /library
+  - link "版本历史":
+    - /url: /library/1c98d0dd-794d-4a3d-8337-c621eb513ffc
+  - link "问卷工作台":
+    - /url: /?view=surveys
+- main:
+  - heading "重量（克） · 跨问卷统计" [level=1]
+  - paragraph: 先按版本分别汇总。只纳入你有权查看结果的问卷，题目共享不会开放他人的答卷。
+  - status
+  - button "刷新统计"
+  - paragraph: 本次统计时间：2026/10/29 12:50:23
+  - generic "查看统计口径"
+  - heading "各版本分别统计" [level=2]
+  - paragraph: 勾选需要合并的版本。每组答卷数含跳题答卷；跳题不计入题目回答次数、选项次数或平均值。同卷重复题按实例计次，不按匿名身份跨问卷去重。
+  - group "选择统计版本":
+    - generic: 选择统计版本
+    - article:
+      - heading "v3 · 数字填空 · 重量（克）" [level=3]
+      - checkbox "选择版本 3" [checked]
+      - text: 选择 v3 参与合并
+      - strong: 涉及问卷数：0
+      - strong: 答卷数：0
+      - strong: 题目回答次数：0
+      - paragraph: 平均值：暂无有效回答 · 单位：g
+      - generic "查看填写内容（显示 0 / 0 次）"
+      - generic "参与的题目实例（0）"
+      - generic "排除的题目实例（0）"
+    - article:
+      - heading "v2 · 数字填空 · 重量（修订范围）" [level=3]
+      - checkbox "选择版本 2" [checked]
+      - text: 选择 v2 参与合并
+      - strong: 涉及问卷数：1
+      - strong: 答卷数：2
+      - strong: 题目回答次数：1
+      - paragraph: 实际路径跳过：1 次实例作答未计入回答统计
+      - paragraph: 平均值：15 · 单位：kg
+      - generic "查看填写内容（显示 1 / 1 次）"
+      - generic "参与的题目实例（1）"
+      - generic "排除的题目实例（0）"
+    - article:
+      - heading "v1 · 数字填空 · 重量" [level=3]
+      - checkbox "选择版本 1" [checked]
+      - text: 选择 v1 参与合并
+      - strong: 涉及问卷数：3
+      - strong: 答卷数：3
+      - strong: 题目回答次数：4
+      - paragraph: 实际路径跳过：1 次实例作答未计入回答统计
+      - paragraph: 平均值：3 · 单位：kg
+      - generic "查看填写内容（显示 4 / 4 次）"
+      - generic "参与的题目实例（4）"
+      - generic "排除的题目实例（2）"
+  - heading "合并所选版本" [level=2]
+  - paragraph: 选择基准版本。选项ID不同时，逐项明确对应关系；未声明的数字单位需要本次确认，不改写旧版本。不会仅按选项文字合并，也不执行单位换算。
+  - group "合并配置":
+    - generic: 合并配置
+    - text: 基准版本
+    - combobox "基准版本":
+      - option "v3 · 数字填空 · 重量（克）"
+      - option "v2 · 数字填空 · 重量（修订范围）"
+      - option "v1 · 数字填空 · 重量" [selected]
+    - heading "v3 合并配置" [level=3]
+    - paragraph: 版本声明单位：g（不执行单位换算）
+    - heading "v2 合并配置" [level=3]
+    - paragraph: 版本声明单位：kg（不执行单位换算）
+    - heading "v1 合并配置" [level=3]
+    - paragraph: 版本声明单位：kg（不执行单位换算）
+    - button "检查并合并统计"
+  - heading "本次合并检查结果" [level=2]
+  - paragraph: 已按下列版本与明确配置合并
+  - paragraph: 通过兼容检查的版本：v2、v1
+  - paragraph: v2 单位：kg（版本声明）
+  - paragraph: v1 单位：kg（版本声明）
+  - heading "排除的版本" [level=3]
+  - paragraph: v3：计量单位不一致：g 与 kg；本次不执行单位换算
+  - strong: 涉及问卷数：3
+  - strong: 答卷数：3
+  - strong: 题目回答次数：5
+  - paragraph: 实际路径跳过：2 次实例作答未计入回答统计
+  - paragraph: 平均值：5.4 · 单位：kg
+  - generic "查看填写内容（显示 5 / 5 次）"
+  - generic "参与的题目实例（5）"
+  - generic "排除的题目实例（2）"
+  - paragraph:
+    - link "重量调查 D（草稿不统计） · 第 1 题 · v1":
+      - /url: /edit/c3a34359-a7a8-4911-819a-d92e410d16bf
+    - text: · 草稿：草稿问卷尚未发布
+  - paragraph:
+    - link "重量调查 E（本地修改） · 第 1 题 · v1":
+      - /url: /statistics/3e1fa953-0a1b-4cdc-b860-b464aad7906d
+    - text: · 收集中：问卷内题目已本地修改，与来源版本不一致

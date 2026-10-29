@@ -1,0 +1,18 @@
+[
+  {
+    "archive": "phase1-baseline-0.8.0-20261029.zip",
+    "sha256": "2dbcd7700d8f4dc0d17177653de5ff39f8e5445108332754b8c87598c0f6115f",
+    "files_verified": 190,
+    "first_stage_submission_files_unchanged": 97
+  },
+  {
+    "archive": "phase2-baseline-0.9.0-before-library-stats-20261029.zip",
+    "sha256": "3fb52551ca43cfcd8ca75bb4b8fc0876887e80211e46e35eb0079ab91b59860b",
+    "files_verified": 116
+  },
+  {
+    "archive": "phase2-baseline-0.10.0-before-pagination-20261029.zip",
+    "sha256": "493a6e747d309a5bcaa7a1237f85b7c0c590bf40f4a3607d8ef1a358627b4bc8",
+    "files_verified": 119
+  }
+]

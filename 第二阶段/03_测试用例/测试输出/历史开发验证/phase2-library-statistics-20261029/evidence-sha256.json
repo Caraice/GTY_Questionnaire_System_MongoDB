@@ -1,0 +1,94 @@
+[
+  {
+    "path": "api-results.json",
+    "sha256": "5b8ba510c69f8c34fd5c21b2eb075bb4429636380fec2807daa8132def2227de"
+  },
+  {
+    "path": "baseline-integrity.json",
+    "sha256": "fec12103226debd0a2099c0a0bd945e8f3b3197ac73ca76168017195d45ddebe"
+  },
+  {
+    "path": "choice-mapped.png",
+    "sha256": "cd5ca82d67d77bd8d6984f101f4d53dd65cf51a201c973dc57af0d3906754e38"
+  },
+  {
+    "path": "choice-unmapped.png",
+    "sha256": "f2be0bfd99a66e33b847ed6bf44fe48a43b59b05ed1c41fd71c603e27ed82a68"
+  },
+  {
+    "path": "complete-python.exit",
+    "sha256": "13bf7b3039c63bf5a50491fa3cfd8eb4e699d1ba1436315aef9cbe5711530354"
+  },
+  {
+    "path": "complete-python.log",
+    "sha256": "836e398d7b8555ab5633cb8a85c484671111e29ba0c96dbbc6a0b30488bed819"
+  },
+  {
+    "path": "complete-python.xml",
+    "sha256": "60506f530abfde22d109f16a50fdd86fac96aa63cf1ed60778c0ea121154600a"
+  },
+  {
+    "path": "documentation-links.json",
+    "sha256": "a625d4f2f9f4abffd4718ba80008f20562834511a42451bada531bfe6944d7b5"
+  },
+  {
+    "path": "first-evidence-attempt.log",
+    "sha256": "6366814255250e3d4e21ebdc7cbd40abab3b23ae69a445c990b1a31d7dcea031"
+  },
+  {
+    "path": "first-statistics.log",
+    "sha256": "03b789d2685ccd289c4f07f6acea9726fd1c08c379dceaed5e0de03326c19765"
+  },
+  {
+    "path": "first-statistics.xml",
+    "sha256": "fa36be74d72015012533a1b498adba16b765c950a1f1ba43801754efe49c01ad"
+  },
+  {
+    "path": "implementation-files-sha256.json",
+    "sha256": "589398c86df15a2602b166e1c20f37f8d09b5613172530567dcea17c1d9d5541"
+  },
+  {
+    "path": "javascript-syntax.json",
+    "sha256": "d1d6a6849a53c025c8d28d1ca6e477ed0c2ca03da9d7611cc7ddec9e9ab7443b"
+  },
+  {
+    "path": "legacy-unit-confirmation.png",
+    "sha256": "1ff29c5b0cc9e869621e024d8fda6f7483c6dafac89c12fbba43ba221d5446d6"
+  },
+  {
+    "path": "node-tests.log",
+    "sha256": "2b75ae2d9d10f855c983fdb0de81498e19d66cfe81e75251fe4c1608a582af24"
+  },
+  {
+    "path": "numeric-merge.png",
+    "sha256": "c11ef85f135d6e08b8c0917ff50a3af432ddee57e9c142f6734b25c792c4513a"
+  },
+  {
+    "path": "numeric-owner-dom.txt",
+    "sha256": "7305a1ac1fa66c63983067e42026da4fcd66c6a21c36e74aba7564df5dd7a6b0"
+  },
+  {
+    "path": "query-immutability.json",
+    "sha256": "8aaf893dbcf4109b42dfae6176ab38bbb97e7fdea510f31ecd1a95616993ee1e"
+  },
+  {
+    "path": "reader-dom.txt",
+    "sha256": "d8d66ed72269090538dcf30ff0618b268deac3a91240b0ec5ab26e9a678f2a66"
+  },
+  {
+    "path": "reader-permission.png",
+    "sha256": "c812b0d92b71adcfc25357e7644cd2c6b2b0c872c0f086c7bd6d3b299ccd2406"
+  },
+  {
+    "path": "startup-check.log",
+    "sha256": "df37e15e54ff69465c25f40f82b2c6e2ba0ab32db0ea3058229e78a3508a0dca"
+  },
+  {
+    "path": "ui-fixture.json",
+    "sha256": "63a73030baf8ffcc104c496d12a500ad62f764641645ba068902ddadfba74fa2"
+  },
+  {
+    "path": "verification-summary.json",
+    "sha256": "73dadffe3cbb03f8a38be6c70248542d19d011362c40c538602394189de2dcfa"
+  }
+]

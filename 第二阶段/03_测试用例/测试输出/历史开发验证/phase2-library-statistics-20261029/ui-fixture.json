@@ -1,0 +1,32 @@
+{
+  "numeric": {
+    "template_id": "1c98d0dd-794d-4a3d-8337-c621eb513ffc",
+    "version_ids": [
+      "07a745a6-c916-4447-a898-6f1c9e8482d8",
+      "64c4333c-0063-4406-a6ed-6dd4e208d54c",
+      "93b01854-86ae-49fc-899e-43af4eb1e62f"
+    ]
+  },
+  "choice": {
+    "template_id": "4fa6b042-ec5f-48ee-acb8-360e2fcc0c63",
+    "version_ids": [
+      "0a306b0e-20dc-479a-9f21-36eb61dc094d",
+      "93ea928a-670b-45b6-9627-590840efac58"
+    ]
+  },
+  "legacy": {
+    "template_id": "d537d8aa-539d-44b8-b6b0-2d6418b3160a",
+    "version_ids": [
+      "5e89e924-858d-45e0-9e6c-e5dedda51a6a",
+      "2c5b0fb4-d5a5-47e5-9907-36de08fa3803"
+    ]
+  },
+  "surveys": {
+    "a": "f3c0072e-04ec-42b7-a733-1c7651947e1b",
+    "b": "7cb0d786-792f-4070-ab99-bd7fa9337e72",
+    "empty": "170efefe-2b17-4e89-a238-524de3a2e1b3",
+    "draft": "c3a34359-a7a8-4911-819a-d92e410d16bf",
+    "local": "3e1fa953-0a1b-4cdc-b860-b464aad7906d",
+    "private": "8aa6f869-0ba0-4d90-ac01-025ed71a125b"
+  }
+}

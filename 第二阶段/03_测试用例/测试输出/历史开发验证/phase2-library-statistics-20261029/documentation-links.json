@@ -1,0 +1,154 @@
+[
+  {
+    "document": "README.md",
+    "target": "docs/第二阶段/05-题库跨问卷统计.md"
+  },
+  {
+    "document": "README.md",
+    "target": "docs/第二阶段/01-基线与题目迁移.md"
+  },
+  {
+    "document": "README.md",
+    "target": "docs/第二阶段/06-统计实际验证.md"
+  },
+  {
+    "document": "README.md",
+    "target": "docs/第二阶段/03-题库版本共享与引用.md"
+  },
+  {
+    "document": "README.md",
+    "target": "docs/第二阶段/04-题库版本共享验收.md"
+  },
+  {
+    "document": "README.md",
+    "target": "docs/跳转填写统计逐项核对.md"
+  },
+  {
+    "document": "README.md",
+    "target": "docs/01-第一阶段要求与验收.md"
+  },
+  {
+    "document": "README.md",
+    "target": "docs/04-分块开发计划.md"
+  },
+  {
+    "document": "README.md",
+    "target": "docs/提交材料与完整自测指南.md"
+  },
+  {
+    "document": "README.md",
+    "target": "docs/题目编辑使用说明.md"
+  },
+  {
+    "document": "README.md",
+    "target": "docs/发布与期限管理.md"
+  },
+  {
+    "document": "README.md",
+    "target": "docs/填写与提交使用说明.md"
+  },
+  {
+    "document": "README.md",
+    "target": "docs/统计与填写记录使用说明.md"
+  },
+  {
+    "document": "README.md",
+    "target": "docs/统计使用与手算核对.md"
+  },
+  {
+    "document": "README.md",
+    "target": "docs/测试验证记录.md"
+  },
+  {
+    "document": "docs\\第二阶段\\05-题库跨问卷统计.md",
+    "target": "06-统计实际验证.md"
+  },
+  {
+    "document": "docs\\第二阶段\\06-统计实际验证.md",
+    "target": "../../baselines/evidence/phase2-library-statistics-20261029"
+  },
+  {
+    "document": "docs\\03-API说明.md",
+    "target": "第二阶段/05-题库跨问卷统计.md"
+  },
+  {
+    "document": "docs\\03-API说明.md",
+    "target": "第二阶段/03-题库版本共享与引用.md"
+  },
+  {
+    "document": "docs\\03-API说明.md",
+    "target": "统计使用与手算核对.md"
+  },
+  {
+    "document": "docs\\03-API说明.md",
+    "target": "填写与提交使用说明.md"
+  },
+  {
+    "document": "docs\\02-系统架构与数据库设计.md",
+    "target": "第二阶段/05-题库跨问卷统计.md"
+  },
+  {
+    "document": "docs\\02-系统架构与数据库设计.md",
+    "target": "第二阶段/03-题库版本共享与引用.md"
+  },
+  {
+    "document": "docs\\02-系统架构与数据库设计.md",
+    "target": "第二阶段/01-基线与题目迁移.md"
+  },
+  {
+    "document": "docs\\关键逻辑说明.md",
+    "target": "第二阶段/05-题库跨问卷统计.md"
+  },
+  {
+    "document": "docs\\关键逻辑说明.md",
+    "target": "第二阶段/03-题库版本共享与引用.md"
+  },
+  {
+    "document": "docs\\关键逻辑说明.md",
+    "target": "统计使用与手算核对.md"
+  },
+  {
+    "document": "docs\\关键逻辑说明.md",
+    "target": "第二阶段/03-题库版本共享与引用.md"
+  },
+  {
+    "document": "docs\\关键逻辑说明.md",
+    "target": "第二阶段/04-题库版本共享验收.md"
+  },
+  {
+    "document": "docs\\05-测试用例与验收步骤.md",
+    "target": "第二阶段/06-统计实际验证.md"
+  },
+  {
+    "document": "docs\\05-测试用例与验收步骤.md",
+    "target": "第二阶段/04-题库版本共享验收.md"
+  },
+  {
+    "document": "docs\\05-测试用例与验收步骤.md",
+    "target": "第二阶段/02-实际验证记录.md"
+  },
+  {
+    "document": "docs\\05-测试用例与验收步骤.md",
+    "target": "第二阶段/01-基线与题目迁移.md"
+  },
+  {
+    "document": "docs\\05-测试用例与验收步骤.md",
+    "target": "第二阶段/04-题库版本共享验收.md"
+  },
+  {
+    "document": "docs\\测试验证记录.md",
+    "target": "第二阶段/06-统计实际验证.md"
+  },
+  {
+    "document": "docs\\测试验证记录.md",
+    "target": "第二阶段/04-题库版本共享验收.md"
+  },
+  {
+    "document": "docs\\测试验证记录.md",
+    "target": "第二阶段/02-实际验证记录.md"
+  },
+  {
+    "document": "docs\\测试验证记录.md",
+    "target": "第二阶段/04-题库版本共享验收.md"
+  }
+]

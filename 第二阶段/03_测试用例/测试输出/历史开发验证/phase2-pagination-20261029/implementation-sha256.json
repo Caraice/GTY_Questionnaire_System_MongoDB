@@ -1,0 +1,502 @@
+[
+  {
+    "path": "app/__init__.py",
+    "sha256": "8a8c8a4d77dc5eacc3d5eec66aaee86efb39dd59c201379c237c93b25072eb48"
+  },
+  {
+    "path": "app/api/__init__.py",
+    "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+  },
+  {
+    "path": "app/api/auth.py",
+    "sha256": "e2ec5e4bf70b2361bac94db673574afa001aa8975825c4841d6e11d0ca0b5770"
+  },
+  {
+    "path": "app/api/dependencies.py",
+    "sha256": "2548f1f90185dca8bf63b0b83796c468feff9882b4228faf9e2c5eaa9dbe6464"
+  },
+  {
+    "path": "app/api/history.py",
+    "sha256": "f16d63712f353e2cf8739cf02827ddfca0534978a065cfb943434e37a4997f3d"
+  },
+  {
+    "path": "app/api/library.py",
+    "sha256": "8ab8bbaf828edd1c8662f2ee4ea9ca0f0da8f3f065220c13896e6032a12a9a6f"
+  },
+  {
+    "path": "app/api/responses.py",
+    "sha256": "fa34088db0b4357a774473cadb29ac2d5eedff50626076e82881451da421dd30"
+  },
+  {
+    "path": "app/api/surveys.py",
+    "sha256": "5c7af906e025adca589c5ab0db4620c6c3bea3d425e68b4f488060802204b9ba"
+  },
+  {
+    "path": "app/config.py",
+    "sha256": "9208fdf635c4db39584a98792ce98b8feac2f8f512d19c3b4194008c5e0703fb"
+  },
+  {
+    "path": "app/db.py",
+    "sha256": "7a86ec8a065658606c4523ffdd13b377a52059778f657191a6578d32d584ae01"
+  },
+  {
+    "path": "app/domain/__init__.py",
+    "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+  },
+  {
+    "path": "app/domain/availability.py",
+    "sha256": "3b32652c05547614b9d73481a4f640209557c0b304f71728ef614247230c2780"
+  },
+  {
+    "path": "app/domain/question_content.py",
+    "sha256": "1fa3d4f37373334c20fa63fb03711d72ad29b6808559ee5ff3ab3d8739eac42b"
+  },
+  {
+    "path": "app/domain/routing.py",
+    "sha256": "148cce15ea3552c7318bd2bfffc3034622f8d9d22bb777e32ceeb16dda09e04d"
+  },
+  {
+    "path": "app/domain/statistics_merge.py",
+    "sha256": "836c7ac492e0aa26241be445252216c2cd9fe962a904207e4deccc38bdb7581f"
+  },
+  {
+    "path": "app/domain/validation.py",
+    "sha256": "8794f35cbb94bf619fc6856c3a84fcdf9b20bd84c5c3f2f865544e7fb2e849e8"
+  },
+  {
+    "path": "app/domain/version_diff.py",
+    "sha256": "9cb822ee60bd9b22cbf75d4cbec6be610c66934bfdb109f12418ccbb0539ee96"
+  },
+  {
+    "path": "app/main.py",
+    "sha256": "36349aeff48b8d6b4ae00c8bbe012470bd93f3f8bfbe186f06e47d18b9975ef1"
+  },
+  {
+    "path": "app/models.py",
+    "sha256": "ffa3669ef0dd785bea21613912a0f3a11f4a0570d08dee2d4f105c6be8434037"
+  },
+  {
+    "path": "app/repositories/__init__.py",
+    "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+  },
+  {
+    "path": "app/repositories/library.py",
+    "sha256": "8c4a975c80f969ce3d221ec0e6b01266f700277ef4f3bbced5c796bff2827c2a"
+  },
+  {
+    "path": "app/repositories/library_statistics.py",
+    "sha256": "5ae126943c494e0ffdfe015c3e362622495b6b2e2e082203a41cb8df9c4db1e7"
+  },
+  {
+    "path": "app/repositories/mongo.py",
+    "sha256": "311cb61922107ae8ad0c9ba9583f53f1c8eae2e2d29725896c67a02d08d1d196"
+  },
+  {
+    "path": "app/repositories/responses.py",
+    "sha256": "4f7b3d937b33cb8f2ae4fd687042b1a09176ef26560624e7f8fe342077e25914"
+  },
+  {
+    "path": "app/repositories/statistics.py",
+    "sha256": "02996cda22b9286b741cbd5b6e12927dd43b998d93370379e179d5b97bef66cc"
+  },
+  {
+    "path": "app/services/__init__.py",
+    "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+  },
+  {
+    "path": "app/services/auth.py",
+    "sha256": "6afed4fdd90d543ba034f2b93d0c5b78ac670e167faf2b32854f380a96b16d0b"
+  },
+  {
+    "path": "app/services/history.py",
+    "sha256": "13a591927e3339e96ce59ef75a3b9cc9ff2ba2ca6e8bca791e822dd37ef63cc9"
+  },
+  {
+    "path": "app/services/library.py",
+    "sha256": "81f26750afe19351c7f92391bb323955654596a368282aa484af6a81658a5e43"
+  },
+  {
+    "path": "app/services/library_pages.py",
+    "sha256": "4db4ab4564520d8f02784b05c0bbe75f863293cc303bdda971eb2c91273e2b93"
+  },
+  {
+    "path": "app/services/library_statistics.py",
+    "sha256": "15f5ca4f2d5e87e58cf0fb92b9f70c53a0a7d647d04571569ad22c03ddd147c1"
+  },
+  {
+    "path": "app/services/responses.py",
+    "sha256": "40aaf127b48eec4323880dca2b11a4382aeb6f940c84514f44b98c7c48e047c6"
+  },
+  {
+    "path": "app/services/statistics.py",
+    "sha256": "313867fdd2105eaa4b0830f0f2e45f57b792c900fd1a1922c7e173a1406d3161"
+  },
+  {
+    "path": "app/services/surveys.py",
+    "sha256": "bfe6d06243e49ed8172ad2628e7b2fb3d3987bc19c1b31d96541dd19478cbe8c"
+  },
+  {
+    "path": "CHANGELOG.md",
+    "sha256": "2d66c378a06fd28436b9d6bac157f52472b7d943923512395f38d49ab5b587f6"
+  },
+  {
+    "path": "database/__init__.py",
+    "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+  },
+  {
+    "path": "database/bank_schema.py",
+    "sha256": "153a00293e1af5962918f870966261fc0551a0ec3aed1bc52b36d0be5b37232d"
+  },
+  {
+    "path": "database/library_schema.py",
+    "sha256": "8557a20e41e2bd14c10d4717e7dcf55d619b22ebf201d29b158c12f3046ea3d2"
+  },
+  {
+    "path": "database/migrations/002_question_library.py",
+    "sha256": "cbc7656972841ffe76300ee91f7071edb6aa8052e11d527218030dbe560de99e"
+  },
+  {
+    "path": "database/migrations/__init__.py",
+    "sha256": "970a3b2a8de2a16c84158df8461dbbdc27d948546a3d6927daadf929b34d1a1a"
+  },
+  {
+    "path": "database/schema.py",
+    "sha256": "f23a86baa621121ff21ced606e6ac0fbc40d8fc6138fb7f00c7248dc053ec010"
+  },
+  {
+    "path": "deliverables/MongoDB问卷系统第二阶段完成报告.docx",
+    "sha256": "ecea49df687988aa3da8d9eb468f703a61746a899a14016041ef2f7e7d33b01f"
+  },
+  {
+    "path": "docs/01-第一阶段要求与验收.md",
+    "sha256": "c874898f06ae9256cee203503ae43ff19e23e0c1d2287c46bf4ab61c04e51b3a"
+  },
+  {
+    "path": "docs/02-系统架构与数据库设计.md",
+    "sha256": "c8e61eaec185bf3edcdf864d6f99db2e89514f77404f0d08aa9c4501a07927f3"
+  },
+  {
+    "path": "docs/03-API说明.md",
+    "sha256": "401a4deead64ce6278568940754d2b96cb18dbda802b6d514f0d89d8c214fbe4"
+  },
+  {
+    "path": "docs/04-分块开发计划.md",
+    "sha256": "f58866f8277442dcb5741768a44eaef63f176908793873e536671bf6720a3128"
+  },
+  {
+    "path": "docs/05-测试用例与验收步骤.md",
+    "sha256": "ef54b84c9307e45e2262dbd2f8de1a40fede7a4966daac7dc042484e744f2d4f"
+  },
+  {
+    "path": "docs/06-项目完成报告模板.md",
+    "sha256": "77bbfc9aa04c08a45961353f9f9249a5f0492a163f5111a535636a003bd7b7a5"
+  },
+  {
+    "path": "docs/AI使用日志.md",
+    "sha256": "19401a2838429f5f2d58880d0d23af09533c839b2286d20e4e24d99c1987f535"
+  },
+  {
+    "path": "docs/关键逻辑说明.md",
+    "sha256": "e3937e9cac53e9ed527f2e166a2c1b975c34df84435677d0f8558d7a016becf7"
+  },
+  {
+    "path": "docs/发布与期限管理.md",
+    "sha256": "a18bc87aed533cc18da364c0551314591bd44ba2b4d5f2c6273c9c1ba2675f30"
+  },
+  {
+    "path": "docs/填写与提交使用说明.md",
+    "sha256": "787cca31a8726fd9ece9e85ef32a16c2d78cb68881f64c7f7c9f1c5bbe1ee5a0"
+  },
+  {
+    "path": "docs/提交材料与完整自测指南.md",
+    "sha256": "67623753d68a456c0cacb644f51d4ddf2f7e1dbf8fb8127392bfb35778b6c4cb"
+  },
+  {
+    "path": "docs/测试验证记录.md",
+    "sha256": "e7e51b942009a6bee1975a6415b2cf63b90f7b53d03e539692cea5c771a9f1aa"
+  },
+  {
+    "path": "docs/第二阶段/01-基线与题目迁移.md",
+    "sha256": "ae31202696f17e00e5b22d7b1c04048a716753efde573368c61eb762f1456c6c"
+  },
+  {
+    "path": "docs/第二阶段/02-实际验证记录.md",
+    "sha256": "efd9b17d184b2f01506cf16d193bd0308aedc2124a26abe3fd6e46b11d601fed"
+  },
+  {
+    "path": "docs/第二阶段/03-题库版本共享与引用.md",
+    "sha256": "bdde22e9c13ce967ad889a671c357529eae9189d0514d8f05aaacd0c47a65f65"
+  },
+  {
+    "path": "docs/第二阶段/04-题库版本共享验收.md",
+    "sha256": "543eabd93646a80186bb5df723baf824aa9c7f4bf917df1b42260b8510a429f8"
+  },
+  {
+    "path": "docs/第二阶段/05-题库跨问卷统计.md",
+    "sha256": "d13d92734013e3e7557a29f348c674364d1eea272984c22e03027d1237505857"
+  },
+  {
+    "path": "docs/第二阶段/06-统计实际验证.md",
+    "sha256": "0ce39a013286c1af4808c81ecd2135180fc1d54af04a17165d81e6aa62d2fa89"
+  },
+  {
+    "path": "docs/第二阶段/07-并发分页与查询验证.md",
+    "sha256": "09b545011f415354db00515c4647e3540a3704e96a8b90f072880c828a8bf151"
+  },
+  {
+    "path": "docs/第二阶段/08-教师要求与贯穿验收.md",
+    "sha256": "1664b64a5dd7a7c1ac8281b82ef750b3b933987cd226dae1618e99a47e69845b"
+  },
+  {
+    "path": "docs/统计与填写记录使用说明.md",
+    "sha256": "67fab4cc057f9c41f4256b2e68dbb6b6bad1a89963d8974fc5c111d6185ccbbe"
+  },
+  {
+    "path": "docs/统计使用与手算核对.md",
+    "sha256": "60d8face6c76669772217b6edf0208bb7004435007c3069fc1bac36acbcb7154"
+  },
+  {
+    "path": "docs/跳转填写统计逐项核对.md",
+    "sha256": "c576fd9f9a2d1415399198e70d6b7ab9b623e6c37fc4231bd0d7b87b54eff96c"
+  },
+  {
+    "path": "docs/题目编辑使用说明.md",
+    "sha256": "af64acbf79a33a73e1883353a106156e090cf97424ff00ea275158bf82a41ec0"
+  },
+  {
+    "path": "README.md",
+    "sha256": "4b7f9fd4710adddc91cf1295695a0a63eeb4254d9603f6f2f0cd1f87d49f2739"
+  },
+  {
+    "path": "scripts/__init__.py",
+    "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+  },
+  {
+    "path": "scripts/benchmark_library_queries.py",
+    "sha256": "215e2a59ce2b48300a676ef7ffb6ca2f786ac18e345656f7b89194f8022d4bf1"
+  },
+  {
+    "path": "scripts/check_db.py",
+    "sha256": "68dcf71b7479591cbc721696d572b56c571b879e53e6beaa1a8ced19f597b26b"
+  },
+  {
+    "path": "scripts/init_db.py",
+    "sha256": "122dd0a35ec7aedaccb50830e9c14010193ab9f37922d260ecfb97d3b2c18ad8"
+  },
+  {
+    "path": "scripts/migrate_question_library.py",
+    "sha256": "8aca872c3bb1de007d8fc37e2c35ee9e58cb1dc9b0ba1b4d0b6340f76072a6b6"
+  },
+  {
+    "path": "scripts/start.ps1",
+    "sha256": "66d79db9b46056fc4d32a0bbd9e776ebbb05826c1ef64ac1e4b5412088102f3c"
+  },
+  {
+    "path": "tests/test_api.py",
+    "sha256": "f9f171cacb776b28f9070bbe2a0c017e273f353e3fa8019963f04b69f5670553"
+  },
+  {
+    "path": "tests/test_editor_state.mjs",
+    "sha256": "77a0be58623f584e1b0c5a0192f7f9e4acb9fe254824218e661d9fee301c1433"
+  },
+  {
+    "path": "tests/test_fill_state.mjs",
+    "sha256": "c15d3a9a0005dbb7028c919d717a8f7386f623229321515dd1d87e3f9cbb4755"
+  },
+  {
+    "path": "tests/test_history_api.py",
+    "sha256": "246e2c565331e02992e3568ff2aeb935a878595a68a65b80ea43b121b91f9c09"
+  },
+  {
+    "path": "tests/test_library_api.py",
+    "sha256": "b82d64433a139bc8e245fc11b6fd1a9e5a881aad4e3d8e84a594f886c2862396"
+  },
+  {
+    "path": "tests/test_library_pages.py",
+    "sha256": "cf60d31844b8453147cd29c2d8ab26fef62a9a3665109964c01229a36e2fbdb1"
+  },
+  {
+    "path": "tests/test_library_state.mjs",
+    "sha256": "cc6aaf58c45fa6b49fdb6c6702b9bf03a05ed5963f334fa8ce3a4c8e6ae25908"
+  },
+  {
+    "path": "tests/test_library_statistics.py",
+    "sha256": "4e4cf3c4582b1960487a623a6b7fdab7178abc9d86543212dbb6885ff1cdf7a8"
+  },
+  {
+    "path": "tests/test_library_statistics_state.mjs",
+    "sha256": "e018f0eb26367baacf3d5f5c4d0a8e228ef9a0a1a2b6a3658107a96e0387fbf2"
+  },
+  {
+    "path": "tests/test_library_versions.py",
+    "sha256": "bf577fb3f11c50725dc7b46f9b326ff16ee784522fbf7e35a18c8faa1983be62"
+  },
+  {
+    "path": "tests/test_lifecycle.py",
+    "sha256": "e5382015519295b12ede4700f9f049557843573bbce82bdae7ca3e37f87da452"
+  },
+  {
+    "path": "tests/test_models.py",
+    "sha256": "e63eb029aa6954cb43466fac2144d09de7fd63dfc50c5a7bf512cb6bf3307d52"
+  },
+  {
+    "path": "tests/test_phase2_journey.py",
+    "sha256": "bd50c8da52bb5f548bfb55f5d3e0aaee46715074e9003eeb07e911b57e58bb02"
+  },
+  {
+    "path": "tests/test_question_api.py",
+    "sha256": "d9b623bd9a759b0eb0454f299d4a3e56ebc6624835f933e3961fc43a96598da1"
+  },
+  {
+    "path": "tests/test_question_migration.py",
+    "sha256": "9be088be0806c979f2a1608a46046dc30d3d68ba78bb9127fc64156c1720ca31"
+  },
+  {
+    "path": "tests/test_response_api.py",
+    "sha256": "bfbddaa38774389747bf3dd1b7c44a46f5d8630a5969995648874fb671b0b0f3"
+  },
+  {
+    "path": "tests/test_routing.py",
+    "sha256": "7fd20e9fd934f549b6f7008a77eb31a4be9dca51935df35090ce2b7d07bc2380"
+  },
+  {
+    "path": "tests/test_rule_validation.py",
+    "sha256": "a13f1546644663d8dc179dc28e3bea1e1b58bbd914091489f8e27770cc3ed9d2"
+  },
+  {
+    "path": "tests/test_rules_state.mjs",
+    "sha256": "789f30b0d6f509eabd05f6f1984dafe83bc4c9f87aaf6b913cc357351d6c7b67"
+  },
+  {
+    "path": "tests/test_rules_ui_api.py",
+    "sha256": "7b273c7d41fd80bfdabd6c9718049ab8fbc01b8591f0affadb73d2e57c6e9d79"
+  },
+  {
+    "path": "tests/test_statistics.py",
+    "sha256": "6326fd442e4d3b8d227abb71bfeb85d974485f9abedaf7394c53e0a4436f76c4"
+  },
+  {
+    "path": "tests/test_survey_state.mjs",
+    "sha256": "5268a7d33cb4c8fa73f34bd7ab141f4919ac9b5f3fb059aa34928eecb737e75a"
+  },
+  {
+    "path": "tests/test_validation.py",
+    "sha256": "2e4f7338d356373ea5ebb3173193e930758a13505bd07b940d7e10560324367f"
+  },
+  {
+    "path": "tests/test_version_diff.py",
+    "sha256": "5cb153e7a5bc4e7c34fee2d186a972c84280b749e992a97ea8cdfd256a76361f"
+  },
+  {
+    "path": "tests/test_view_state.mjs",
+    "sha256": "88734bd7ea1b12d0dc62d87bc656037ebd407adaf9f1e7b334c4c24173038452"
+  },
+  {
+    "path": "web/app.js",
+    "sha256": "e95bdab807fe19fae541456c247705e47ae8a49001f8037de96ac96380a5f4ba"
+  },
+  {
+    "path": "web/deadline-input.mjs",
+    "sha256": "cd480decbbc4e3b1a21d851f4fd95dfae7d28bd49cfcdbb92dc2430c7ad8a771"
+  },
+  {
+    "path": "web/editor-state.mjs",
+    "sha256": "1c5639ede5445cd0eedaa84c8c8e0508c1bc4c2cf3a7c5b066ca42416e50f111"
+  },
+  {
+    "path": "web/editor.html",
+    "sha256": "f33e749e29be5b31c3ab3f956b0b7202e32d66f9c6743db696b90c4b6e5b0a53"
+  },
+  {
+    "path": "web/editor.js",
+    "sha256": "998c53ff1d54a69d546caaad1e26c4a531b75ab303e1f5513b735d14d41a6a05"
+  },
+  {
+    "path": "web/fill-state.mjs",
+    "sha256": "439db04a6ab83cfd79ce6f1c0a3c16e1746e6524ba543f731eb7e7267453842d"
+  },
+  {
+    "path": "web/fill.html",
+    "sha256": "ce52c0b1161cb1c239585df9e61de62bae2794c5c844b4a96c9a4a138a889e65"
+  },
+  {
+    "path": "web/fill.js",
+    "sha256": "0d5c023a04d8a125f87c8dbf0cf665530a4f3472d483220103984fc1739d7d14"
+  },
+  {
+    "path": "web/index.html",
+    "sha256": "58a957dbd42e4606041ff4da9e37bfbe0b82d4be95e0f04ab0957d38378542ae"
+  },
+  {
+    "path": "web/library-state.mjs",
+    "sha256": "8ebfd80be3e935795f48e386b8ad0f87cdcdd5b919c0634272434ab831fb32f6"
+  },
+  {
+    "path": "web/library-statistics-state.mjs",
+    "sha256": "0cc61dba897bdf650556ad8350cd8864b52fd4495713bd2e75ce90d0fd8fbcc9"
+  },
+  {
+    "path": "web/library-statistics.html",
+    "sha256": "a1809f4bb7990de4c5bc999c1ae5f28a40f19f65a69336392f76210d91d179cd"
+  },
+  {
+    "path": "web/library-statistics.js",
+    "sha256": "130b7874e1405818db42f41ee8c70aa94109f16ac1a933f4c75663404e9a8732"
+  },
+  {
+    "path": "web/library.html",
+    "sha256": "45d5d9d80848b056571e90ebfb2b97ef3385d27f4fdb827fc666a8c8cfc76951"
+  },
+  {
+    "path": "web/library.js",
+    "sha256": "4bb4f4e2a6b1739cda2127a70f480eadc7a94ba545f3fa871746e3c080eccb9e"
+  },
+  {
+    "path": "web/question-history.html",
+    "sha256": "10490ef9c6a0c90d3166342fdf71c9841b1b6650f3af0b548ef164e4a01a2583"
+  },
+  {
+    "path": "web/question-history.js",
+    "sha256": "44397d8113b87f1a03d86bf9cd79d4ca6faad88b64513ddce81dbfc4c90bc428"
+  },
+  {
+    "path": "web/response.html",
+    "sha256": "048c3003ccb07e53cb7961a059839075f90bafdb5cef88349d481e1e24af6eda"
+  },
+  {
+    "path": "web/response.js",
+    "sha256": "6819bf6b2363accba340c5505bf962dabaab2392e9efc1d827b94cc1e4111d71"
+  },
+  {
+    "path": "web/rules-state.mjs",
+    "sha256": "8c439a8cfe4a3068fa1dc7e347a5146632b1aa92497e72ad1a74b51144652210"
+  },
+  {
+    "path": "web/rules.html",
+    "sha256": "c84e0d051ab427a326c4f6065fb63890159a172bfad9b978188751a3aa82fee6"
+  },
+  {
+    "path": "web/rules.js",
+    "sha256": "d21f3d02266e773d257f563a7080a0de7116e9fa3f9ed6bad288397bbcd9a38c"
+  },
+  {
+    "path": "web/statistics.html",
+    "sha256": "f6de9aea07e078da50e2662ccd0a0505644e3ec675c57b1edd28d0b86df81d82"
+  },
+  {
+    "path": "web/statistics.js",
+    "sha256": "49c632d79010a2c17b7d012de4f30cb0287252fc54f7005308f6f47740143f37"
+  },
+  {
+    "path": "web/style.css",
+    "sha256": "0a01f81be41ca33e3315007ac10f501bfa600450c01e03c4b033eda59b79144e"
+  },
+  {
+    "path": "web/survey-state.mjs",
+    "sha256": "2bca77020137efb94c85045f4a9bf2cf65136d2a294ae4e381baa8564e059a6e"
+  },
+  {
+    "path": "web/view-utils.mjs",
+    "sha256": "e39eaeeccd8e0d14f83f2077a039bb65a759d4b615fd6ffe7bb229b8c23f742f"
+  }
+]

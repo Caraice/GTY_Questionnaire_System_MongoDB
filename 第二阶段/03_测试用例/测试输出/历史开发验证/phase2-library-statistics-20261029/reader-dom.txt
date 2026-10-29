@@ -1,0 +1,33 @@
+- banner:
+  - link "我的题库":
+    - /url: /library
+  - link "版本历史":
+    - /url: /library/1c98d0dd-794d-4a3d-8337-c621eb513ffc
+  - link "问卷工作台":
+    - /url: /?view=surveys
+- main:
+  - heading "重量 · 跨问卷统计" [level=1]
+  - paragraph: 先按版本分别汇总。只纳入你有权查看结果的问卷，题目共享不会开放他人的答卷。
+  - status
+  - button "刷新统计"
+  - paragraph: 本次统计时间：2026/10/29 12:47:56
+  - generic "查看统计口径"
+  - heading "各版本分别统计" [level=2]
+  - paragraph: 勾选需要合并的版本。每组答卷数含跳题答卷；跳题不计入题目回答次数、选项次数或平均值。同卷重复题按实例计次，不按匿名身份跨问卷去重。
+  - group "选择统计版本":
+    - generic: 选择统计版本
+    - article:
+      - heading "v1 · 数字填空 · 重量" [level=3]
+      - checkbox "选择版本 1"
+      - text: 选择 v1 参与合并
+      - strong: 涉及问卷数：1
+      - strong: 答卷数：1
+      - strong: 题目回答次数：1
+      - paragraph: 平均值：9 · 单位：kg
+      - generic "查看填写内容（显示 1 / 1 次）"
+      - generic "参与的题目实例（1）" [active]
+      - paragraph:
+        - link "接收方私有调查，不向原作者开放 · 第 1 题 · v1":
+          - /url: /statistics/8aa6f869-0ba0-4d90-ac01-025ed71a125b
+        - text: · 收集中
+      - generic "排除的题目实例（0）"

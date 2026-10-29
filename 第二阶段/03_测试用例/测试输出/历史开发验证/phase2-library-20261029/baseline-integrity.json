@@ -1,0 +1,395 @@
+{
+  "archive_sha256": "2dbcd7700d8f4dc0d17177653de5ff39f8e5445108332754b8c87598c0f6115f",
+  "archive_files_verified": 190,
+  "submission_files_unchanged": 97,
+  "submission": [
+    {
+      "path": "01_可运行代码\\.env.example",
+      "sha256": "c0df1570b71cc2ad59f77594bd81d6e84282c257eccc5550aedfae158bc35bed"
+    },
+    {
+      "path": "01_可运行代码\\.gitignore",
+      "sha256": "cac27a06e165d1c986c47c5b6de47964df623d83f6d43b632d5f8d26f6210c4c"
+    },
+    {
+      "path": "01_可运行代码\\README.md",
+      "sha256": "d43145ff888361146fbb614ec8d67df8acd3c58a8d00869a997950a8515acf29"
+    },
+    {
+      "path": "01_可运行代码\\Start.cmd",
+      "sha256": "afca9afaa0313161b44940cd4db872934fa7c0cae271fb8c2e6140a4d9b1e6af"
+    },
+    {
+      "path": "01_可运行代码\\app\\__init__.py",
+      "sha256": "8a8c8a4d77dc5eacc3d5eec66aaee86efb39dd59c201379c237c93b25072eb48"
+    },
+    {
+      "path": "01_可运行代码\\app\\api\\__init__.py",
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+    },
+    {
+      "path": "01_可运行代码\\app\\api\\auth.py",
+      "sha256": "e2ec5e4bf70b2361bac94db673574afa001aa8975825c4841d6e11d0ca0b5770"
+    },
+    {
+      "path": "01_可运行代码\\app\\api\\dependencies.py",
+      "sha256": "2548f1f90185dca8bf63b0b83796c468feff9882b4228faf9e2c5eaa9dbe6464"
+    },
+    {
+      "path": "01_可运行代码\\app\\api\\history.py",
+      "sha256": "f16d63712f353e2cf8739cf02827ddfca0534978a065cfb943434e37a4997f3d"
+    },
+    {
+      "path": "01_可运行代码\\app\\api\\responses.py",
+      "sha256": "fa34088db0b4357a774473cadb29ac2d5eedff50626076e82881451da421dd30"
+    },
+    {
+      "path": "01_可运行代码\\app\\api\\surveys.py",
+      "sha256": "5c7af906e025adca589c5ab0db4620c6c3bea3d425e68b4f488060802204b9ba"
+    },
+    {
+      "path": "01_可运行代码\\app\\config.py",
+      "sha256": "9208fdf635c4db39584a98792ce98b8feac2f8f512d19c3b4194008c5e0703fb"
+    },
+    {
+      "path": "01_可运行代码\\app\\db.py",
+      "sha256": "7a86ec8a065658606c4523ffdd13b377a52059778f657191a6578d32d584ae01"
+    },
+    {
+      "path": "01_可运行代码\\app\\domain\\__init__.py",
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+    },
+    {
+      "path": "01_可运行代码\\app\\domain\\availability.py",
+      "sha256": "3b32652c05547614b9d73481a4f640209557c0b304f71728ef614247230c2780"
+    },
+    {
+      "path": "01_可运行代码\\app\\domain\\routing.py",
+      "sha256": "148cce15ea3552c7318bd2bfffc3034622f8d9d22bb777e32ceeb16dda09e04d"
+    },
+    {
+      "path": "01_可运行代码\\app\\domain\\validation.py",
+      "sha256": "8794f35cbb94bf619fc6856c3a84fcdf9b20bd84c5c3f2f865544e7fb2e849e8"
+    },
+    {
+      "path": "01_可运行代码\\app\\main.py",
+      "sha256": "6754796f2b251fb65a594680f840dfe48a393238c107124d9ce208fd4a3d5937"
+    },
+    {
+      "path": "01_可运行代码\\app\\models.py",
+      "sha256": "d9f29d218f4aeaece612374bf9555032b24eb7318eb12296e674104164c7eded"
+    },
+    {
+      "path": "01_可运行代码\\app\\repositories\\__init__.py",
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+    },
+    {
+      "path": "01_可运行代码\\app\\repositories\\mongo.py",
+      "sha256": "5cafc3a75c729dacd7a94ef57a4abc351219f8e6b126c55d9dc349c3513e4981"
+    },
+    {
+      "path": "01_可运行代码\\app\\repositories\\responses.py",
+      "sha256": "4f7b3d937b33cb8f2ae4fd687042b1a09176ef26560624e7f8fe342077e25914"
+    },
+    {
+      "path": "01_可运行代码\\app\\repositories\\statistics.py",
+      "sha256": "87fa41f0e8e90fb58251e7478f19fa3509d099885ed08b4928a2e2c3c941c5ba"
+    },
+    {
+      "path": "01_可运行代码\\app\\services\\__init__.py",
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+    },
+    {
+      "path": "01_可运行代码\\app\\services\\auth.py",
+      "sha256": "6afed4fdd90d543ba034f2b93d0c5b78ac670e167faf2b32854f380a96b16d0b"
+    },
+    {
+      "path": "01_可运行代码\\app\\services\\history.py",
+      "sha256": "13a591927e3339e96ce59ef75a3b9cc9ff2ba2ca6e8bca791e822dd37ef63cc9"
+    },
+    {
+      "path": "01_可运行代码\\app\\services\\responses.py",
+      "sha256": "40aaf127b48eec4323880dca2b11a4382aeb6f940c84514f44b98c7c48e047c6"
+    },
+    {
+      "path": "01_可运行代码\\app\\services\\statistics.py",
+      "sha256": "313867fdd2105eaa4b0830f0f2e45f57b792c900fd1a1922c7e173a1406d3161"
+    },
+    {
+      "path": "01_可运行代码\\app\\services\\surveys.py",
+      "sha256": "3996e852aa37699029ff4833154cf81ad242bd043b9b21f74322209aa2cace00"
+    },
+    {
+      "path": "01_可运行代码\\database\\__init__.py",
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+    },
+    {
+      "path": "01_可运行代码\\database\\indexes.json",
+      "sha256": "349b5061e40a2a20d344e557cff79a1d1648272b5a687dbda69ef276ed6cd23a"
+    },
+    {
+      "path": "01_可运行代码\\database\\migrations\\README.md",
+      "sha256": "a22c2170b29cdfef5226abba04822cd523076ece612f5c7f98e617c9492421ad"
+    },
+    {
+      "path": "01_可运行代码\\database\\schema.json",
+      "sha256": "e3e3805b51d77f5cebad120ee9348a14dee5bfb4fffe135498192b7b77a8b794"
+    },
+    {
+      "path": "01_可运行代码\\database\\schema.py",
+      "sha256": "f23a86baa621121ff21ced606e6ac0fbc40d8fc6138fb7f00c7248dc053ec010"
+    },
+    {
+      "path": "01_可运行代码\\examples\\questions.json",
+      "sha256": "355fdaee1393472ad76bffbe32252dce14ad899c22416be9a798a91830b49fa6"
+    },
+    {
+      "path": "01_可运行代码\\requirements-dev.txt",
+      "sha256": "16b169c7d1fde96a8c0af1675c179261b996edd642dfd6d54d4ff24ce0f0034f"
+    },
+    {
+      "path": "01_可运行代码\\requirements-lock.txt",
+      "sha256": "24b96adcb434c7f26e2c16caeeb583dc52935dd1e149ea7065d1e0809863d566"
+    },
+    {
+      "path": "01_可运行代码\\requirements.txt",
+      "sha256": "c9cf1f7e5a2e5608af5a84c1c4664d53e7e80d32762ceca1abb0cdd2ace04720"
+    },
+    {
+      "path": "01_可运行代码\\scripts\\__init__.py",
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+    },
+    {
+      "path": "01_可运行代码\\scripts\\check_db.py",
+      "sha256": "68dcf71b7479591cbc721696d572b56c571b879e53e6beaa1a8ced19f597b26b"
+    },
+    {
+      "path": "01_可运行代码\\scripts\\init_db.py",
+      "sha256": "1a1ce3af5fd7103da26ddb5850d54c396555781b962e512a084a97726c5f21e2"
+    },
+    {
+      "path": "01_可运行代码\\scripts\\start.ps1",
+      "sha256": "97fa1468a33dc16e97361627495b1848a9d67338d848af4b6afd592786106388"
+    },
+    {
+      "path": "01_可运行代码\\web\\app.js",
+      "sha256": "4aa81ea0ad75375a07742cdf128b8fbef82a27daafcd3ca985864668858694c5"
+    },
+    {
+      "path": "01_可运行代码\\web\\deadline-input.mjs",
+      "sha256": "cd480decbbc4e3b1a21d851f4fd95dfae7d28bd49cfcdbb92dc2430c7ad8a771"
+    },
+    {
+      "path": "01_可运行代码\\web\\editor-state.mjs",
+      "sha256": "6d47ee8db7a6796cae65d29912ed961011bcc482ec8bc1d9717b9fdb5aada1e0"
+    },
+    {
+      "path": "01_可运行代码\\web\\editor.html",
+      "sha256": "9b2e03cfa229fa05d7c1bcad0cb113049837f3c7774d3e5d5ceba44c134d1de7"
+    },
+    {
+      "path": "01_可运行代码\\web\\editor.js",
+      "sha256": "8b5a07f70a146bdd6e77049468064a75d80a643400dad09195cdcb53eeab92da"
+    },
+    {
+      "path": "01_可运行代码\\web\\fill-state.mjs",
+      "sha256": "439db04a6ab83cfd79ce6f1c0a3c16e1746e6524ba543f731eb7e7267453842d"
+    },
+    {
+      "path": "01_可运行代码\\web\\fill.html",
+      "sha256": "85facfb7f004ecf256e09153c4d96b3926595d03d8feebee1a859e8360c4b32a"
+    },
+    {
+      "path": "01_可运行代码\\web\\fill.js",
+      "sha256": "e1d39afb79f812cdd69ace296e27aca0bdca7af0d336e4f72fe8997bb2f901ef"
+    },
+    {
+      "path": "01_可运行代码\\web\\index.html",
+      "sha256": "0e5a56d3183584da8943129695842651bf20582ba6fe7b8a5fc8cfa1d5ccbad5"
+    },
+    {
+      "path": "01_可运行代码\\web\\response.html",
+      "sha256": "3eaca257680dfb1fb10da6db87a315080f567572ae760c52afce24776cf3bd91"
+    },
+    {
+      "path": "01_可运行代码\\web\\response.js",
+      "sha256": "6819bf6b2363accba340c5505bf962dabaab2392e9efc1d827b94cc1e4111d71"
+    },
+    {
+      "path": "01_可运行代码\\web\\rules-state.mjs",
+      "sha256": "8c439a8cfe4a3068fa1dc7e347a5146632b1aa92497e72ad1a74b51144652210"
+    },
+    {
+      "path": "01_可运行代码\\web\\rules.html",
+      "sha256": "1b4453037b8e2275a089790dcb978d8612f35eb8a99e7feebe90e4a7ff5b0831"
+    },
+    {
+      "path": "01_可运行代码\\web\\rules.js",
+      "sha256": "d21f3d02266e773d257f563a7080a0de7116e9fa3f9ed6bad288397bbcd9a38c"
+    },
+    {
+      "path": "01_可运行代码\\web\\statistics.html",
+      "sha256": "650e062d7a0005f02a87a19b226a697a70bc9e377460ab774a6be8ba8ae86f2d"
+    },
+    {
+      "path": "01_可运行代码\\web\\statistics.js",
+      "sha256": "df98790963515b5c0fb2c6f31b1fa9ce30cfc6f8518989adca66a62d64650e7e"
+    },
+    {
+      "path": "01_可运行代码\\web\\style.css",
+      "sha256": "e312b9e5d67e0231e6b98448f59648baff16aa963077b39861d175eb26d72fe2"
+    },
+    {
+      "path": "01_可运行代码\\web\\survey-state.mjs",
+      "sha256": "2bca77020137efb94c85045f4a9bf2cf65136d2a294ae4e381baa8564e059a6e"
+    },
+    {
+      "path": "01_可运行代码\\web\\view-utils.mjs",
+      "sha256": "e39eaeeccd8e0d14f83f2077a039bb65a759d4b615fd6ffe7bb229b8c23f742f"
+    },
+    {
+      "path": "01_可运行代码\\配置说明.md",
+      "sha256": "59923775191602ccb60aa02d505a083c1e3cb79df18637f89340a1daba5d265c"
+    },
+    {
+      "path": "02_文档\\API说明.md",
+      "sha256": "a05dad39da67d19dc935f7502e23df83ff7b4fbdfcd8dccb1804a27d74212c8e"
+    },
+    {
+      "path": "02_文档\\关键逻辑说明.md",
+      "sha256": "fa9039aa80f633cb0816d4a83d1eb895cde200528f5da09ebd4b8ea3b4be0370"
+    },
+    {
+      "path": "02_文档\\数据库设计.md",
+      "sha256": "425f05d3ef17bb26d852fad303ce7e9cf7497f8f918f3a37781a4f8ba8b9a5f7"
+    },
+    {
+      "path": "02_文档\\系统说明.md",
+      "sha256": "19a2ae86b5c2b1bfe291be82366398b8b6201175d32c19abb2cf869b7381b038"
+    },
+    {
+      "path": "03_测试用例\\pytest.ini",
+      "sha256": "08a742f6f8a725ec9705ffca42fb12b833ba4ef49e490fcd75c6d025bcc584b0"
+    },
+    {
+      "path": "03_测试用例\\测试步骤.md",
+      "sha256": "b8fb59885127db07a88d8f9a80bc408f2b69064b45c9c3cc8811191ce1d91b94"
+    },
+    {
+      "path": "03_测试用例\\测试用例.md",
+      "sha256": "8c456593e0fbfe2e99ca39f585242e0a37028242eced5a14315241444702c96b"
+    },
+    {
+      "path": "03_测试用例\\测试结果.md",
+      "sha256": "d10583b1089fcd6f722623d499032622b7e454bd62d19dbc4acadaef5d5dd210"
+    },
+    {
+      "path": "03_测试用例\\测试输出\\Node测试.log",
+      "sha256": "a66ffaba3d5669be13f6f122f9f1b8755575c406c8688b20d989df2fcebe10bd"
+    },
+    {
+      "path": "03_测试用例\\测试输出\\Python测试.log",
+      "sha256": "f17d216c62fd314a54674b178701d85366008ea0f902e508ec6710f0edd16e49"
+    },
+    {
+      "path": "03_测试用例\\测试输出\\Python测试.xml",
+      "sha256": "01339db565ec332f14a729a1ff7f186c3526585ea427adfcf0dc2b2fa86c4092"
+    },
+    {
+      "path": "03_测试用例\\测试输出\\手算样本实际聚合.json",
+      "sha256": "ca48cb943f41c808d81bd49f66b0ceaea2f470648539e23aaf35570f30a7d1aa"
+    },
+    {
+      "path": "03_测试用例\\测试输出\\提交副本页面检查.json",
+      "sha256": "12c9783f05f3dc397f440069b8e4f7a65f7102d35b16513ad8fbe0455a0f4090"
+    },
+    {
+      "path": "03_测试用例\\测试输出\\逐项自动化结果.csv",
+      "sha256": "5057ded10384cc1a043b5b52d34844e0908a73ad57b57944ed15ad5d9b10b4ff"
+    },
+    {
+      "path": "03_测试用例\\自动化测试\\test_api.py",
+      "sha256": "f9f171cacb776b28f9070bbe2a0c017e273f353e3fa8019963f04b69f5670553"
+    },
+    {
+      "path": "03_测试用例\\自动化测试\\test_editor_state.mjs",
+      "sha256": "36b4b96988af76787098b96d2e83789490762da19bd5b34e24e2bf50de2b162f"
+    },
+    {
+      "path": "03_测试用例\\自动化测试\\test_fill_state.mjs",
+      "sha256": "a920776bc412caaa3878fdded1ad76d29f9c040ccefbce1b15a8211129b65129"
+    },
+    {
+      "path": "03_测试用例\\自动化测试\\test_history_api.py",
+      "sha256": "246e2c565331e02992e3568ff2aeb935a878595a68a65b80ea43b121b91f9c09"
+    },
+    {
+      "path": "03_测试用例\\自动化测试\\test_lifecycle.py",
+      "sha256": "e5382015519295b12ede4700f9f049557843573bbce82bdae7ca3e37f87da452"
+    },
+    {
+      "path": "03_测试用例\\自动化测试\\test_models.py",
+      "sha256": "e63eb029aa6954cb43466fac2144d09de7fd63dfc50c5a7bf512cb6bf3307d52"
+    },
+    {
+      "path": "03_测试用例\\自动化测试\\test_question_api.py",
+      "sha256": "d9b623bd9a759b0eb0454f299d4a3e56ebc6624835f933e3961fc43a96598da1"
+    },
+    {
+      "path": "03_测试用例\\自动化测试\\test_response_api.py",
+      "sha256": "bfbddaa38774389747bf3dd1b7c44a46f5d8630a5969995648874fb671b0b0f3"
+    },
+    {
+      "path": "03_测试用例\\自动化测试\\test_routing.py",
+      "sha256": "7fd20e9fd934f549b6f7008a77eb31a4be9dca51935df35090ce2b7d07bc2380"
+    },
+    {
+      "path": "03_测试用例\\自动化测试\\test_rule_validation.py",
+      "sha256": "a13f1546644663d8dc179dc28e3bea1e1b58bbd914091489f8e27770cc3ed9d2"
+    },
+    {
+      "path": "03_测试用例\\自动化测试\\test_rules_state.mjs",
+      "sha256": "9d47e700cc26f9b36dcffda91fef97190faab6075809a1020fc2d291590e571f"
+    },
+    {
+      "path": "03_测试用例\\自动化测试\\test_rules_ui_api.py",
+      "sha256": "7b273c7d41fd80bfdabd6c9718049ab8fbc01b8591f0affadb73d2e57c6e9d79"
+    },
+    {
+      "path": "03_测试用例\\自动化测试\\test_statistics.py",
+      "sha256": "6326fd442e4d3b8d227abb71bfeb85d974485f9abedaf7394c53e0a4436f76c4"
+    },
+    {
+      "path": "03_测试用例\\自动化测试\\test_survey_state.mjs",
+      "sha256": "1207038ec8bc92fa8c7efcc501f5d0d2b663fcd829b91738fb65e912a32cbacc"
+    },
+    {
+      "path": "03_测试用例\\自动化测试\\test_validation.py",
+      "sha256": "2e4f7338d356373ea5ebb3173193e930758a13505bd07b940d7e10560324367f"
+    },
+    {
+      "path": "03_测试用例\\自动化测试\\test_view_state.mjs",
+      "sha256": "9247cdf443b6e7aee2ff2a37dae75e7a8dd86ea96409ddc0b53177f0bd4935dc"
+    },
+    {
+      "path": "03_测试用例\\运行全部测试.ps1",
+      "sha256": "81aba17a9bc46c18e56dca077a7ba0d74962bba6382391afac8e67d2050d0623"
+    },
+    {
+      "path": "04_项目完成报告及AI使用日志\\AI使用日志.md",
+      "sha256": "3c10fabcc48fde2bea2dd2b3c1189c64c443917c6a79bf75da404e22fa2f1cce"
+    },
+    {
+      "path": "04_项目完成报告及AI使用日志\\文件清单_SHA256.json",
+      "sha256": "fe7730309228b7fc78807d0959d17cfea033d8b05701ce155961f38f844636f6"
+    },
+    {
+      "path": "04_项目完成报告及AI使用日志\\项目完成报告.pdf",
+      "sha256": "06ac151c39aeb2459c47e4f6029700eb39f413756837ebbc5e01e0b99738029f"
+    },
+    {
+      "path": "README.md",
+      "sha256": "bf9ca8831c0c552f227013dca6156685c5ff02a2d7f9592c9bfaa039cec0d8fb"
+    }
+  ]
+}

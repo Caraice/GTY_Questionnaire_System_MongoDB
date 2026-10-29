@@ -1,0 +1,78 @@
+{
+  "survey_id": "4d284a67-6193-419e-9f63-085688a41471",
+  "survey_version": 3,
+  "total_submissions": 6,
+  "questions": [
+    {
+      "id": "single",
+      "title": "单选",
+      "type": "single",
+      "answered_count": 3,
+      "options": [
+        {
+          "id": "A",
+          "label": "选项A",
+          "count": 2
+        },
+        {
+          "id": "B",
+          "label": "选项B",
+          "count": 1
+        },
+        {
+          "id": "C",
+          "label": "选项C",
+          "count": 0
+        }
+      ]
+    },
+    {
+      "id": "multiple",
+      "title": "多选",
+      "type": "multiple",
+      "answered_count": 3,
+      "options": [
+        {
+          "id": "A",
+          "label": "选项A",
+          "count": 2
+        },
+        {
+          "id": "B",
+          "label": "选项B",
+          "count": 2
+        },
+        {
+          "id": "C",
+          "label": "选项C",
+          "count": 1
+        }
+      ],
+      "selection_count": 5
+    },
+    {
+      "id": "text",
+      "title": "建议",
+      "type": "text",
+      "answered_count": 3,
+      "values": [
+        "优秀",
+        "待改进",
+        "0"
+      ]
+    },
+    {
+      "id": "number",
+      "title": "数字",
+      "type": "number",
+      "answered_count": 4,
+      "values": [
+        0,
+        10,
+        20,
+        0
+      ],
+      "average": 7.5
+    }
+  ]
+}

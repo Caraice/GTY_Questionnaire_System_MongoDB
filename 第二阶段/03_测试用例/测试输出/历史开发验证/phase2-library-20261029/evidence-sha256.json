@@ -1,0 +1,70 @@
+[
+  {
+    "path": "baseline-integrity.json",
+    "sha256": "64de2215a21a86a66000cf161f9d2725c22bb9172b15e0b38100077a4cfda5ef"
+  },
+  {
+    "path": "complete-node.log",
+    "sha256": "3b6dc002dedbfcd990abeaadd45c0635756d77da2528fcefdb5fd5640d1a8b36"
+  },
+  {
+    "path": "complete-python.exit",
+    "sha256": "13bf7b3039c63bf5a50491fa3cfd8eb4e699d1ba1436315aef9cbe5711530354"
+  },
+  {
+    "path": "complete-python.log",
+    "sha256": "2a579598a89cfdb763fe3b1693a39a868ae6a7e3d4fde15b78bf49585406dae6"
+  },
+  {
+    "path": "complete-python.xml",
+    "sha256": "120308aec5588ef7bea0e2c07f46783666bba4cd886e67df414024b7f7325152"
+  },
+  {
+    "path": "first-library-attempt.log",
+    "sha256": "af6da0cd8a505ded547cecde8f841ae895d9edd39d11e703428ba7b9eb100300"
+  },
+  {
+    "path": "first-version-sharing-attempt.log",
+    "sha256": "2fe882ab061badb8bd2bedba5ed9bfbc136e8a02a3d4f171bc561a283b89ee2a"
+  },
+  {
+    "path": "implementation-files-sha256.json",
+    "sha256": "4e3bf3e42ae3a762edc26945f70940a76d68db83c1569f018ade1b67e2b298e5"
+  },
+  {
+    "path": "incomplete-native-heap.log",
+    "sha256": "19e5bac5b1f6427437d21ba6528cdab6e8e0425fbb394680dbee94d8f1124e25"
+  },
+  {
+    "path": "intermediate-334-python.log",
+    "sha256": "7d1f3091c487d87f67ac6bff305e3010610e9b06117f7974e780393e2e58a25a"
+  },
+  {
+    "path": "intermediate-70-compatibility.log",
+    "sha256": "ecd197ec9a4072267996431a6a3e0c7c95a7ffdfc38990d7f2b27888430f4668"
+  },
+  {
+    "path": "revoked-survey-statistics.png",
+    "sha256": "c923c02066424f845ac280413bc7bd53f7f6b50ea1617d93c0ba79bf811d87a2"
+  },
+  {
+    "path": "share-revoked-existing-instances.png",
+    "sha256": "1df38839a594884cd150b57b70be75ce2e00b68f58daf831cad39b312795aa8e"
+  },
+  {
+    "path": "ui-database-verification.json",
+    "sha256": "b5c8faf24e3a5e7ecec6ea8889717a07119b0c6e15ffb2dfd2eff851849291e7"
+  },
+  {
+    "path": "ui-instance-update.json",
+    "sha256": "fab1b3780eec674040d53b43b19b019d32f4aaecafce9e04790af79c20ee5928"
+  },
+  {
+    "path": "verification-summary.json",
+    "sha256": "f2b1cb93928642e110a02a775dc8ccc90fa3b16b84aaac9b0dfa3f44195761b7"
+  },
+  {
+    "path": "version-restore.png",
+    "sha256": "748eaf682fd9932cd6c79aaf9d8eee7ffd27d01bdfe4782ea2168b496debf50f"
+  }
+]

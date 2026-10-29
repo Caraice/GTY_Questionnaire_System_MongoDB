@@ -1,0 +1,19 @@
+{
+  "date": "2026-10-29",
+  "timezone": "Asia/Shanghai",
+  "survey_id": "c317e1eb-e70f-408b-95c5-92d3fb6aab77",
+  "before": [
+    "c49de08c-cdb8-4c5e-85a6-d213ba327912",
+    "79c1d127-e740-45f2-b690-f01d2c814ddd"
+  ],
+  "after": [
+    "c49de08c-cdb8-4c5e-85a6-d213ba327912",
+    "79c1d127-e740-45f2-b690-f01d2c814ddd"
+  ],
+  "ids_preserved": true,
+  "source_versions_after_update": [
+    3,
+    1
+  ],
+  "revoke_cached_import_message": "题目版本不存在或共享已撤销"
+}

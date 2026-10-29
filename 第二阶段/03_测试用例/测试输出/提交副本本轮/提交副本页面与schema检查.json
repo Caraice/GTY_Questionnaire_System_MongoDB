@@ -1,0 +1,209 @@
+{
+  "application_source": "E:\\作业\\当代数据管理系统\\大作业\\第二阶段最终提交\\01_可运行代码\\app\\main.py",
+  "database": "survey_submission_check_e72c88350cc94c22be3c827223a4310c",
+  "health": {
+    "status": "ok",
+    "database": "survey_submission_check_e72c88350cc94c22be3c827223a4310c",
+    "stage": "framework",
+    "version": "0.11.0"
+  },
+  "page_count": 11,
+  "distinct_urls_checked": 48,
+  "urls": [
+    {
+      "url": "/",
+      "status": 200
+    },
+    {
+      "url": "/edit/check",
+      "status": 200
+    },
+    {
+      "url": "/library",
+      "status": 200
+    },
+    {
+      "url": "/library/check",
+      "status": 200
+    },
+    {
+      "url": "/library/check/edit",
+      "status": 200
+    },
+    {
+      "url": "/library/check/statistics",
+      "status": 200
+    },
+    {
+      "url": "/library/new",
+      "status": 200
+    },
+    {
+      "url": "/response/check",
+      "status": 200
+    },
+    {
+      "url": "/rules/check",
+      "status": 200
+    },
+    {
+      "url": "/static/app.js",
+      "status": 200
+    },
+    {
+      "url": "/static/app.js?v=0.11.0",
+      "status": 200
+    },
+    {
+      "url": "/static/deadline-input.mjs",
+      "status": 200
+    },
+    {
+      "url": "/static/editor-state.mjs",
+      "status": 200
+    },
+    {
+      "url": "/static/editor.html",
+      "status": 200
+    },
+    {
+      "url": "/static/editor.js",
+      "status": 200
+    },
+    {
+      "url": "/static/editor.js?v=0.11.0",
+      "status": 200
+    },
+    {
+      "url": "/static/fill-state.mjs",
+      "status": 200
+    },
+    {
+      "url": "/static/fill.html",
+      "status": 200
+    },
+    {
+      "url": "/static/fill.js",
+      "status": 200
+    },
+    {
+      "url": "/static/fill.js?v=0.11.0",
+      "status": 200
+    },
+    {
+      "url": "/static/index.html",
+      "status": 200
+    },
+    {
+      "url": "/static/library-state.mjs",
+      "status": 200
+    },
+    {
+      "url": "/static/library-statistics-state.mjs",
+      "status": 200
+    },
+    {
+      "url": "/static/library-statistics.html",
+      "status": 200
+    },
+    {
+      "url": "/static/library-statistics.js",
+      "status": 200
+    },
+    {
+      "url": "/static/library-statistics.js?v=0.11.0",
+      "status": 200
+    },
+    {
+      "url": "/static/library.html",
+      "status": 200
+    },
+    {
+      "url": "/static/library.js",
+      "status": 200
+    },
+    {
+      "url": "/static/library.js?v=0.11.0",
+      "status": 200
+    },
+    {
+      "url": "/static/question-history.html",
+      "status": 200
+    },
+    {
+      "url": "/static/question-history.js",
+      "status": 200
+    },
+    {
+      "url": "/static/question-history.js?v=0.11.0",
+      "status": 200
+    },
+    {
+      "url": "/static/response.html",
+      "status": 200
+    },
+    {
+      "url": "/static/response.js",
+      "status": 200
+    },
+    {
+      "url": "/static/response.js?v=0.11.0",
+      "status": 200
+    },
+    {
+      "url": "/static/rules-state.mjs",
+      "status": 200
+    },
+    {
+      "url": "/static/rules.html",
+      "status": 200
+    },
+    {
+      "url": "/static/rules.js",
+      "status": 200
+    },
+    {
+      "url": "/static/rules.js?v=0.11.0",
+      "status": 200
+    },
+    {
+      "url": "/static/statistics.html",
+      "status": 200
+    },
+    {
+      "url": "/static/statistics.js",
+      "status": 200
+    },
+    {
+      "url": "/static/statistics.js?v=0.11.0",
+      "status": 200
+    },
+    {
+      "url": "/static/style.css",
+      "status": 200
+    },
+    {
+      "url": "/static/style.css?v=0.11.0",
+      "status": 200
+    },
+    {
+      "url": "/static/survey-state.mjs",
+      "status": 200
+    },
+    {
+      "url": "/static/view-utils.mjs",
+      "status": 200
+    },
+    {
+      "url": "/statistics/check",
+      "status": 200
+    },
+    {
+      "url": "/survey/check",
+      "status": 200
+    }
+  ],
+  "collections": 12,
+  "index_count_including_id": 39,
+  "business_data_exported": false
+}
